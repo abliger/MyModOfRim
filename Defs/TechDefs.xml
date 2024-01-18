@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <defName>abliger_tech_prisonermindsuppressor</defName>
+        <label>prisonermindsuppressor</label>
+        <description>prisonermindsuppressor</description> <!-- 科技描述-->
+        <baseCost>500</baseCost> <!-- 基础研究花费-->
+        <techLevel>Industrial</techLevel> <!-- 科技等级-->
+        <prerequisites> <!-- 需要科技-->
+            <li>Electricity</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding><!-- 需要高级研究台-->
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+          </requiredResearchFacilities><!-- 需要多元分析仪-->
+        <researchViewX>9.00</researchViewX>
+        <researchViewY>4.80</researchViewY><!-- 研究标签位置-->
+        <discoveredLetterTitle>题目</discoveredLetterTitle>
+        <discoveredLetterText>描述</discoveredLetterText><!-- 研究完成后弹出的信息-->
+      </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <HediffDef><!-- 健康状态定义-->
+        <defName>prisoner_mind_suppressor</defName><!-- 病症名字-->
+        <label>prisoner_mind_suppressor </label><!-- 病症 id-->
+        <description>prisoner_mind_suppressor</description><!-- 病症描述-->
+        <hediffClass>HediffWithComps</hediffClass> <!-- 解析 HediffDef 的 class,可以选择
+          Hediff_AddedPart
+          Hediff_Addiction
+          Hediff_Alcohol
+          Hediff_Hangover
+          Hediff_HeartAttack
+          Hediff_Implant
+          Hediff_Injury
+          Hediff_MissingPart
+          Hediff_Pregnant
+          HediffWithComps   自定义病症类别
+        -->
+        <defaultLabelColor>(0.52, 1, 0.95)</defaultLabelColor><!-- 病症名字现实颜色-->
+        <comps>
+          <li Class="HediffCompProperties_Disappears"><!-- 定义病症可见性-->
+            <disappearsAfterTicks>30</disappearsAfterTicks><!-- 需要多久病症消失-->
+            <showRemainingTime>false</showRemainingTime><!-- 现实消失时间-->
+          </li>
+          <li Class="HediffCompProperties_DisappearsOnDeath"/><!-- 死亡时病症消失-->
+          <li Class="HediffCompProperties_Link"><!-- 是否是链接, 应用与熵链接(EntropyLink) 不知道怎么用-->
+            <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+          </li>
+        </comps>
+        <stages><!-- 症状 源码这里样式太多了,我也不知道哪个是最好的形式-->
+          <li>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity><!-- 意识-->
+                <setMax>0.1</setMax>
+              </li>
+            </capMods>
+          </li>
+        </stages>
+        <isBad>false</isBad>
+      </HediffDef>
+</Defs>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase"> <!-- 建筑-->
+    <defName>abliger_test</defName> <!-- 游戏事物定位id,唯一-->
+    <label>test</label>  <!--   物品的游戏名称-->
+    <description>test test est est estt eseddd</description> <!-- 建筑描述-->
+    <thingClass>Building_Art</thingClass>
+    <tickerType>Normal</tickerType>
+    <soundInteract>Standard_Pickup</soundInteract> <!-- 声音交互 此为标准拾取-->
+    <!-- 事件类型 由于太多 可以在 https://ludeon.com/forums/index.php?topic=21440.0 查找-->
+    <graphicData><!-- 图形数据-->
+      <texPath>Things/Building/test</texPath> <!-- 建筑贴图位置,在 Textures 目录下寻找-->
+      <graphicClass>Graphic_Multi</graphicClass><!-- 图形类别 此处表示多个-->
+      <shaderType>CutoutComplex</shaderType><!-- 阴影类型-->
+      <drawSize>(3,3)</drawSize><!-- 图形大小-->
+      <shadowData><!-- 阴影数据-->
+        <volume>(1.95,0.5,1.3)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.1,2.4,1.8)</rect>
+      </damageData>
+    </graphicData>
+    <statBases> <!-- 基本信息-->
+      <MarketValue>4500</MarketValue><!-- 市场价值-->
+      <Mass>1.6</Mass>
+      <DeteriorationRate>0</DeteriorationRate> <!-- 劣化率-->
+      <Flammability>0</Flammability><!-- 可燃性-->
+      <WorkToBuild>40000</WorkToBuild> <!-- 工作量-->
+      <MaxHitPoints>100</MaxHitPoints> <!-- 耐久-->
+      <Cleanliness>0</Cleanliness> <!-- 清洁度-->
+      <Beauty>2</Beauty> <!-- 美观度-->
+    </statBases>
+    <size>(2,2)</size><!-- 实际大小-->
+    <designationCategory>Misc</designationCategory> <!-- 建筑位于菜单的位置,此处为杂项-->
+    <fillPercent>1</fillPercent><!-- 填充百分比-->
+    <passability>PassThroughOnly</passability> 
+    <!-- 能否穿过
+        Impassable 无法通行
+        PassThroughOnly 仅通行
+        Standable 可站立
+    -->
+    <hasInteractionCell>false</hasInteractionCell><!-- 是否具有交互单元格-->
+    <surfaceType>Item</surfaceType><!-- 建筑上支持放什么物品 
+        Eat 或 Item -->
+    <canOverlapZones>false</canOverlapZones><!-- 能否重叠区域-->
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <!-- 土地需求
+        Bridgeable 可在桥上
+        Diggable 可挖掘的
+        Heavy 重型土地
+        Light 轻型
+        Medium 中型
+        ShallowWater 浅水区-->
+    <constructionSkillPrerequisite>13</constructionSkillPrerequisite><!-- 建造需要的技能等级-->
+    <costList> <!-- 建造花费-->
+      <Cloth>100</Cloth> <!-- 布料-->
+      <ComponentIndustrial>10</ComponentIndustrial> <!-- 零部件 -->
+      <ComponentSpacer>5</ComponentSpacer><!-- 高级零部件-->
+      <Gold>100</Gold> <!-- 黄金-->
+      <Steel>300</Steel> <!-- 钢铁-->
+      <Silver>50</Silver> <!-- 白银-->
+      <Plasteel>10</Plasteel><!-- 玻璃钢-->
+    </costList>
+    <researchPrerequisites> <!-- 那项科技可以解锁该建筑-->
+      <li>abliger_tech_prisonermindsuppressor</li>
+    </researchPrerequisites>
+    <comps><!-- 和 c# 的 class 对应 定义该建筑的额外属性-->
+        <li Class="CompProperties_Power"> 
+          <compClass>CompPowerTrader</compClass>
+          <basePowerConsumption>3600</basePowerConsumption><!-- 耗电功率-->
+          <shortCircuitInRain>True</shortCircuitInRain><!-- 雨中是否短路-->
+        </li>
+        <li Class="CompProperties_Explosive">
+          <explosiveDamageType>EMP</explosiveDamageType><!-- 爆炸伤害类型-->
+          <wickTicks>10</wickTicks> <!-- 爆炸持续时长-->
+          <explosiveRadius>9.9</explosiveRadius><!-- 爆炸范围-->
+          <!--<startWickHitPointsPercent>0.7</startWickHitPointsPercent>--><!-- 其爆炸将开始的健康百分比是多少-->
+        </li>
+        <li Class="CompProperties_HeatPusher">
+          <compClass>CompHeatPusherPowered</compClass>
+          <heatPerSecond>3</heatPerSecond><!-- 每秒产生热量-->
+          <heatPushMaxTemperature>44</heatPushMaxTemperature><!-- 最大温度-->
+        </li>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_Breakdownable"/>
+        <li Class="CompProperties_Abliger"><!-- 解析此处的类名,下面是对应属性-->
+          <!-- <range>9.9</range> -->
+          <hediff>prisoner_mind_suppressor</hediff><!-- 这里写入想要获得的症状,也就是 HediffDefs.xml 中的症状id-->
+        </li>
+    </comps>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories><!-- 事物类别
+      AnimalProductRaw
+      Apparel
+      Artifacts
+      BodyPartsArtificial
+      BodyPartsNatural
+      BuildingsArt
+      BuildingsFurniture
+      BuildingsJoy
+      BuildingsMisc
+      BuildingsPower
+      BuildingsProduction
+      BuildingsSecurity
+      BuildingsSpecial
+      BuildingsTemperature
+      Chunks
+      Drugs
+      EggsFertilized
+      EggsUnfertilized
+      FoodMeals
+      Foods
+      Grenades
+      Headgear
+      Items
+      Leathers
+      Manufactured
+      Medicine
+      MortarShells
+      PlantFoodRaw
+      PlantMatter
+      ResourcesRaw
+      StoneBlocks
+      StoneChunks
+      Textiles
+      Unfinished
+      WeaponsMelee
+      WeaponsRanged
+    -->
+    <altitudeLayer>Building</altitudeLayer><!-- 所处图层
+      Building
+      BuildingOnTop
+      DoorMoveable
+      Filth
+      Floor
+      FloorEmplacement
+      Gas
+      Item
+      LowPlant
+      MetaOverlays
+      MoteLow
+      MoteOverhead
+      Pawn
+      PawnState
+      Projectile
+      Skyfaller -->
+    <minifiedDef>MinifiedThing</minifiedDef> <!-- 可以卸载-->
+    <tradeability>Sellable</tradeability><!-- 可交易性:可售卖-->
+    <rotatable>True</rotatable><!-- 是否可旋转-->
+    <specialDisplayRadius>9.9</specialDisplayRadius> <!--特殊半径-->
+    <pathCost>14</pathCost> <!-- 路径花费-->
+ </ThingDef>
+
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>abliger.prisonermindsuppressor</packageId>
+  <name>Prisoner Mind Suppressor</name>
+  <author>abliger</author>
+  <description>囚犯心灵抑制器,强制昏迷</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+</ModMetaData>
