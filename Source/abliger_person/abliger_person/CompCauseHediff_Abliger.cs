@@ -11,15 +11,17 @@ namespace RimWorld
                 return (CompProperties_Abliger)this.props;
             }
         }
-
+        // 获得电力信息
         private CompPowerTrader PowerTrader
         {
             get
             {
+                // 使用 TryGetComp 方法通过范型获得 comp 集合中的对应属性对象
                 return this.parent.TryGetComp<CompPowerTrader>();
             }
         }
 
+        // 判断哪些棋子受影响
         private bool IsPawnAffected(Pawn target)
         {
             return (this.PowerTrader == null || this.PowerTrader.PowerOn) && !target.Dead && target.health != null && target.Position.DistanceTo(this.parent.Position) <= this.Props.range && target.IsPrisoner;
@@ -31,6 +33,7 @@ namespace RimWorld
             {
                 return;
             }
+            // 没有电直接返回
             CompPowerTrader compPowerTrader = this.parent.TryGetComp<CompPowerTrader>();
             if (compPowerTrader != null && !compPowerTrader.PowerOn)
             {
@@ -41,9 +44,11 @@ namespace RimWorld
             {
                 if (this.IsPawnAffected(pawn))
                 {
+                    // 获得 症状对象
                     Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(this.Props.hediff, false);
                     if (hediff == null)
                     {
+                        // 在大脑处添加症状
                         hediff = pawn.health.AddHediff(this.Props.hediff, pawn.health.hediffSet.GetBrain(), null, null);
                         hediff.Severity = 1f;
                         HediffComp_Link hediffComp_Link = hediff.TryGetComp<HediffComp_Link>();
