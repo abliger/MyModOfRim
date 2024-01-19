@@ -3,3 +3,4 @@ Assemblies/
 bin/
 obj/
 Properties/
+.DS_Store

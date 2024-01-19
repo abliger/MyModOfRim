@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompCauseHediff_Abliger.cs" />
-    <Compile Include="CompProperties_abliger.cs" />
+    <Compile Include="CompProperties_Abliger.cs" />
     <Compile Include="PlaceWorker_ShowCauseHediff_Abliger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
