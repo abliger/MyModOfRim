@@ -154,7 +154,6 @@
     <rotatable>True</rotatable><!-- 是否可旋转-->
     <specialDisplayRadius>9.9</specialDisplayRadius> <!--特殊半径-->
     <pathCost>14</pathCost> <!-- 路径花费-->
-    <tradeability>Sellable</tradeability><!-- 可交易的-->
     <tradeTags>
       <li>ExoticBuilding</li>
     </tradeTags>
