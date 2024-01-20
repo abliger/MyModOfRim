@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef ParentName="BuildingBase"> <!-- 建筑-->
-    <defName>abliger_test</defName> <!-- 游戏事物定位id,唯一-->
-    <label>test</label>  <!--   物品的游戏名称-->
-    <description>test test est est estt eseddd</description> <!-- 建筑描述-->
+    <defName>PrisonerMindSuppressor</defName> <!-- 游戏事物定位id,唯一-->
+    <label>Prisoner Mind Suppressor</label>  <!--   物品的游戏名称-->
+    <description>Prisoner Mind Suppressor</description> <!-- 建筑描述-->
     <thingClass>Building_Art</thingClass>
     <tickerType>Normal</tickerType>
     <soundInteract>Standard_Pickup</soundInteract> <!-- 声音交互 此为标准拾取-->
     <!-- 事件类型 由于太多 可以在 https://ludeon.com/forums/index.php?topic=21440.0 查找-->
     <graphicData><!-- 图形数据-->
-      <texPath>Things/Building/test</texPath> <!-- 建筑贴图位置,在 Textures 目录下寻找-->
+      <texPath>Things/Building/Special/PsychicEmanator</texPath> <!-- 建筑贴图位置,在 Textures 目录下寻找-->
       <graphicClass>Graphic_Multi</graphicClass><!-- 图形类别 此处表示多个-->
       <shaderType>CutoutComplex</shaderType><!-- 阴影类型-->
       <drawSize>(3,3)</drawSize><!-- 图形大小-->
@@ -21,7 +21,7 @@
       </damageData>
     </graphicData>
     <statBases> <!-- 基本信息-->
-      <MarketValue>4500</MarketValue><!-- 市场价值-->
+      <!-- <MarketValue>4500</MarketValue>市场价值 -->
       <Mass>1.6</Mass>
       <DeteriorationRate>0</DeteriorationRate> <!-- 劣化率-->
       <Flammability>0</Flammability><!-- 可燃性-->
@@ -55,19 +55,19 @@
     <costList> <!-- 建造花费-->
       <Cloth>100</Cloth> <!-- 布料-->
       <ComponentIndustrial>10</ComponentIndustrial> <!-- 零部件 -->
-      <ComponentSpacer>5</ComponentSpacer><!-- 高级零部件-->
-      <Gold>100</Gold> <!-- 黄金-->
+      <ComponentSpacer>1</ComponentSpacer><!-- 高级零部件-->
+      <Gold>50</Gold> <!-- 黄金-->
       <Steel>300</Steel> <!-- 钢铁-->
       <Silver>50</Silver> <!-- 白银-->
       <Plasteel>10</Plasteel><!-- 玻璃钢-->
     </costList>
     <researchPrerequisites> <!-- 那项科技可以解锁该建筑-->
-      <li>abliger_tech_prisonermindsuppressor</li>
+      <li>abliger_tech_PrisonerMindSuppressor</li>
     </researchPrerequisites>
     <comps><!-- 和 c# 的 class 对应 定义该建筑的额外属性-->
         <li Class="CompProperties_Power"> 
           <compClass>CompPowerTrader</compClass>
-          <basePowerConsumption>3600</basePowerConsumption><!-- 耗电功率-->
+          <basePowerConsumption>1200</basePowerConsumption><!-- 耗电功率-->
           <shortCircuitInRain>True</shortCircuitInRain><!-- 雨中是否短路-->
         </li>
         <li Class="CompProperties_Explosive">
@@ -86,6 +86,10 @@
         <li Class="CompProperties_Abliger"><!-- 解析此处的类名,下面是对应属性-->
           <!-- <range>9.9</range> -->
           <hediff>prisoner_mind_suppressor</hediff><!-- 这里写入想要获得的症状,也就是 HediffDefs.xml 中的症状id-->
+        </li>
+        <li Class="CompProperties_MoteEmitter"><!-- 添加灵能运作抖动效果-->
+          <mote>Mote_PsychicEmanatorEffect</mote>
+          <emissionInterval>350</emissionInterval>
         </li>
     </comps>
     <thingCategories>
@@ -150,6 +154,10 @@
     <rotatable>True</rotatable><!-- 是否可旋转-->
     <specialDisplayRadius>9.9</specialDisplayRadius> <!--特殊半径-->
     <pathCost>14</pathCost> <!-- 路径花费-->
+    <tradeability>Sellable</tradeability><!-- 可交易的-->
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
  </ThingDef>
 
 </Defs>

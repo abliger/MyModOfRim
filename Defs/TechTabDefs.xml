@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ResearchTabDef>
+        <defName>Mind_ResearchTab</defName>
+        <label>mind</label>
+    </ResearchTabDef>
+</Defs>
