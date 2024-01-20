@@ -16,7 +16,7 @@
         <tab>Mind_ResearchTab</tab>
         <!-- <researchViewX>9.00</researchViewX>
         <researchViewY>4.80</researchViewY>研究标签位置 -->
-        <discoveredLetterTitle>题目</discoveredLetterTitle>
-        <discoveredLetterText>描述</discoveredLetterText><!-- 研究完成后弹出的信息-->
+        <!-- <discoveredLetterTitle>题目</discoveredLetterTitle>
+        <discoveredLetterText>描述</discoveredLetterText>研究完成后弹出的信息 -->
       </ResearchProjectDef>
 </Defs>
