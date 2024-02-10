@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <AC_Hair_OrangeReddish.label>亮红色头发</AC_Hair_OrangeReddish.label>
+
+    <!-- ================================ Sleeve Quality Genes ====================== -->
+	<VFEU_SleeveQuality_Awful.label>糟糕的质量</VFEU_SleeveQuality_Awful.label>
+	<VFEU_SleeveQuality_Awful.description>携带该基因的身体在培养舱中生长。因为投入尽可能少的心力照顾而导致了糟糕的质量。</VFEU_SleeveQuality_Awful.description>
+
+	<VFEU_SleeveQuality_Poor.label>低劣的质量</VFEU_SleeveQuality_Poor.label>
+	<VFEU_SleeveQuality_Poor.description>携带该基因的身体在培养舱中生长。因为投入尽可能少的心力照顾而导致了低劣的质量。</VFEU_SleeveQuality_Poor.description>
+
+	<VFEU_SleeveQuality_Normal.label>普通的质量</VFEU_SleeveQuality_Normal.label>
+	<VFEU_SleeveQuality_Normal.description>携带该基因的身体在培养舱中生长。因为投入足够的心力照顾而达到了普通质量。</VFEU_SleeveQuality_Normal.description>
+
+	<VFEU_SleeveQuality_Good.label>不错的质量</VFEU_SleeveQuality_Good.label>
+	<VFEU_SleeveQuality_Good.description>携带该基因的身体在培养舱中生长。投入高于平均水准的心力照顾而达到了不错的质量。</VFEU_SleeveQuality_Good.description>
+
+	<VFEU_SleeveQuality_Excellent.label>优良的质量</VFEU_SleeveQuality_Excellent.label>
+	<VFEU_SleeveQuality_Excellent.description>携带该基因的身体在培养舱中生长。投入大量的心力照顾而达到了优良质量。</VFEU_SleeveQuality_Excellent.description>
+
+	<VFEU_SleeveQuality_Masterwork.label>大师级质量</VFEU_SleeveQuality_Masterwork.label>
+	<VFEU_SleeveQuality_Masterwork.description>携带该基因的身体在培养舱中生长。投入大量的心力照顾而达到了大师级质量。</VFEU_SleeveQuality_Masterwork.description>
+
+	<VFEU_SleeveQuality_Legendary.label>传奇级质量</VFEU_SleeveQuality_Legendary.label>
+	<VFEU_SleeveQuality_Legendary.description>携带该基因的身体在培养舱中生长。投入巨量的心力照顾而达到了传奇级质量。</VFEU_SleeveQuality_Legendary.description>
+
+</LanguageData>

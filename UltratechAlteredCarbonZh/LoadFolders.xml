@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+
+		<!-- DLC -->
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.4/Mods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>
+
+	</v1.4>
+</loadFolders>

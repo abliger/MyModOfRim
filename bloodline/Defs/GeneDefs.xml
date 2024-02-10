@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneDef>
+        <defName>bloodline_flame_eruption_gene</defName>
+        <label>bloodline flame eruption</label>
+        <description>bloodline flame eruption</description>
+        <iconPath>UI/Abilities/FireBurst</iconPath>
+        <displayCategory>Archite</displayCategory>
+        <abilities>
+            <li>bloodline_flame_eruption_ability</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>bloodline_flame_eruption_ability</AbilityDef>
+        </descriptionHyperlinks>
+        <!-- 复杂度 -->
+        <biostatCpx>3</biostatCpx>
+        <!-- 超凡胶囊 -->
+        <biostatArc>1</biostatArc>
+    </GeneDef>
+</Defs>

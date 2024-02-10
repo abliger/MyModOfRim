@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <AC_ArchoStackSkip.label>跳過堆疊</AC_ArchoStackSkip.label>
+  <AC_ArchoStackSkip.description>跳過超凡堆疊進入並直接操控目標身體，殺死目標與超凡堆疊當前所在的義體。這在當前義體快要死亡時是很有用的。</AC_ArchoStackSkip.description>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AC_Apparel_WingJump.label>跳跃翅膀</AC_Apparel_WingJump.label>
+    <AC_Apparel_WingJump.description>一套用于短程飞行的单人用机械翅膀。凭借著其人工聚合物肌肉与引导助理，跳跃翅膀允许任何人以高速跳跃，同时保持完全无声。它在使用几次后必须重新充电。\n\n一些太空科技军队近战专家使用跳跃翅膀进行秘密渗透或是秘密军事行动。</AC_Apparel_WingJump.description>
+    <AC_Apparel_WingJump.comps.CompReloadable.chargeNoun>跳跃</AC_Apparel_WingJump.comps.CompReloadable.chargeNoun>
+    <AC_Apparel_WingJump.verbs.jump.label>跳跃</AC_Apparel_WingJump.verbs.jump.label>
+
+</LanguageData>

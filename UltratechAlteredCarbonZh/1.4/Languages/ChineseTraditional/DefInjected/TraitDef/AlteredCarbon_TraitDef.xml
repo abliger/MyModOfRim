@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VFEU_FreeMind.degreeDatas.free_mind.label>思想開放</VFEU_FreeMind.degreeDatas.free_mind.label>
+    <VFEU_FreeMind.degreeDatas.free_mind.description>{PAWN_nameDef}一直認為他們的身體只不過是心靈的容器。{Pawn_pronoun}並不關心他們身體的性別、年齡或長相。</VFEU_FreeMind.degreeDatas.free_mind.description>
+
+    <VFEU_Sleever.degreeDatas.sleever.label>義體自由</VFEU_Sleever.degreeDatas.sleever.label>
+    <VFEU_Sleever.degreeDatas.sleever.description>{PAWN_nameDef}使切換義體像換衣服一樣自由。{Pawn_pronoun}並不關心{Pawn_pronoun}切換義體的頻率，也不關心{Pawn_pronoun}現在正在使用哪個義體。</VFEU_Sleever.degreeDatas.sleever.description>
+
+</LanguageData>

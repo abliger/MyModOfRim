@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<AC_StackDegradation.label>退化</AC_StackDegradation.label>
+	<AC_StackDegradation.labelNoun>堆疊退化</AC_StackDegradation.labelNoun>
+	<AC_StackDegradation.description>由未經授權且激進的重寫所導致的皮層堆疊退化。</AC_StackDegradation.description>
+
+	<AC_BrainTrauma.label>腦外傷</AC_BrainTrauma.label>
+	<AC_BrainTrauma.labelNoun>腦外傷</AC_BrainTrauma.labelNoun>
+	<AC_BrainTrauma.description>導致喪失交流、遺忘和不自主運動功能的腦外傷。</AC_BrainTrauma.description>
+
+    <AC_ArchoStack.label>超凡堆疊</AC_ArchoStack.label>
+	<AC_ArchoStack.labelNoun>一個超凡堆疊</AC_ArchoStack.labelNoun>
+	<AC_ArchoStack.description>一個已植入的超凡堆疊。</AC_ArchoStack.description>
+
+    <!-- ================================ Deterioration Hediff ====================== -->
+	<VFEU_Deterioration.label>惡化</VFEU_Deterioration.label>
+	<VFEU_Deterioration.labelNoun>惡化</VFEU_Deterioration.labelNoun>
+	<VFEU_Deterioration.description>惡化。</VFEU_Deterioration.description>
+
+    <!-- ================================ Cortical Stack Hediff	====================== -->
+	<VFEU_CorticalStack.label>皮質堆疊</VFEU_CorticalStack.label>
+	<VFEU_CorticalStack.labelNoun>一個皮質堆疊</VFEU_CorticalStack.labelNoun>
+	<VFEU_CorticalStack.description>一個已安裝的皮質堆疊。</VFEU_CorticalStack.description>
+
+	<!-- ================================ Sleeve Base ====================== -->
+	<VFEU_EmptySleeve.label>空白義體</VFEU_EmptySleeve.label>
+	<VFEU_EmptySleeve.description>一個空白義體。</VFEU_EmptySleeve.description>
+	<VFEU_EmptySleeve.stages.empty.label>空白</VFEU_EmptySleeve.stages.empty.label>
+
+	<!-- ================================ Sleeve Shock Hediff ====================== -->
+	<VFEU_SleeveShock.label>義體衝擊</VFEU_SleeveShock.label>
+	<VFEU_SleeveShock.description>由於轉換身體而處於衝擊狀態。</VFEU_SleeveShock.description>
+	<VFEU_SleeveShock.stages.wearing_off.label>磨損</VFEU_SleeveShock.stages.wearing_off.label>
+	<VFEU_SleeveShock.stages.irritated.label>發炎</VFEU_SleeveShock.stages.irritated.label>
+
+	<!-- ================================ Sleeve Qualitys ====================== -->
+	<VFEU_Sleeve_Quality_Awful.label>糟糕品質的義體</VFEU_Sleeve_Quality_Awful.label>
+	<VFEU_Sleeve_Quality_Poor.label>低劣品質的義體</VFEU_Sleeve_Quality_Poor.label>
+	<VFEU_Sleeve_Quality_Normal.label>普通品質的義體</VFEU_Sleeve_Quality_Normal.label>
+	<VFEU_Sleeve_Quality_Good.label>不錯品質的義體</VFEU_Sleeve_Quality_Good.label>
+	<VFEU_Sleeve_Quality_Excellent.label>優良品質的義體</VFEU_Sleeve_Quality_Excellent.label>
+	<VFEU_Sleeve_Quality_Masterwork.label>大師品質的義體</VFEU_Sleeve_Quality_Masterwork.label>
+	<VFEU_Sleeve_Quality_Legendary.label>傳奇品質的義體</VFEU_Sleeve_Quality_Legendary.label>
+
+</LanguageData>

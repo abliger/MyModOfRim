@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<VFEU_Hacking.label>駭入程序</VFEU_Hacking.label>
+	<VFEU_Hacking.description>建造工作臺以解密和改變已填充皮質堆疊的內容，同時也能解除生物鎖。</VFEU_Hacking.description>
+
+	<AC_Sleeving.label>義體培育</AC_Sleeving.label>
+	<AC_Sleeving.description>建立培養空白義體的設施，為皮質堆疊的植入做好準備。</AC_Sleeving.description>
+
+	<AC_CorticalCrafting.label>皮質堆疊</AC_CorticalCrafting.label>
+	<AC_CorticalCrafting.description>以高級零件與其他材料製造先進的超科技皮質堆疊。</AC_CorticalCrafting.description>
+
+	<AC_RewriteCorticalStack.label>皮質修改</AC_RewriteCorticalStack.label>
+	<AC_RewriteCorticalStack.description>利用皮質堆疊軟體中的漏洞修改皮質堆疊數據。</AC_RewriteCorticalStack.description>
+
+</LanguageData>

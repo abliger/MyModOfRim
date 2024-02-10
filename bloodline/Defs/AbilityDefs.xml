@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AbilityDef>
+        <defName>bloodline_flame_eruption_ability</defName>
+        <label>bloodline flame eruption</label>
+        <description>Flame eruption, additional \n 1. range of EMP impact (directly referencing the special effect of bee death (range reduced from 30.9 to 7.9)) \n 2. Shockwave with damage of 30, damage type is shockwave \n 3. Obtain a damage coefficient of x 60% at the beginning of reading the entry (lasting for 4.5 seconds)</description>
+        <!-- <jobDef>CastAbilityOnThingWithoutWeapon</jobDef> -->
+        <iconPath>UI/Abilities/FireBurst</iconPath>
+        <cooldownTicksRange>2700</cooldownTicksRange>
+        <aiCanUse>true</aiCanUse>
+        <showWhenDrafted>True</showWhenDrafted>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
+        <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+        <targetRequired>false</targetRequired>
+        <showCastingProgressBar>true</showCastingProgressBar>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupEffecter>Fire_Burst_Warmup</warmupEffecter>
+            <warmupTime>3.5</warmupTime>
+            <requireLineOfSight>false</requireLineOfSight>
+            <range>6.9</range>
+            <drawAimPie>false</drawAimPie>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+                <canTargetPawns>True</canTargetPawns>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityFireBurst">
+                <radius>6.9</radius>
+            </li>
+            <li Class="CompProperties_Abliger_Ablity">
+                <hediff>bloodline_flame_eruption_avoid_injury</hediff>
+                <compPropertiesAbligerDamage>
+                    <!-- <li>
+                        <radius>7.9</radius>
+                        <damageDef>EMP</damageDef>
+                    </li> -->
+                    <li>
+                        <radius>6.9</radius>
+                        <damageDef>Bomb</damageDef>
+                        <damAmount>30</damAmount>
+                        <ignoreSelfDam>True</ignoreSelfDam>
+                    </li>
+                    <!-- <li>
+                        <radius>7.9</radius>
+                        <damageDef>MechBandShockwave</damageDef>
+                    </li> -->
+                </compPropertiesAbligerDamage>
+
+            </li>
+        </comps>
+    </AbilityDef>
+</Defs>

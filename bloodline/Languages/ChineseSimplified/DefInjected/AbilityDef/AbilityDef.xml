@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <bloodline_flame_eruption_ability.label>终极爆发</bloodline_flame_eruption_ability.label>
+    <bloodline_flame_eruption_ability.description>终极爆发 \n 发动技能火焰爆发，另外附加 \n 1 范围的 emp 冲击(直接引用毒蜂死亡的特效(范围由 30.9 降到 7.9))\n 2.伤害为 30 的冲击波，伤害类型为冲击波 \n 3.开始读条时获得×60%的承伤系数（持续 4.5s）</bloodline_flame_eruption_ability.description>
+</LanguageData>

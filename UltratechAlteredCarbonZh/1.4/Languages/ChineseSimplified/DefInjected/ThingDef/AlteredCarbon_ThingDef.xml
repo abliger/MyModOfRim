@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VFEU_Apparel_ProtectorHelmet.label>保护者头盔</VFEU_Apparel_ProtectorHelmet.label>
+    <VFEU_Apparel_ProtectorHelmet.description>一个保护者发行的动力装甲头盔。与标准的海军陆战装甲相比，它的保护能力得到提升。整个头盔都是由塑钢为原料制成，具有战术遥测回馈与瞄准辅助功能。</VFEU_Apparel_ProtectorHelmet.description>
+
+    <VFEU_Apparel_ProtectorArmor.label>保护者装甲</VFEU_Apparel_ProtectorArmor.label>
+    <VFEU_Apparel_ProtectorArmor.description>一套保护者发行的动力装甲。与标准的海军陆战装甲相比，它的保护能力得到提升。整个装甲都是由塑钢为原料制成，同时具有机载处理器协助活动与抑制痛觉感受器。</VFEU_Apparel_ProtectorArmor.description>
+
+    <AC_Apparel_FusilierHelmet.label>步兵头盔</AC_Apparel_FusilierHelmet.label>
+    <AC_Apparel_FusilierHelmet.description>一种动力装甲头盔，旨在为人类提供最佳保护。每一个头盔都是在一个专门的设施中制造的，它可以有效地将整个头盔打印成一个分子。其结果是军事硬件无法比拟的保护水平，因为大规模生产的生产成本惊人且不可持续。\n包括一个由多个多光谱传感器和分类器AI组成的包，允许用户在黑暗和烟雾弥漫的条件下观看，就好像在明亮和清晰的条件下一样。集成弹道测距仪提供了最佳的射击解决方案，将用户的有效射程提高了50%。</AC_Apparel_FusilierHelmet.description>
+    <AC_Apparel_FusilierArmor.label>步兵盔甲</AC_Apparel_FusilierArmor.label>
+    <AC_Apparel_FusilierArmor.description>一套动力盔甲，旨在为人类提供最佳保护。每一套衣服都是在一个专门的设施中制造的，该设施可以有效地将整个衣服一个分子一个分子地打印成一件衣服。其结果是军事硬件无法比拟的保护水平，因为大规模生产的生产成本惊人且不可持续。\n\n包括一套止痛药，以确保使用者能够实现他们的目标，直到他们奄奄一息。盔甲的目的是为了确保其赞助者的生存，而不是使用者。\n\n这个模型包括一个强大的烟雾弹分配器，可以模糊用户的位置。主要用于渗透和伏击部队，烟雾弹合成器的额外体积提供了最小的保护改进。</AC_Apparel_FusilierArmor.description>
+    <AC_Apparel_DragoonHelmet.label>恶龙头盔</AC_Apparel_DragoonHelmet.label>
+    <AC_Apparel_DragoonHelmet.description>一种动力装甲头盔，旨在为人类提供最佳保护。每一个头盔都是在一个专门的设施中制造的，它可以有效地将整个头盔打印成一个分子。其结果是军事硬件无法比拟的保护水平，因为大规模生产的生产成本惊人且不可持续。\n\n包括一个分类器AI包，用于分析地形组成并指导用户，有效消除地形移动惩罚。</AC_Apparel_DragoonHelmet.description>
+    <AC_Apparel_DragoonArmor.label>恶龙盔甲</AC_Apparel_DragoonArmor.label>
+    <AC_Apparel_DragoonArmor.description>一套动力盔甲，旨在为人类提供最佳保护。每一套衣服都是在一个专门的设施中制造的，该设施可以有效地将整个衣服一个分子一个分子地打印成一件衣服。其结果是军事硬件无法比拟的保护水平，因为大规模生产的生产成本惊人且不可持续。\n\n包括一套止痛药，以确保使用者能够实现他们的目标，直到他们奄奄一息。盔甲的目的是为了确保其赞助者的生存，而不是使用者。\n\n该型号包括动力辅助装置和稳定性模块，使用户可以跨越令人印象深刻的距离。该模块降低了保护能力以换取该功能。</AC_Apparel_DragoonArmor.description>
+    <AC_CuirassierBelt.label>骑士腰带</AC_CuirassierBelt.label>
+    <AC_CuirassierBelt.description>一种先进的超技术抛射物排斥装置。它将试图阻止来袭的投射物或弹片，但对近战攻击或高温没有任何作用。这种型号不会阻止佩戴者开火，但如果被EMP击中，仍然会立即关闭。</AC_CuirassierBelt.description>
+
+	<!-- ================================ Ancient Cortical Stacks ====================== -->
+	<VFEU_AncientStack.label>远古皮质堆叠</VFEU_AncientStack.label>
+	<VFEU_AncientStack.description>一个古老的超科技植入物，曾经储存了一个人的意识。由于年代久远和多年的疏忽而损坏，但可能仍有值得抢救的数据。</VFEU_AncientStack.description>
+
+	<VFEU_UnfinishedAncientStack.label>远古堆叠半成品</VFEU_UnfinishedAncientStack.label>
+	<VFEU_UnfinishedAncientStack.description>一个未完成的远古堆叠。</VFEU_UnfinishedAncientStack.description>
+
+    <VFEU_EmptyCorticalStack.label>空白皮质堆叠</VFEU_EmptyCorticalStack.label>
+	<VFEU_EmptyCorticalStack.description>一个空白的，可以储存人类意识并植入宿主脖子的超科技植入物。应不惜一切代价避免脖子与头部被子弹击中或受到钝器重击。极其罕见且难以制造。</VFEU_EmptyCorticalStack.description>
+
+	<VFEU_FilledCorticalStack.label>皮质堆叠</VFEU_FilledCorticalStack.label>
+	<VFEU_FilledCorticalStack.description>一种超科技植入物，上面储存著人类的意识。可以植入一个空的义体或随机的身体，并使储存在皮质堆中的人类复活。</VFEU_FilledCorticalStack.description>
+
+
+	<AC_EmptyArchoStack.label>空白超凡堆叠</AC_EmptyArchoStack.label>
+	<AC_EmptyArchoStack.description>一个空的，可以储存人类意识的远古技术植入物，可以直接植入宿主的脖子。比其超科技衍生品更加坚固，它们不可能被制造出来，只能被偶然发现。</AC_EmptyArchoStack.description>
+
+	<AC_FilledArchoStack.label>超凡堆叠</AC_FilledArchoStack.label>
+	<AC_FilledArchoStack.description>一种远古技术植入物，上面储存著人类的意识。可以植入一个空的义体或随机的身体，并使储存在皮质堆中的人类复活。</AC_FilledArchoStack.description>
+
+    <!-- ================================ Sleeve Incubator ====================== -->
+
+	<VFEU_SleeveIncubator.label>义体培养舱</VFEU_SleeveIncubator.label>
+	<VFEU_SleeveIncubator.description>一个极其复杂的营养舱，能够培养出没有自我思想的义体。在培养过程中使用了中性胺，以使身体在不同阶段成长。在整个培养过程中，培养舱必须全程保持供电。如果长时间无电力供给，培养过程将会失败。\n\n简单低阶的义体可以被快速制造出来，然而更复杂且精密的义体则需要花费更长时间，同时需要更多的营养物质来确保身体正常发育。一旦义体完成生长，应该要被取出和照顾，因为义体并没有能力独立移动或思考，包括自我喂养。</VFEU_SleeveIncubator.description>
+    <VFEU_SleeveIncubator.comps.CompRefuelable.fuelGizmoLabel>中性胺</VFEU_SleeveIncubator.comps.CompRefuelable.fuelGizmoLabel>
+    <VFEU_SleeveIncubator.comps.CompRefuelable.fuelLabel>中性胺</VFEU_SleeveIncubator.comps.CompRefuelable.fuelLabel>
+    <VFEU_SleeveIncubator.comps.CompRefuelable.outOfFuelMessage>无法培养：需要中性胺</VFEU_SleeveIncubator.comps.CompRefuelable.outOfFuelMessage>
+
+
+    <!-- ================================ Sleeve Casket	====================== -->
+	
+    <VFEU_SleeveCasket.label>义体套筒</VFEU_SleeveCasket.label>
+	<VFEU_SleeveCasket.description>一个开放的石棺，设计用来使义体保持假死状态的同时允许进行医疗服务，像是安装植入物或是仿生物。</VFEU_SleeveCasket.description>
+    <VFEU_SleeveCasket.comps.CompRefuelable.fuelGizmoLabel>中性胺</VFEU_SleeveCasket.comps.CompRefuelable.fuelGizmoLabel>
+    <VFEU_SleeveCasket.comps.CompRefuelable.fuelLabel>中性胺</VFEU_SleeveCasket.comps.CompRefuelable.fuelLabel>
+
+    <!-- ================================ Decryption Bench ====================== -->
+	
+    <VFEU_DecryptionBench.label>解密工作台</VFEU_DecryptionBench.label>
+	<VFEU_DecryptionBench.description>一个复杂的工作台，允许用户连接至皮质堆叠以改变内涵数据，如改变效忠者或甚至是将资料清除干净。也可以解除物品上的生物锁。\n\n由于这个过程相当激进，解密过程中有可能会摧毁物品。</VFEU_DecryptionBench.description>
+
+
+    <!-- ================================ Stack Array ====================== -->
+	
+    <AC_StackArray.label>堆叠阵列</AC_StackArray.label>
+	<AC_StackArray.description>一个量子计算阵列，被设计用来储存皮质堆叠并对其进行备份以备不时之需。皮质堆叠可以被复制，当被放置于阵列内时，备份在阵列之间是同步的，允许建立多个阵列。\n\n堆叠阵列将每24小时对安装在本地地图上的任何殖民地皮质堆叠进行一次自动备份，如果原始堆叠被摧毁，备份会被恢复回空的皮质堆叠。</AC_StackArray.description>
+	
+    <!-- ================================ Gene Centrifuge ====================== -->
+	
+    <AC_GeneCentrifuge.label>基因离心机</AC_GeneCentrifuge.label>
+	<AC_GeneCentrifuge.description>一个复杂的离心系统，能透过利用为小的分子差异分离出理想的遗传物质。实际上，这个建筑可以将想要的基因从基因包分离出来。经过这个程序后，将产生两个基因包，其中一个是选定的基因，而另一个则是剩馀的基因。</AC_GeneCentrifuge.description>
+	
+    <!-- ================================ Gene Vault ====================== -->
+	
+    <AC_GeneVault.label>基因储藏库</AC_GeneVault.label>
+	<AC_GeneVault.description>一个基因组合处理器与两个高级基因库结合的建筑。当此建筑放置于基因组装机附近时，可以增加异种基因的最大复杂度，同时在组装过程中存取大量储存的基因包。当供电时，基因储藏库可以预防基因包衰败，并且会缓慢修复基因损伤。</AC_GeneVault.description>
+	
+    <!-- ================================ Xenogerm Duplicator ====================== -->
+	
+    <AC_XenoGermDuplicator.label>异种基因复制机</AC_XenoGermDuplicator.label>
+	<AC_XenoGermDuplicator.description>一台非常简单的机器，可以合成遗传物质以便大量制造现有异种基因的精确副本。这个建筑可以复制任何现有的异种基因，包括任何现有的远古基因，只要能提供它足够数量的远古胶囊。</AC_XenoGermDuplicator.description>
+    <AC_XenoGermDuplicator.comps.CompRefuelable.fuelGizmoLabel>远古胶囊</AC_XenoGermDuplicator.comps.CompRefuelable.fuelGizmoLabel>
+    <AC_XenoGermDuplicator.comps.CompRefuelable.fuelLabel>远古胶囊</AC_XenoGermDuplicator.comps.CompRefuelable.fuelLabel>
+
+    <AC_Gun_Autorevolver.label>自动左轮手枪</AC_Gun_Autorevolver.label>
+	<AC_Gun_Autorevolver.description>一把老式自动左轮手枪。它结合了普通手枪和经典左轮手枪的优点。它的拔枪速度很快。</AC_Gun_Autorevolver.description>
+    <AC_Gun_Autorevolver.tools.grip.label>把手</AC_Gun_Autorevolver.tools.grip.label>
+    <AC_Gun_Autorevolver.tools.barrel.label>炮管</AC_Gun_Autorevolver.tools.barrel.label>
+    <AC_Gun_Autorevolver.verbs.Verb_Shoot.label>自动左轮手枪。</AC_Gun_Autorevolver.verbs.Verb_Shoot.label>
+
+</LanguageData>

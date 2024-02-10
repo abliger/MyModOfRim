@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modMetaData>
+  <packageId>abliger.UltratechAlteredCarbon.zh</packageId>
+  <name>Altered Carbon: Ultratech Unleashed zh</name>
+  <loadAfter>
+		<li>Ludeon.RimWorld</li>
+    <li>hlx.UltratechAlteredCarbon</li>
+	</loadAfter>
+  <author>abliger</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+		<li>
+			<packageId>hlx.ultratechalteredcarbon</packageId>
+			<displayName>Altered Carbon: Ultratech Unleashed</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2196278117</steamWorkshopUrl>
+		</li>
+	</modDependencies>	
+  <description>
+    修复自 https://steamcommunity.com/sharedfiles/filedetails/?id=2974366749
+    \n
+    汉化两套新的装甲
+  </description>
+</modMetaData>

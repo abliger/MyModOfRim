@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ================================ Extract Stacks ====================== -->
+
+	<VFEU_ExtractStack.label>提取皮質堆疊</VFEU_ExtractStack.label>
+	<VFEU_ExtractStack.gerund>提取皮質堆疊</VFEU_ExtractStack.gerund>
+	<VFEU_ExtractStack.verb>提取皮質堆疊</VFEU_ExtractStack.verb>
+
+	<!-- ================================ Sleeve growing ====================== -->
+
+	<VFEU_StartIncubatingProcess.label>進行培養程序</VFEU_StartIncubatingProcess.label>
+	<VFEU_StartIncubatingProcess.gerund>進行培養程序</VFEU_StartIncubatingProcess.gerund>
+	<VFEU_StartIncubatingProcess.verb>進行培養程序</VFEU_StartIncubatingProcess.verb>
+
+	<VFEU_CancelIncubatingProcess.label>取消培養程序</VFEU_CancelIncubatingProcess.label>
+	<VFEU_CancelIncubatingProcess.gerund>取消培養程序</VFEU_CancelIncubatingProcess.gerund>
+	<VFEU_CancelIncubatingProcess.verb>取消培養程序</VFEU_CancelIncubatingProcess.verb>
+
+	<!-- ================================ Hacking stacks ====================== -->
+
+	<VFEU_DoBillsDecryptionBench.label>駭入堆疊</VFEU_DoBillsDecryptionBench.label>
+	<VFEU_DoBillsDecryptionBench.gerund>駭入堆疊</VFEU_DoBillsDecryptionBench.gerund>
+	<VFEU_DoBillsDecryptionBench.verb>駭入堆疊於</VFEU_DoBillsDecryptionBench.verb>
+
+	<!-- ================================ Duplicate Stack ====================== -->
+
+    <AC_DuplicateStacks.label>複製堆疊</AC_DuplicateStacks.label>
+	<AC_DuplicateStacks.verb>複製堆疊</AC_DuplicateStacks.verb>
+	<AC_DuplicateStacks.gerund>複製堆疊</AC_DuplicateStacks.gerund>
+
+	<!-- ================================ Banking stacks ====================== -->
+
+	<AC_HaulStacksToStorage.label>搬運堆疊</AC_HaulStacksToStorage.label>
+	<AC_HaulStacksToStorage.verb>搬運堆疊</AC_HaulStacksToStorage.verb>
+	<AC_HaulStacksToStorage.gerund>搬運堆疊</AC_HaulStacksToStorage.gerund>
+
+	<!-- ================================ Create stack from backup ====================== -->
+
+	<AC_CreateStackFromBackup.label>從備份中恢復堆疊</AC_CreateStackFromBackup.label>
+	<AC_CreateStackFromBackup.verb>從備份中恢復堆疊</AC_CreateStackFromBackup.verb>
+	<AC_CreateStackFromBackup.gerund>從備份中恢復堆疊</AC_CreateStackFromBackup.gerund>
+
+	<!-- ================================ Inserting genepack ====================== -->
+
+	<AC_InsertGenepack.label>將基因包插入基因離心機</AC_InsertGenepack.label>
+	<AC_InsertGenepack.verb>將基因包插入基因離心機</AC_InsertGenepack.verb>
+	<AC_InsertGenepack.gerund>將基因包插入基因離心機</AC_InsertGenepack.gerund>
+
+	<!-- ================================ Inserting xenogerm ====================== -->
+
+	<AC_InsertXenogerm.label>將異種基因插入異種基因複製機</AC_InsertXenogerm.label>
+	<AC_InsertXenogerm.verb>將異種基因插入異種基因複製機</AC_InsertXenogerm.verb>
+	<AC_InsertXenogerm.gerund>將異種基因插入異種基因複製機</AC_InsertXenogerm.gerund>
+
+	<!-- ================================ Hauling corpse to sleeve grower ====================== -->
+
+	<AC_HaulCorpseToSleeveGrower.label>將屍體搬至義體培養艙</AC_HaulCorpseToSleeveGrower.label>
+	<AC_HaulCorpseToSleeveGrower.verb>將屍體搬至</AC_HaulCorpseToSleeveGrower.verb>
+	<AC_HaulCorpseToSleeveGrower.gerund>將屍體搬至</AC_HaulCorpseToSleeveGrower.gerund>
+
+	<!-- ================================ Cancel body repurposing ====================== -->
+
+	<AC_CancelRepurposingBody.label>取消屍體再利用</AC_CancelRepurposingBody.label>
+	<AC_CancelRepurposingBody.verb>取消屍體再利用</AC_CancelRepurposingBody.verb>
+	<AC_CancelRepurposingBody.gerund>取消屍體再利用於</AC_CancelRepurposingBody.gerund>
+
+</LanguageData>

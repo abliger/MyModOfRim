@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AC_Ouroboros.label>衔尾蛇</AC_Ouroboros.label>
+    <AC_Ouroboros.description>我们是起始同时也是终点，因为我们超越死亡。我们将永远活著，从现在开始到宇宙的尽头。</AC_Ouroboros.description>
+    
+    <AC_Ouroboros.descriptionMaker.rules.rulesStrings>
+        <!-- theist myth -->
+        <li>creation(tag=meme_Ouroboros)        ->[deity0_name]授予我们如何欺骗死亡的知识，使我们可以长生不老并尽情地探索宇宙。</li>
+        <li>episode(uses=1,tag=meme_Ouroboros)  ->人类的生物工程师创造了品质极佳的义体，这让[deity0_objective]很高兴。</li>
+        <li>episode(uses=1,tag=meme_Ouroboros)  ->正如[deity0_name]所希望的那样，人类放弃了男性与女性的旧有框架。</li>
+        <!-- ideological lesson -->
+        <li>lessonIntro(tag=meme_Ouroboros)         ->人类伟大的未来是没有死亡的未来，在那里身体只不过是为我们难以置信的智慧提供的容器。</li>
+        <li>lesson(tag=meme_Ouroboros)              ->因为死亡只不过是我们通往完美生物道路上其中一个障碍。</li>
+    </AC_Ouroboros.descriptionMaker.rules.rulesStrings>
+
+    <AC_Ouroboros.generalRules.rulesStrings>
+        <li>memeAdjective->不朽的</li>
+        <li>memeAdjective->无尽的</li>
+        <li>memeAdjective->伦理的</li>
+        <li>memeAdjective->不褪色的</li>
+        <li>memeAdjective->永恒的</li>
+        <li>memeAdjective->耐用的</li>
+        <li>memeLeaderNoun->恒定</li>
+        <li>memeConcept->永生主义</li>
+        <li>memeConcept->长生不老</li>
+        <li>memeConcept->不死</li>
+        <li>memeConcept->增强</li>
+        <li>memeLeaderAdjective->不死的</li>
+        <li>memeLeaderAdjective->永恒的</li>
+        <li>memeMoralist->植入者</li>
+        <li>memeMoralist->保存者</li>
+        <li>memeMoralist->先驱者</li>
+        <li>memeMoralist->永恒主义者</li>
+    </AC_Ouroboros.generalRules.rulesStrings>
+
+    <AC_Ouroboros.symbolPacks.0.adjective>科技主义</AC_Ouroboros.symbolPacks.0.adjective>
+    <AC_Ouroboros.symbolPacks.0.ideoName>科技</AC_Ouroboros.symbolPacks.0.ideoName>
+    <AC_Ouroboros.symbolPacks.0.member>技术人员</AC_Ouroboros.symbolPacks.0.member>
+    <AC_Ouroboros.symbolPacks.0.theme>科技</AC_Ouroboros.symbolPacks.0.theme>
+
+    <AC_Ouroboros.symbolPacks.1.adjective>进步主义</AC_Ouroboros.symbolPacks.1.adjective>
+    <AC_Ouroboros.symbolPacks.1.ideoName>进步主义</AC_Ouroboros.symbolPacks.1.ideoName>
+    <AC_Ouroboros.symbolPacks.1.member>进步者</AC_Ouroboros.symbolPacks.1.member>
+    <AC_Ouroboros.symbolPacks.1.theme>进步</AC_Ouroboros.symbolPacks.1.theme>
+
+    <AC_Ouroboros.symbolPacks.2.adjective>自动化</AC_Ouroboros.symbolPacks.2.adjective>
+    <AC_Ouroboros.symbolPacks.2.ideoName>自动</AC_Ouroboros.symbolPacks.2.ideoName>
+    <AC_Ouroboros.symbolPacks.2.member>自动操作者</AC_Ouroboros.symbolPacks.2.member>
+    <AC_Ouroboros.symbolPacks.2.theme>自动机</AC_Ouroboros.symbolPacks.2.theme>
+
+    <AC_Ouroboros.symbolPacks.3.adjective>扩增者</AC_Ouroboros.symbolPacks.3.adjective>
+    <AC_Ouroboros.symbolPacks.3.ideoName>扩增主义</AC_Ouroboros.symbolPacks.3.ideoName>
+    <AC_Ouroboros.symbolPacks.3.member>增强者</AC_Ouroboros.symbolPacks.3.member>
+    <AC_Ouroboros.symbolPacks.3.theme>扩增</AC_Ouroboros.symbolPacks.3.theme>
+
+</LanguageData>

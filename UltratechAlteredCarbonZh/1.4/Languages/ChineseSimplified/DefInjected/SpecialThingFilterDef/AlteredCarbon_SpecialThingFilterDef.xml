@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- ================================ Special Filters for Cortical Stacks====================== -->
+	<VFEU_AllowStacksColonist.label>允许殖民者堆叠</VFEU_AllowStacksColonist.label>
+	<VFEU_AllowStacksColonist.description>允许殖民者的堆叠。</VFEU_AllowStacksColonist.description>
+
+	<VFEU_AllowStacksStranger.label>允许陌生者堆叠</VFEU_AllowStacksStranger.label>
+	<VFEU_AllowStacksStranger.description>允许陌生者的堆叠。</VFEU_AllowStacksStranger.description>
+
+	<VFEU_AllowStacksHostile.label>允许敌对者堆叠</VFEU_AllowStacksHostile.label>
+	<VFEU_AllowStacksHostile.description>允许敌对者的堆叠。</VFEU_AllowStacksHostile.description>
+
+</LanguageData>

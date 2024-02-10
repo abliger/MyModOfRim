@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- ================================ Cortical Stack Jobs ====================== -->
+	<VFEU_ExtractStack.reportString>从目标中提取皮质堆叠</VFEU_ExtractStack.reportString>
+
+	<!-- ================================ Sleeve Jobs ====================== -->
+	<VFEU_ReleaseSleeve.reportString>释放义体</VFEU_ReleaseSleeve.reportString>
+	<VFEU_StartIncubatingProcess.reportString>开始培养舱的培养程序</VFEU_StartIncubatingProcess.reportString>
+	<VFEU_CancelIncubatingProcess.reportString>取消培养舱的培养程序</VFEU_CancelIncubatingProcess.reportString>
+	<AC_TakeEmptySleeve.reportString>取出空白义体。</AC_TakeEmptySleeve.reportString>
+
+	<AC_MakeEmptyCorticalStack.label>制作空白皮质堆叠</AC_MakeEmptyCorticalStack.label>
+	<AC_MakeEmptyCorticalStack.description>制作空白皮质堆叠。</AC_MakeEmptyCorticalStack.description>
+	<AC_MakeEmptyCorticalStack.jobString>制作空白皮质堆叠。</AC_MakeEmptyCorticalStack.jobString>
+
+	<AC_InstallEmptyArchoStack.label>安装空白超凡堆叠</AC_InstallEmptyArchoStack.label>
+	<AC_InstallEmptyArchoStack.description>安装一个空白超凡堆叠。</AC_InstallEmptyArchoStack.description>
+	<AC_InstallEmptyArchoStack.jobString>安装超凡堆叠。</AC_InstallEmptyArchoStack.jobString>
+
+	<AC_InstallArchoStack.label>安装已填充的超凡堆叠</AC_InstallArchoStack.label>
+	<AC_InstallArchoStack.description>安装一个超凡堆叠。</AC_InstallArchoStack.description>
+	<AC_InstallArchoStack.jobString>安装超凡堆叠。</AC_InstallArchoStack.jobString>
+
+	<AC_RemoveArchoStack.label>移除超凡堆叠</AC_RemoveArchoStack.label>
+	<AC_RemoveArchoStack.description>移除超凡堆叠。</AC_RemoveArchoStack.description>
+	<AC_RemoveArchoStack.jobString>移除超凡堆叠。</AC_RemoveArchoStack.jobString>
+
+	<AC_RewriteFilledCorticalStack.label>重写皮质堆叠</AC_RewriteFilledCorticalStack.label>
+	<AC_RewriteFilledCorticalStack.description>重写一个皮质堆叠。</AC_RewriteFilledCorticalStack.description>
+	<AC_RewriteFilledCorticalStack.jobString>重写皮质堆叠。</AC_RewriteFilledCorticalStack.jobString>
+
+    <!-- ================================ Cortical Stacks - Install Empty ====================== -->
+	<VFEU_InstallEmptyCorticalStack.label>安装空白皮质堆叠</VFEU_InstallEmptyCorticalStack.label>
+	<VFEU_InstallEmptyCorticalStack.description>安装一个空白皮质堆叠。</VFEU_InstallEmptyCorticalStack.description>
+    <VFEU_InstallEmptyCorticalStack.jobString>安装一个空白皮质堆叠。</VFEU_InstallEmptyCorticalStack.jobString>
+
+	<!-- ================================ Cortical Stacks - Filled Empty ====================== -->
+	<VFEU_InstallCorticalStack.label>安装已填充皮质堆叠</VFEU_InstallCorticalStack.label>
+	<VFEU_InstallCorticalStack.description>安装一个已填充的皮质堆叠。</VFEU_InstallCorticalStack.description>
+    <VFEU_InstallCorticalStack.jobString>安装一个已填充的皮质堆叠。</VFEU_InstallCorticalStack.jobString>
+
+	<!-- ================================ Cortical Stacks - Remove ====================== -->
+	<VFEU_RemoveCorticalStack.label>移除皮质堆叠</VFEU_RemoveCorticalStack.label>
+	<VFEU_RemoveCorticalStack.description>移除皮质堆叠。</VFEU_RemoveCorticalStack.description>
+    <VFEU_RemoveCorticalStack.jobString>移除皮质堆叠。</VFEU_RemoveCorticalStack.jobString>
+
+	<!-- ================================ Cortical Stacks - Destroy ====================== -->
+	<VFEU_ShredCorticalStacks.label>撕碎皮质堆叠</VFEU_ShredCorticalStacks.label>
+	<VFEU_ShredCorticalStacks.description>撕碎一个皮质堆叠以试图抢救可用的材料。</VFEU_ShredCorticalStacks.description>
+	<VFEU_ShredCorticalStacks.jobString>撕碎皮质堆叠。</VFEU_ShredCorticalStacks.jobString>
+
+	<VFEU_SmashCorticalStacks.label>砸碎皮质堆叠</VFEU_SmashCorticalStacks.label>
+	<VFEU_SmashCorticalStacks.description>用简单的手工工具砸碎一个皮质堆叠，以试图抢救可用的材料。</VFEU_SmashCorticalStacks.description>
+	<VFEU_SmashCorticalStacks.jobString>砸碎皮质堆叠。</VFEU_SmashCorticalStacks.jobString>
+
+	<!-- ================================ Hacking Ancient Stacks ====================== -->
+	<VFEU_DecryptAncientStack.label>解密远古堆叠</VFEU_DecryptAncientStack.label>
+	<VFEU_DecryptAncientStack.description>解密远古堆叠，试图修复他们或从中获取讯息。</VFEU_DecryptAncientStack.description>
+	<VFEU_DecryptAncientStack.jobString>解密远古堆叠。</VFEU_DecryptAncientStack.jobString>
+
+	<!-- ================================ Hacking Biocoded things ====================== -->
+	<VFEU_HackBiocodedThings.label>破解带有生物锁的物品</VFEU_HackBiocodedThings.label>
+	<VFEU_HackBiocodedThings.description>试图骇入并移除武器和装备上的生物锁以使其可用。如果失败，该物品将会被摧毁。</VFEU_HackBiocodedThings.description>
+	<VFEU_HackBiocodedThings.jobString>破解带有生物锁的物品。</VFEU_HackBiocodedThings.jobString>
+
+	<!-- ================================ Hacking - Wipe filled cortical stacks ====================== -->
+	<VFEU_WipeFilledCorticalStack.label>清除皮层堆叠</VFEU_WipeFilledCorticalStack.label>
+	<VFEU_WipeFilledCorticalStack.description>清除皮层堆叠，并移除储存在内的小人。</VFEU_WipeFilledCorticalStack.description>
+	<VFEU_WipeFilledCorticalStack.jobString>清除皮层堆叠。</VFEU_WipeFilledCorticalStack.jobString>
+
+</LanguageData>

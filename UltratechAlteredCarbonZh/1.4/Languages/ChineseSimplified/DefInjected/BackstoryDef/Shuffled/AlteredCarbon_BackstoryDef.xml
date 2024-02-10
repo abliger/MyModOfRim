@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- ================================ Sleeve Backstory Child ====================== -->
+	<VFEU_VatGrownChild.title>培养义体</VFEU_VatGrownChild.title>
+	<VFEU_VatGrownChild.titleShort>义体</VFEU_VatGrownChild.titleShort>
+	<VFEU_VatGrownChild.baseDesc>这个身体是在培养舱中生长的，里面没有意识。实际上来说他是脑死的且只能作为某人的皮层堆叠义体。</VFEU_VatGrownChild.baseDesc>
+
+	<!-- ================================ Sleeve Backstory Adult ====================== -->
+	<VFEU_VatGrownAdult.title>培养义体</VFEU_VatGrownAdult.title>
+	<VFEU_VatGrownAdult.titleShort>义体</VFEU_VatGrownAdult.titleShort>
+	<VFEU_VatGrownAdult.baseDesc>这个身体是在培养舱中生长的，里面没有意识。实际上来说他是脑死的且只能作为某人的皮层堆叠义体。</VFEU_VatGrownAdult.baseDesc>
+
+	<!-- ================================ Childhood ====================== -->
+	<AC_FrontierUpbringing.title>边疆教养</AC_FrontierUpbringing.title>
+	<AC_FrontierUpbringing.titleShort>移民</AC_FrontierUpbringing.titleShort>
+	<AC_FrontierUpbringing.baseDesc>[PAWN_nameDef]在最近被发现宜居的偏远殖民地长大。这使其有点难以融入人类生活。多亏这种艰辛以及把食物摆上餐桌的挣扎，[PAWN_pronoun]学会欣赏简单的事物，并且从不回避在田野或与谷仓动物相处的一天。</AC_FrontierUpbringing.baseDesc>
+
+	<AC_UrbanUpbringing.title>城市教养</AC_UrbanUpbringing.title>
+	<AC_UrbanUpbringing.titleShort>滚球</AC_UrbanUpbringing.titleShort>
+	<AC_UrbanUpbringing.baseDesc>[PAWN_nameDef]在核心世界之一长大。作为一个低贱者，它的家庭刚好足够遇到避免生活在贫民窟。由于从未吃过加工食品以外的东西，[PAWN_pronoun]在学校学习了人类历史的广泛教育。</AC_UrbanUpbringing.baseDesc>
+
+	<AC_SlumDweller.title>贫民窟居民</AC_SlumDweller.title>
+	<AC_SlumDweller.titleShort>贫民窟</AC_SlumDweller.titleShort>
+	<AC_SlumDweller.baseDesc>[PAWN_nameDef]在人口众多的工业世界众多棚户区的一个地方社区长大的。食物很难获得且只能靠搜刮获取，[PAWN_pronoun]使用许多方法来生存，并且没有引起执法部门的太多注意。</AC_SlumDweller.baseDesc>
+
+	<AC_DigitalUpbringing.title>数字化教养</AC_DigitalUpbringing.title>
+	<AC_DigitalUpbringing.titleShort>虚拟</AC_DigitalUpbringing.titleShort>
+	<AC_DigitalUpbringing.baseDesc>[PAWN_nameDef]在他们的堆叠整合后不久就经历了义体死亡，而[PAWN_possessive]的父母没有能力购买一个合适的义体。因此，[PAWN_pronoun]得到负担得起的少量虚拟课程和经验，并产生了不安全感和认同缺乏。</AC_DigitalUpbringing.baseDesc>
+
+	<AC_EarlyResleeving.title>早年义体化</AC_EarlyResleeving.title>
+	<AC_EarlyResleeving.titleShort>义体化</AC_EarlyResleeving.titleShort>
+	<AC_EarlyResleeving.baseDesc>[PAWN_nameDef]在[PAWN_possessive]早年经历了义体的意外死亡，按照受害者的要求他获得了新的义体。这个义体在各方面都完全不同。义体与堆叠间的失衡意味著[PAWN_pronoun]以一种混乱的方式体验生活。</AC_EarlyResleeving.baseDesc>
+
+	<AC_RichAspirant.title>富有抱负之人</AC_RichAspirant.title>
+	<AC_RichAspirant.titleShort>有志者</AC_RichAspirant.titleShort>
+	<AC_RichAspirant.baseDesc>[PAWN_nameDef]在一次慈善活动中与富人有所接触，并影响了[PAWN_possessive]的生活。[PAWN_possessive]愿意不惜一切代价也要变的同样富有。这个梦想的可行性有点困难，原因在于[PAWN_pronoun]想用权力帮助别人而不是累积财富。</AC_RichAspirant.baseDesc>
+
+	<AC_PowerObsessed.title>权力痴迷者</AC_PowerObsessed.title>
+	<AC_PowerObsessed.titleShort>痴迷者</AC_PowerObsessed.titleShort>
+	<AC_PowerObsessed.baseDesc>[PAWN_nameDef]很早就了解了富人和权贵的生活方式，因此[PAWN_pronoun]决定也想要这种体验。由于对非法或道德上模糊的行为没有任何顾忌，[PAWN_pronoun]以设法在社会阶级中工作并设法接触权贵的生活作为早期职业生涯中的一部分。</AC_PowerObsessed.baseDesc>
+
+	<AC_CoreWorldRecruit.title>禁卫军新兵</AC_CoreWorldRecruit.title>
+	<AC_CoreWorldRecruit.titleShort>新兵</AC_CoreWorldRecruit.titleShort>
+	<AC_CoreWorldRecruit.baseDesc>[PAWN_nameDef]年轻时就被核心世界的军队选中，因为他表现出的特质使[PAWN_possessive]成为一名不屈不饶的士兵。大多数训练都是在虚拟和战斗特化义体中进行的。[PAWN_pronoun]被证明是禁卫军的宝贵财产。</AC_CoreWorldRecruit.baseDesc>
+	
+	<!-- ================================ Adultdhood ====================== -->
+	<AC_SettledColonist.title>定居的殖民者</AC_SettledColonist.title>
+	<AC_SettledColonist.titleShort>殖民者</AC_SettledColonist.titleShort>
+	<AC_SettledColonist.baseDesc>[PAWN_nameDef]曾经在一个偏远的定居世界最初发展阶段中居住过，并帮助他们维持殖民地的运行。与生活在环世界相比生活是枯燥无味的，因为[PAWN_pronoun]总是处于当地政府的监视之下。</AC_SettledColonist.baseDesc>
+
+	<AC_SettledRefugee.title>定居的难民</AC_SettledRefugee.title>
+	<AC_SettledRefugee.titleShort>难民</AC_SettledRefugee.titleShort>
+	<AC_SettledRefugee.baseDesc>[PAWN_nameDef]根据一项重新安置计画，设法获得了定居世界的过境权。为了逃离危险和冲突，[PAWN_pronoun]希望开始不用担心突袭者和罪判抢夺[PAWN_possessive]辛苦得来的财产的新生活。</AC_SettledRefugee.baseDesc>
+
+	<AC_SettledCivilian.title>定居的平民</AC_SettledCivilian.title>
+	<AC_SettledCivilian.titleShort>都市居民</AC_SettledCivilian.titleShort>
+	<AC_SettledCivilian.baseDesc>[PAWN_nameDef]逐渐厌倦了生活在富人而不是地方政府统治的城市之生活方式。由于对政府的失败感到幻灭，[PAWN_pronoun]采取了第一个可负担的方式离开[PAWN_possessive]世界以为了获得对[PAWN_possessive]生活的某种控制。</AC_SettledCivilian.baseDesc>
+
+	<AC_VirtualAddict.title>虚拟成瘾者</AC_VirtualAddict.title>
+	<AC_VirtualAddict.titleShort>瘾君子</AC_VirtualAddict.titleShort>
+	<AC_VirtualAddict.baseDesc>[PAWN_nameDef]花费天文数字的金钱来体验虚拟现实所能提供的一切。无论是其他世界还是血腥竞技场、性体验或是生活的方法。当[PAWN_possessive]债务人开始尝试收回他们所欠的钱时，[PAWN_pronoun]最终被迫采取冷处理。</AC_VirtualAddict.baseDesc>
+
+	<AC_RichOutcast.title>被遗弃的富豪</AC_RichOutcast.title>
+	<AC_RichOutcast.titleShort>遗弃者</AC_RichOutcast.titleShort>
+	<AC_RichOutcast.baseDesc>[PAWN_nameDef]曾经富可敌国，后来因为出糗而被亲戚赶走且不再享有淫秽的财富与颓废的特权。[PAWN_pronoun]被迫在核心世界之外过著卑微的地主生活。</AC_RichOutcast.baseDesc>
+
+	<AC_PowerFanatic.title>权力狂热者</AC_PowerFanatic.title>
+	<AC_PowerFanatic.titleShort>狂热者</AC_PowerFanatic.titleShort>
+	<AC_PowerFanatic.baseDesc>[PAWN_nameDef]相信有权有势的人是正义的，他们是凡人中活生生的神。只要有足够的崇拜，[PAWN_pronoun]将会有幸加入他们的行列。自然的，[PAWN_pronoun]在不再有用的时候被遗弃，但这种教条式的信仰仍然存在。</AC_PowerFanatic.baseDesc>
+
+	<AC_PraetorianSoldier.title>禁卫军士兵</AC_PraetorianSoldier.title>
+	<AC_PraetorianSoldier.titleShort>禁卫军</AC_PraetorianSoldier.titleShort>
+	<AC_PraetorianSoldier.baseDesc>[PAWN_nameDef]是核心世界军事力量的一部分，并且以不同的义体经历过不同世界的多场战斗。依靠重新适应的药物，[PAWN_pronoun]随著时间推移可以使用多个战斗义体，却也因此发展出许多社会缺陷。</AC_PraetorianSoldier.baseDesc>
+</LanguageData>

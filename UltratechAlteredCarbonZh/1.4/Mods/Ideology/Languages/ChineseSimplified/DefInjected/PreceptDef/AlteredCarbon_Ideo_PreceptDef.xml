@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ================================ Precepts - Stacking Central ====================== -->
+	<AC_Stacking_Central.label>中央</AC_Stacking_Central.label>
+	<AC_Stacking_Central.description>没有皮质堆叠的我们把自己置于死亡的风险中，过著没有皮质堆叠的生活是无法想像的。</AC_Stacking_Central.description>
+
+	<!-- ================================ Precepts - Stacking Preferred ====================== -->
+	<AC_Stacking_Preferred.label>偏好</AC_Stacking_Preferred.label>
+	<AC_Stacking_Preferred.description>拥有皮质堆叠是新标准。没有它我随时有可能死亡。</AC_Stacking_Preferred.description>
+
+	<!-- ================================ Precepts - Stacking Despised ====================== -->
+	<AC_Stacking_Despised.label>鄙视</AC_Stacking_Despised.label>
+	<AC_Stacking_Despised.description>皮质堆叠侵犯了人类的纯洁性，应该永远不被使用。</AC_Stacking_Despised.description>
+
+	<!-- ================================ Precepts - Sleeving Demanded====================== -->
+	<AC_Sleeving_Demanded.label>需求</AC_Sleeving_Demanded.label>
+	<AC_Sleeving_Demanded.description>为什么要满足于大自然给我们的？一个人就该使用自己设计和选择的义体来做真正的自己。</AC_Sleeving_Demanded.description>
+
+	<!-- ================================ Precepts - Sleeving Preferred ===================== -->
+	<AC_Sleeving_Preferred.label>偏好</AC_Sleeving_Preferred.label>
+	<AC_Sleeving_Preferred.description>我们与生俱来的身体是有缺陷且往往是过时的。因此使用义体是可以理解的。</AC_Sleeving_Preferred.description>
+
+	<!-- ================================ Precepts - Sleeving Despised ===================== -->
+	<AC_Sleeving_Despised.label>鄙视</AC_Sleeving_Despised.label>
+	<AC_Sleeving_Despised.description>使用义体违反了自然和生命本身的奇迹。它们应该永远不被使用。</AC_Sleeving_Despised.description>
+
+	<!-- ================================ Precept - Cross Sleeving Don't Care ====================== -->
+	<AC_CrossSleeving_DontCare.label>不在乎</AC_CrossSleeving_DontCare.label>
+	<AC_CrossSleeving_DontCare.description>男性和女性只是同一个硬币的两面。在这两者间切换并没有什么麻烦。</AC_CrossSleeving_DontCare.description>
+
+	<!-- ================================ Precept - Cross Sleeving Despised ====================== -->	
+	<AC_CrossSleeving_Despised.label>鄙视</AC_CrossSleeving_Despised.label>
+	<AC_CrossSleeving_Despised.description>一个人出生时的性别是神圣的，不应该被转换。</AC_CrossSleeving_Despised.description>
+
+	<!-- ================================ Precepts - Duplicating - Enlightened ====================== -->
+	<AC_StackDuplicating_Enlightened.label>开明</AC_StackDuplicating_Enlightened.label>
+	<AC_StackDuplicating_Enlightened.description>塑造更多版本的自己意味著让更多目标得以实现，这是一件高尚的事情。</AC_StackDuplicating_Enlightened.description>
+
+	<!-- ================================ Precepts - Duplicating - Don't care ====================== -->
+	<AC_StackDuplicating_DontCare.label>不在乎</AC_StackDuplicating_DontCare.label>
+	<AC_StackDuplicating_DontCare.description>我们只是记忆与经历的集合体，制作一个复制体并没有什么麻烦。</AC_StackDuplicating_DontCare.description>
+
+	<!-- ================================ Precepts - Duplicating - Horrible ===================== -->
+	<AC_StackDuplicating_Horrible.label>可怕</AC_StackDuplicating_Horrible.label>
+	<AC_StackDuplicating_Horrible.description>做出自己的复制品是个可怕的罪行，不仅仅是对自然，对自己所创造出来的复制品也是。</AC_StackDuplicating_Horrible.description>
+
+	<!-- ================================ Precepts - Xeno-Sleeving Despised ====================== -->
+	<AC_XenoSleeving_DontCare.label>不在乎</AC_XenoSleeving_DontCare.label>
+	<AC_XenoSleeving_DontCare.description>我们身体上的微小差异无关紧要，以核心部份来说我们都是人类。</AC_XenoSleeving_DontCare.description>
+
+	<!-- ================================ Precepts - Xeno-Sleeving Despised ====================== -->
+	<AC_XenoSleeving_Despised.label>鄙视</AC_XenoSleeving_Despised.label>
+	<AC_XenoSleeving_Despised.description>一个人的异种基因是神圣的，缺换成另一种种类是卑鄙无耻的。</AC_XenoSleeving_Despised.description>
+
+	<!-- ================================ Precepts - Race-Sleeving Despised ====================== -->
+	<AC_RaceSleeving_DontCare.label>不在乎</AC_RaceSleeving_DontCare.label>
+	<AC_RaceSleeving_DontCare.description>即使是更大的生物变化也无关紧要，毕竟我们还是有生命的人。</AC_RaceSleeving_DontCare.description>
+
+	<!-- ================================ Precepts - Race-Sleeving Despised ====================== -->
+	<AC_RaceSleeving_Despised.label>鄙视</AC_RaceSleeving_Despised.label>
+	<AC_RaceSleeving_Despised.description>一个人的种系是神圣的，而放弃原始种系则是卑鄙无耻的。</AC_RaceSleeving_Despised.description>
+
+</LanguageData>

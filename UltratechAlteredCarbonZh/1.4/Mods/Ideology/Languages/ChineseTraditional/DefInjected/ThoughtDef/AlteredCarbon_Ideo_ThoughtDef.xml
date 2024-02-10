@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AC_Stacking_Central_Stack.stages.cortical_stack_installed.label>已植入皮質堆疊</AC_Stacking_Central_Stack.stages.cortical_stack_installed.label>
+    <AC_Stacking_Central_Stack.stages.cortical_stack_installed.description>我植入了一個堆疊，就像任何人類應該有的。世界是對的，而我本該如此。</AC_Stacking_Central_Stack.stages.cortical_stack_installed.description>
+
+    <AC_Stacking_Central_ArchoStack.stages.archo_stack_installed.label>已植入超凡堆疊</AC_Stacking_Central_ArchoStack.stages.archo_stack_installed.label>
+    <AC_Stacking_Central_ArchoStack.stages.archo_stack_installed.description>我植入了一個堆疊，就像任何人類應該有的。世界是對的，而我本該如此。</AC_Stacking_Central_ArchoStack.stages.archo_stack_installed.description>
+
+    <AC_Stacking_Central_NoStack.stages.no_stack_installed.label>沒有植入堆疊</AC_Stacking_Central_NoStack.stages.no_stack_installed.label>
+    <AC_Stacking_Central_NoStack.stages.no_stack_installed.description>我身上沒有植入任何堆疊。這是不對的！</AC_Stacking_Central_NoStack.stages.no_stack_installed.description>
+
+    <AC_Stacking_Central_Stack_Social.stages.installed_stack.label>已植入堆疊</AC_Stacking_Central_Stack_Social.stages.installed_stack.label>
+    <AC_Stacking_Central_NoStack_Social.stages.no_installed_stack.label>未植入堆疊</AC_Stacking_Central_NoStack_Social.stages.no_installed_stack.label>
+
+    <AC_Stacking_Preferred_Stack.stages.cortical_stack_installed.label>已植入皮質堆疊</AC_Stacking_Preferred_Stack.stages.cortical_stack_installed.label>
+    <AC_Stacking_Preferred_Stack.stages.cortical_stack_installed.description>我植入了一個堆疊，現在的我不會輕易被死亡帶走。</AC_Stacking_Preferred_Stack.stages.cortical_stack_installed.description>
+
+    <AC_Stacking_Preferred_ArchoStack.stages.archo_stack_installed.label>已植入遠古堆疊</AC_Stacking_Preferred_ArchoStack.stages.archo_stack_installed.label>
+    <AC_Stacking_Preferred_ArchoStack.stages.archo_stack_installed.description>我植入了一個堆疊，現在的我不會輕易被死亡帶走。</AC_Stacking_Preferred_ArchoStack.stages.archo_stack_installed.description>
+
+    <AC_Stacking_Preferred_NoStack.stages.no_stack_installed.label>未植入堆疊</AC_Stacking_Preferred_NoStack.stages.no_stack_installed.label>
+    <AC_Stacking_Preferred_NoStack.stages.no_stack_installed.description>如果我脖子上有堆疊，我會感覺更安全一點。</AC_Stacking_Preferred_NoStack.stages.no_stack_installed.description>
+
+    <AC_Stacking_Preferred_Stack_Social.stages.installed_stack.label>已植入堆疊</AC_Stacking_Preferred_Stack_Social.stages.installed_stack.label>
+    <AC_Stacking_Preferred_NoStack_Social.stages.no_installed_stack.label>未植入堆疊</AC_Stacking_Preferred_NoStack_Social.stages.no_installed_stack.label>
+
+    <!-- ================================ Precepts - Stacking Despised ====================== -->
+    <AC_Stacking_Despised_Stack.stages.cortical_stack_installed.label>已植入皮質堆疊</AC_Stacking_Despised_Stack.stages.cortical_stack_installed.label>
+    <AC_Stacking_Despised_Stack.stages.cortical_stack_installed.description>我植入了一個堆疊，這對我所相信的一切來說是個可憎的冒犯！</AC_Stacking_Despised_Stack.stages.cortical_stack_installed.description>
+
+    <AC_Stacking_Despised_ArchoStack.stages.archo_stack_installed.label>已植入超凡堆疊</AC_Stacking_Despised_ArchoStack.stages.archo_stack_installed.label>
+    <AC_Stacking_Despised_ArchoStack.stages.archo_stack_installed.description>我植入了一個堆疊，這對我所相信的一切來說是個可憎的冒犯！</AC_Stacking_Despised_ArchoStack.stages.archo_stack_installed.description>
+
+    <!-- ================================ Precepts - Sleeving Demanded====================== -->
+    <AC_Stacking_Despised_Stack_Social.stages.installed_stack.label>已植入堆疊</AC_Stacking_Despised_Stack_Social.stages.installed_stack.label>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.awful_sleeve.label>糟糕的義體</AC_Sleeving_Demanded_Sleeved.stages.awful_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved.stages.awful_sleeve.description>我的義體品質是糟糕的。</AC_Sleeving_Demanded_Sleeved.stages.awful_sleeve.description>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.poor_sleeve.label>低劣的義體</AC_Sleeving_Demanded_Sleeved.stages.poor_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved.stages.poor_sleeve.description>我的義體品質是低劣的。</AC_Sleeving_Demanded_Sleeved.stages.poor_sleeve.description>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.normal_sleeve.label>普通的義體</AC_Sleeving_Demanded_Sleeved.stages.normal_sleeve.label>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.good_sleeve.label>不錯的義體</AC_Sleeving_Demanded_Sleeved.stages.good_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved.stages.good_sleeve.description>我的義體品質是不錯的。</AC_Sleeving_Demanded_Sleeved.stages.good_sleeve.description>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.excellent_sleeve.label>優良的義體</AC_Sleeving_Demanded_Sleeved.stages.excellent_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved.stages.excellent_sleeve.description>我的義體品質是優良的。</AC_Sleeving_Demanded_Sleeved.stages.excellent_sleeve.description>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.masterwork_sleeve.label>大師級義體</AC_Sleeving_Demanded_Sleeved.stages.masterwork_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved.stages.masterwork_sleeve.description>我的義體品質是大師級別的。</AC_Sleeving_Demanded_Sleeved.stages.masterwork_sleeve.description>
+
+    <AC_Sleeving_Demanded_Sleeved.stages.legendary_sleeve.label>傳奇級義體</AC_Sleeving_Demanded_Sleeved.stages.legendary_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved.stages.legendary_sleeve.description>我的義體品質是傳奇級別的。</AC_Sleeving_Demanded_Sleeved.stages.legendary_sleeve.description>
+
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.awful_sleeve.label>糟糕的義體</AC_Sleeving_Demanded_Sleeved_Social.stages.awful_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.poor_sleeve.label>低劣的義體</AC_Sleeving_Demanded_Sleeved_Social.stages.poor_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.normal_sleeve.label>普通的義體</AC_Sleeving_Demanded_Sleeved_Social.stages.normal_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.good_sleeve.label>不錯的義體</AC_Sleeving_Demanded_Sleeved_Social.stages.good_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.excellent_sleeve.label>優良的義體</AC_Sleeving_Demanded_Sleeved_Social.stages.excellent_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.masterwork_sleeve.label>大師級義體</AC_Sleeving_Demanded_Sleeved_Social.stages.masterwork_sleeve.label>
+    <AC_Sleeving_Demanded_Sleeved_Social.stages.legendary_sleeve.label>傳奇級義體</AC_Sleeving_Demanded_Sleeved_Social.stages.legendary_sleeve.label>
+
+    <AC_Sleeving_Demanded_Sleeveless_Social.stages.sleeveless.label>無義體</AC_Sleeving_Demanded_Sleeveless_Social.stages.sleeveless.label>
+
+    <!-- ================================ Precepts - Sleeving Preferred ===================== -->
+    <AC_Sleeving_Preferred_Sleeved.stages.awful_sleeve.label>糟糕的品質</AC_Sleeving_Preferred_Sleeved.stages.awful_sleeve.label>
+    <AC_Sleeving_Preferred_Sleeved.stages.awful_sleeve.description>我的義體品質是糟糕的。</AC_Sleeving_Preferred_Sleeved.stages.awful_sleeve.description>
+
+    <AC_Sleeving_Preferred_Sleeved.stages.poor_sleeve.label>低劣的品質</AC_Sleeving_Preferred_Sleeved.stages.poor_sleeve.label>
+    <AC_Sleeving_Preferred_Sleeved.stages.poor_sleeve.description>我的義體品質是低劣的。</AC_Sleeving_Preferred_Sleeved.stages.poor_sleeve.description>
+
+    <AC_Sleeving_Preferred_Sleeved.stages.normal_quality_sleeve.label>普通的品質</AC_Sleeving_Preferred_Sleeved.stages.normal_quality_sleeve.label>
+
+    <AC_Sleeving_Preferred_Sleeved.stages.good_sleeve.label>不錯的品質</AC_Sleeving_Preferred_Sleeved.stages.good_sleeve.label>
+    <AC_Sleeving_Preferred_Sleeved.stages.good_sleeve.description>我的義體品質是不錯的。</AC_Sleeving_Preferred_Sleeved.stages.good_sleeve.description>
+
+    <AC_Sleeving_Preferred_Sleeved.stages.excellent_sleeve.label>優良的品質</AC_Sleeving_Preferred_Sleeved.stages.excellent_sleeve.label>
+    <AC_Sleeving_Preferred_Sleeved.stages.excellent_sleeve.description>我的義體品質是優良的。</AC_Sleeving_Preferred_Sleeved.stages.excellent_sleeve.description>
+
+    <AC_Sleeving_Preferred_Sleeved.stages.masterwork_sleeve.label>大師級品質</AC_Sleeving_Preferred_Sleeved.stages.masterwork_sleeve.label>
+    <AC_Sleeving_Preferred_Sleeved.stages.masterwork_sleeve.description>我的義體品質是大師級別的。</AC_Sleeving_Preferred_Sleeved.stages.masterwork_sleeve.description>
+
+    <AC_Sleeving_Preferred_Sleeved.stages.legendary_sleeve.label>傳奇級品質</AC_Sleeving_Preferred_Sleeved.stages.legendary_sleeve.label>
+    <AC_Sleeving_Preferred_Sleeved.stages.legendary_sleeve.description>我的義體品質是傳奇級別的。</AC_Sleeving_Preferred_Sleeved.stages.legendary_sleeve.description>
+
+    <!-- ================================ Precepts - Sleeving Despised ===================== -->
+	<AC_Sleeving_Despised_Sleeved.stages.sleeved.label>義體化</AC_Sleeving_Despised_Sleeved.stages.sleeved.label>
+    <AC_Sleeving_Despised_Sleeved.stages.sleeved.description>我被迫生活在一個不是由大自然賦予的身體裡，這很可怕且違背了我的信仰。</AC_Sleeving_Despised_Sleeved.stages.sleeved.description>
+
+    <AC_Sleeving_Despised_Sleeved_Social.stages.uses_sleeve.label>使用了義體</AC_Sleeving_Despised_Sleeved_Social.stages.uses_sleeve.label>
+
+    <!-- ================================ Precept - Cross Sleeving Despised ====================== -->	
+	<AC_Sleeving_Despised_CrossSleeving.stages.cross_sleeved.label>跨性別義體</AC_Sleeving_Despised_CrossSleeving.stages.cross_sleeved.label>
+    <AC_Sleeving_Despised_CrossSleeving.stages.cross_sleeved.description>我被迫生活在一個異性的身體裡，這很可怕且違背了我的信仰。</AC_Sleeving_Despised_CrossSleeving.stages.cross_sleeved.description>
+
+    <AC_Sleeving_Despised_CrossSleeving_Social.stages.cross_sleeved.label>跨性別義體</AC_Sleeving_Despised_CrossSleeving_Social.stages.cross_sleeved.label>
+    
+    <!-- ================================ Precepts - Duplicating - Enlightened ====================== -->
+	<AC_StackDuplicating_Enlightened_ForOriginal_Social.stages.enlightened_duplicate.label>開明</AC_StackDuplicating_Enlightened_ForOriginal_Social.stages.enlightened_duplicate.label>
+    
+    <AC_StackDuplicating_Enlightened_ForCopy_Social.stages.enlightened_original.label>啟蒙的原先體</AC_StackDuplicating_Enlightened_ForCopy_Social.stages.enlightened_original.label>
+    <AC_StackDuplicating_Enlightened_Social.stages.has_copy.label>擁有複製品</AC_StackDuplicating_Enlightened_Social.stages.has_copy.label>
+    
+    <!-- ================================ Precepts - Duplicating - Horrible ===================== -->
+	<AC_StackDuplicating_Horrible_ForOriginal_Social.stages.souless_duplicate.label>沒有靈魂的複製品</AC_StackDuplicating_Horrible_ForOriginal_Social.stages.souless_duplicate.label>
+    <AC_StackDuplicating_Horrible_ForCopy_Social.stages.shattered_soul.label>破碎的靈魂</AC_StackDuplicating_Horrible_ForCopy_Social.stages.shattered_soul.label>
+    <AC_StackDuplicating_Horrible_Social.stages.has_copy.label>擁有複製品</AC_StackDuplicating_Horrible_Social.stages.has_copy.label>
+
+    <!-- ================================ Precepts - Xeno-Sleeving Despised ====================== -->
+	<AC_XenoSleeving_Despised_Xenosleeved.stages.xeno_sleeved.label>異種化義體</AC_XenoSleeving_Despised_Xenosleeved.stages.xeno_sleeved.label>
+    <AC_XenoSleeving_Despised_Xenosleeved.stages.xeno_sleeved.description>我的身體並未呈現成我原生的身體。</AC_XenoSleeving_Despised_Xenosleeved.stages.xeno_sleeved.description>
+
+    <AC_XenoSleeving_Despised_Xenosleeved_Social.stages.xeno_sleeved.label>異種化義體</AC_XenoSleeving_Despised_Xenosleeved_Social.stages.xeno_sleeved.label>
+
+    <AC_RaceSleeving_Despised_Racesleeved.label>種系化義體</AC_RaceSleeving_Despised_Racesleeved.label>
+    <AC_RaceSleeving_Despised_Racesleeved.description>我的身體並未呈現成我原生的身體。</AC_RaceSleeving_Despised_Racesleeved.description>
+
+    <AC_RaceSleeving_Despised_Racesleeved_Social.label>種系化義體</AC_RaceSleeving_Despised_Racesleeved_Social.label>
+    
+</LanguageData>

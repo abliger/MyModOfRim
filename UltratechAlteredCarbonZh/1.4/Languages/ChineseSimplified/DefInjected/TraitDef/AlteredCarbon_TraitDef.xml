@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VFEU_FreeMind.degreeDatas.free_mind.label>思想开放</VFEU_FreeMind.degreeDatas.free_mind.label>
+    <VFEU_FreeMind.degreeDatas.free_mind.description>{PAWN_nameDef}一直认为他们的身体只不过是心灵的容器。{Pawn_pronoun}并不关心他们身体的性别、年龄或长相。</VFEU_FreeMind.degreeDatas.free_mind.description>
+
+    <VFEU_Sleever.degreeDatas.sleever.label>义体自由</VFEU_Sleever.degreeDatas.sleever.label>
+    <VFEU_Sleever.degreeDatas.sleever.description>{PAWN_nameDef}使切换义体像换衣服一样自由。{Pawn_pronoun}并不关心{Pawn_pronoun}切换义体的频率，也不关心{Pawn_pronoun}现在正在使用哪个义体。</VFEU_Sleever.degreeDatas.sleever.description>
+
+</LanguageData>

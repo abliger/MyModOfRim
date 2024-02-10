@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Anima Animals patch</name>
+	<author>abliger</author>
+	<packageId>abliger.AnimaAnimalsCombined</packageId>
+	<description> fix animaheart invalid</description>
+	  <modDependencies>
+		<li>
+			<packageId>hh.xrushha.AnimaAnimalsCombined</packageId>
+			<displayName>Anima Animals - Community Pack (temp)[HH]</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2899149743</steamWorkshopUrl>
+		</li>
+	</modDependencies>	
+	<loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>hh.xrushha.AnimaAnimalsCombined</li>
+	</loadAfter>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+</ModMetaData>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VFEU_Apparel_ProtectorHelmet.label>保護者頭盔</VFEU_Apparel_ProtectorHelmet.label>
+    <VFEU_Apparel_ProtectorHelmet.description>一個保護者發行的動力裝甲頭盔。與標準的海軍陸戰裝甲相比，它的保護能力得到提升。整個頭盔都是由塑鋼為原料製成，具有戰術遙測回饋與瞄準輔助功能。</VFEU_Apparel_ProtectorHelmet.description>
+
+    <VFEU_Apparel_ProtectorArmor.label>保護者裝甲</VFEU_Apparel_ProtectorArmor.label>
+    <VFEU_Apparel_ProtectorArmor.description>一套保護者發行的動力裝甲。與標準的海軍陸戰裝甲相比，它的保護能力得到提升。整個裝甲都是由塑鋼為原料製成，同時具有機載處理器協助活動與抑制痛覺感受器。</VFEU_Apparel_ProtectorArmor.description>
+
+    <AC_Gun_Autorevolver.label>自動左輪手槍</AC_Gun_Autorevolver.label>
+	<AC_Gun_Autorevolver.description>一把老式自動左輪手槍。它結合了普通手槍和經典左輪手槍的優點。它的拔槍速度很快。</AC_Gun_Autorevolver.description>
+    <AC_Gun_Autorevolver.tools.grip.label>把手</AC_Gun_Autorevolver.tools.grip.label>
+    <AC_Gun_Autorevolver.tools.barrel.label>砲管</AC_Gun_Autorevolver.tools.barrel.label>
+    <AC_Gun_Autorevolver.verbs.Verb_Shoot.label>自動左輪手槍。</AC_Gun_Autorevolver.verbs.Verb_Shoot.label>
+
+	<!-- ================================ Ancient Cortical Stacks ====================== -->
+	<VFEU_AncientStack.label>遠古皮質堆疊</VFEU_AncientStack.label>
+	<VFEU_AncientStack.description>一個古老的超科技植入物，曾經儲存了一個人的意識。由於年代久遠和多年的疏忽而損壞，但可能仍有值得搶救的數據。</VFEU_AncientStack.description>
+
+	<VFEU_UnfinishedAncientStack.label>遠古堆疊半成品</VFEU_UnfinishedAncientStack.label>
+	<VFEU_UnfinishedAncientStack.description>一個未完成的遠古堆疊。</VFEU_UnfinishedAncientStack.description>
+
+    <VFEU_EmptyCorticalStack.label>空白皮質堆疊</VFEU_EmptyCorticalStack.label>
+	<VFEU_EmptyCorticalStack.description>一個空白的，可以儲存人類意識並植入宿主脖子的超科技植入物。應不惜一切代價避免脖子與頭部被子彈擊中或受到鈍器重擊。極其罕見且難以製造。</VFEU_EmptyCorticalStack.description>
+
+	<VFEU_FilledCorticalStack.label>皮質堆疊</VFEU_FilledCorticalStack.label>
+	<VFEU_FilledCorticalStack.description>一種超科技植入物，上面儲存著人類的意識。可以植入一個空的義體或隨機的身體，並使儲存在皮質堆中的人類復活。</VFEU_FilledCorticalStack.description>
+
+
+	<AC_EmptyArchoStack.label>空白超凡堆疊</AC_EmptyArchoStack.label>
+	<AC_EmptyArchoStack.description>一個空的，可以儲存人類意識的遠古技術植入物，可以直接植入宿主的脖子。比其超科技衍生品更加堅固，它們不可能被製造出來，只能被偶然發現。</AC_EmptyArchoStack.description>
+
+	<AC_FilledArchoStack.label>超凡堆疊</AC_FilledArchoStack.label>
+	<AC_FilledArchoStack.description>一種遠古技術植入物，上面儲存著人類的意識。可以植入一個空的義體或隨機的身體，並使儲存在皮質堆中的人類復活。</AC_FilledArchoStack.description>
+
+    <!-- ================================ Sleeve Incubator ====================== -->
+
+	<VFEU_SleeveIncubator.label>義體培養艙</VFEU_SleeveIncubator.label>
+	<VFEU_SleeveIncubator.description>一個極其複雜的營養艙，能夠培養出沒有自我思想的義體。在培養過程中使用了中性胺，以使身體在不同階段成長。在整個培養過程中，培養艙必須全程保持供電。如果長時間無電力供給，培養過程將會失敗。\n\n簡單低階的義體可以被快速製造出來，然而更複雜且精密的義體則需要花費更長時間，同時需要更多的營養物質來確保身體正常發育。一旦義體完成生長，應該要被取出和照顧，因為義體並沒有能力獨立移動或思考，包括自我餵養。</VFEU_SleeveIncubator.description>
+    <VFEU_SleeveIncubator.comps.CompRefuelable.fuelGizmoLabel>中性胺</VFEU_SleeveIncubator.comps.CompRefuelable.fuelGizmoLabel>
+    <VFEU_SleeveIncubator.comps.CompRefuelable.fuelLabel>中性胺</VFEU_SleeveIncubator.comps.CompRefuelable.fuelLabel>
+    <VFEU_SleeveIncubator.comps.CompRefuelable.outOfFuelMessage>無法培養：需要中性胺</VFEU_SleeveIncubator.comps.CompRefuelable.outOfFuelMessage>
+
+
+    <!-- ================================ Sleeve Casket	====================== -->
+	
+    <VFEU_SleeveCasket.label>義體套筒</VFEU_SleeveCasket.label>
+	<VFEU_SleeveCasket.description>一個開放的石棺，設計用來使義體保持假死狀態的同時允許進行醫療服務，像是安裝植入物或是仿生物。</VFEU_SleeveCasket.description>
+    <VFEU_SleeveCasket.comps.CompRefuelable.fuelGizmoLabel>中性胺</VFEU_SleeveCasket.comps.CompRefuelable.fuelGizmoLabel>
+    <VFEU_SleeveCasket.comps.CompRefuelable.fuelLabel>中性胺</VFEU_SleeveCasket.comps.CompRefuelable.fuelLabel>
+
+    <!-- ================================ Decryption Bench ====================== -->
+	
+    <VFEU_DecryptionBench.label>解密工作臺</VFEU_DecryptionBench.label>
+	<VFEU_DecryptionBench.description>一個複雜的工作臺，允許用戶連接至皮質堆疊以改變內涵數據，如改變效忠者或甚至是將資料清除乾淨。也可以解除物品上的生物鎖。\n\n由於這個過程相當激進，解密過程中有可能會摧毀物品。</VFEU_DecryptionBench.description>
+
+
+    <!-- ================================ Stack Array ====================== -->
+	
+    <AC_StackArray.label>堆疊陣列</AC_StackArray.label>
+	<AC_StackArray.description>一個量子計算陣列，被設計用來儲存皮質堆疊並對其進行備份以備不時之需。皮質堆疊可以被複製，當被放置於陣列內時，備份在陣列之間是同步的，允許建立多個陣列。\n\n堆疊陣列將每24小時對安裝在本地地圖上的任何殖民地皮質堆疊進行一次自動備份，如果原始堆疊被摧毀，備份會被恢復回空的皮質堆疊。</AC_StackArray.description>
+	
+    <!-- ================================ Gene Centrifuge ====================== -->
+	
+    <AC_GeneCentrifuge.label>基因離心機</AC_GeneCentrifuge.label>
+	<AC_GeneCentrifuge.description>一個複雜的離心系統，能透過利用為小的分子差異分離出理想的遺傳物質。實際上，這個建築可以將想要的基因從基因包分離出來。經過這個程序後，將產生兩個基因包，其中一個是選定的基因，而另一個則是剩餘的基因。</AC_GeneCentrifuge.description>
+	
+    <!-- ================================ Gene Vault ====================== -->
+	
+    <AC_GeneVault.label>基因儲藏庫</AC_GeneVault.label>
+	<AC_GeneVault.description>一個基因組合處理器與兩個高級基因庫結合的建築。當此建築放置於基因組裝機附近時，可以增加異種基因的最大複雜度，同時在組裝過程中存取大量儲存的基因包。當供電時，基因儲藏庫可以預防基因包衰敗，並且會緩慢修復基因損傷。</AC_GeneVault.description>
+	
+    <!-- ================================ Xenogerm Duplicator ====================== -->
+	
+    <AC_XenoGermDuplicator.label>異種基因複製機</AC_XenoGermDuplicator.label>
+	<AC_XenoGermDuplicator.description>一臺非常簡單的機器，可以合成遺傳物質以便大量製造現有異種基因的精確副本。這個建築可以複製任何現有的異種基因，包括任何現有的遠古基因，只要能提供它足夠數量的遠古膠囊。</AC_XenoGermDuplicator.description>
+    <AC_XenoGermDuplicator.comps.CompRefuelable.fuelGizmoLabel>遠古膠囊</AC_XenoGermDuplicator.comps.CompRefuelable.fuelGizmoLabel>
+    <AC_XenoGermDuplicator.comps.CompRefuelable.fuelLabel>遠古膠囊</AC_XenoGermDuplicator.comps.CompRefuelable.fuelLabel>
+
+</LanguageData>

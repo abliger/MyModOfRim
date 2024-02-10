@@ -1,7 +1,12 @@
-Assemblies/
-.vs/
-bin/
-obj/
+**/bin/ 
+**/obj/
+**/.vs/
+**/.vscode/
+*.pdb
+zhoushen_music/
+SaveOurShip2Experimental-main/
+.vscode/
+Portraits-of-the-Rim/
 Properties/
 .DS_Store
-.vscode
+*.code-workspace

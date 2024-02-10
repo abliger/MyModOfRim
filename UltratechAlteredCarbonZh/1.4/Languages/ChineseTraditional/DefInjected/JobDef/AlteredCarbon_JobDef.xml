@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<AC_DuplicateStack.reportString>複製皮質堆疊</AC_DuplicateStack.reportString>
+	<AC_CreateStackFromBackup.reportString>從備份中恢復皮質堆疊</AC_CreateStackFromBackup.reportString>
+	<AC_HaulingStacks.reportString>將目標A拖至目標B。</AC_HaulingStacks.reportString>
+	<AC_InsertingThingIntoProcessor.reportString>將目標A插入至目標B。</AC_InsertingThingIntoProcessor.reportString>
+	<AC_HaulCorpseToSleeveGrower.reportString>將目標A拖至目標B。</AC_HaulCorpseToSleeveGrower.reportString>
+	<AC_CancelRepurposingBody.reportString>取消在義體培養艙的身體再利用</AC_CancelRepurposingBody.reportString>
+
+	<VFEU_ExtractStack.reportString>從目標中提取皮質堆疊</VFEU_ExtractStack.reportString>
+	<VFEU_ReleaseSleeve.reportString>釋放義體</VFEU_ReleaseSleeve.reportString>
+	<VFEU_StartIncubatingProcess.reportString>在培養艙上開始培養程序</VFEU_StartIncubatingProcess.reportString>
+	<VFEU_CancelIncubatingProcess.reportString>取消培養艙的培養程序</VFEU_CancelIncubatingProcess.reportString>
+
+	<AC_TakeEmptySleeve.reportString>帶走空白義體。</AC_TakeEmptySleeve.reportString>
+
+
+</LanguageData>

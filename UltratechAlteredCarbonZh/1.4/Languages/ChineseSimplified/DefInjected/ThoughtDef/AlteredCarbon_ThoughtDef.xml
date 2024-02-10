@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VFEU_WrongGender.stages.different_sleeve_gender.label>不一样的性别</VFEU_WrongGender.stages.different_sleeve_gender.label>
+    <VFEU_WrongGender.stages.different_sleeve_gender.description>这具义体的性别并不属于我，这是错的。</VFEU_WrongGender.stages.different_sleeve_gender.description>
+
+    <VFEU_WrongGenderDouble.stages.different_sleeve_gender.label>不一样的性别</VFEU_WrongGenderDouble.stages.different_sleeve_gender.label>
+    <VFEU_WrongGenderDouble.stages.different_sleeve_gender.description>这具义体的性别并不属于我，这是错的。</VFEU_WrongGenderDouble.stages.different_sleeve_gender.description>
+
+    <VFEU_WrongGenderPregnant.stages.VFEU_WrongGenderPregnant.label>异性怀孕</VFEU_WrongGenderPregnant.stages.VFEU_WrongGenderPregnant.label>
+    <VFEU_WrongGenderPregnant.stages.VFEU_WrongGenderPregnant.description>我怀孕了，但这具义体的性别是错误的。</VFEU_WrongGenderPregnant.stages.VFEU_WrongGenderPregnant.description>
+
+    <!-- ================================ New Sleeve ====================== -->
+
+    <VFEU_NewSleeve.stages.New_sleeve.label>新的义体</VFEU_NewSleeve.stages.New_sleeve.label>
+    <VFEU_NewSleeve.stages.New_sleeve.description>我现在有了新的义体，这需要一点时间习惯。</VFEU_NewSleeve.stages.New_sleeve.description>
+
+    <VFEU_NewSleeveDouble.stages.New_sleeve.label>新的义体</VFEU_NewSleeveDouble.stages.New_sleeve.label>
+    <VFEU_NewSleeveDouble.stages.New_sleeve.description>我现在有了新的义体，这需要一点时间习惯。</VFEU_NewSleeveDouble.stages.New_sleeve.description>
+
+    <!-- ================================ Wrong Sleeve Gender ====================== -->
+
+    <VFEU_MansBody.stages.A_mans_body.label>男性的义体</VFEU_MansBody.stages.A_mans_body.label>
+    <VFEU_MansBody.stages.A_mans_body.description>我在使用男性的义体，我并不喜欢这样！</VFEU_MansBody.stages.A_mans_body.description>
+
+    <VFEU_WomansBody.stages.A_womans_body.label>女性的义体</VFEU_WomansBody.stages.A_womans_body.label>
+    <VFEU_WomansBody.stages.A_womans_body.description>我在使用女性的义体，我并不喜欢这样！</VFEU_WomansBody.stages.A_womans_body.description>
+
+    <!-- ================================ Duplication Thoughts - Lovers ====================== -->
+    <AC_JustCopy.stages.Just_a_copy.label>只是个复制品</AC_JustCopy.stages.Just_a_copy.label>
+    <AC_JustCopy.stages.Just_a_copy.description>我只不过是个复制品...我到底是什么？</AC_JustCopy.stages.Just_a_copy.description>
+
+    <AC_LostMySpouse.stages.Lost_my_spouse.label>失去我的配偶</AC_LostMySpouse.stages.Lost_my_spouse.label>
+    <AC_LostMySpouse.stages.Lost_my_spouse.description>我的配偶爱著原先的我，但是我仍然爱他们。这不公平...</AC_LostMySpouse.stages.Lost_my_spouse.description>
+
+    <AC_LostMyFiance.stages.Lost_my_fiance.label>失去我的未婚夫</AC_LostMyFiance.stages.Lost_my_fiance.label>
+    <AC_LostMyFiance.stages.Lost_my_fiance.description>我的未婚夫原先的我，但是我仍然爱他们。这不公平...</AC_LostMyFiance.stages.Lost_my_fiance.description>
+
+    <AC_LostMyLover.stages.Lost_my_lover.label>失去我的爱人</AC_LostMyLover.stages.Lost_my_lover.label>
+    <AC_LostMyLover.stages.Lost_my_lover.description>我的爱人原先的我，但是我仍然爱他们。这不公平...</AC_LostMyLover.stages.Lost_my_lover.description>
+
+    <!-- ================================ Duplication Thoughts - Original Died or Lost ====================== -->
+    <AC_MyOriginalDied.stages.my_original_copy_died.label>最原始的我{0}死了</AC_MyOriginalDied.stages.my_original_copy_died.label>
+    <AC_MyOriginalDied.stages.my_original_copy_died.description>最原始的我死了，现在我又是孤单一人。</AC_MyOriginalDied.stages.my_original_copy_died.description>
+
+    <AC_MyOriginalLostMale.stages.my_original_copy_is_missing.label>最原始的我{0}失踪了</AC_MyOriginalLostMale.stages.my_original_copy_is_missing.label>
+    <AC_MyOriginalLostMale.stages.my_original_copy_is_missing.description>最原始的我失踪了，希望他有天能回来我们身边。</AC_MyOriginalLostMale.stages.my_original_copy_is_missing.description>
+
+    <AC_MyOriginalLostFemale.stages.my_original_copy_is_missing.label>最原始的我{0}失踪了</AC_MyOriginalLostFemale.stages.my_original_copy_is_missing.label>
+    <AC_MyOriginalLostFemale.stages.my_original_copy_is_missing.description>最原始的我失踪了，希望她有天能回来我们身边。</AC_MyOriginalLostFemale.stages.my_original_copy_is_missing.description>
+
+    <AC_KilledMyOriginal.stages.killed_my_original.label>杀死了最原始的我</AC_KilledMyOriginal.stages.killed_my_original.label>
+
+    <!-- ================================ Duplication Thoughts - Copy Died or Lost ====================== -->
+
+    <AC_MyCopyDied.stages.my_copy_died.label>我的复制品{0}死了</AC_MyCopyDied.stages.my_copy_died.label>
+    <AC_MyCopyDied.stages.my_copy_died.description>我的复制品死了，现在我又是孤单一人。</AC_MyCopyDied.stages.my_copy_died.description>
+
+    <AC_MyCopyLostMale.stages.my_copy_is_missing.label>我最初的复制品{0}失踪了</AC_MyCopyLostMale.stages.my_copy_is_missing.label>
+    <AC_MyCopyLostMale.stages.my_copy_is_missing.description>我最初的复制品失踪了，希望他有天能回来我们身边。</AC_MyCopyLostMale.stages.my_copy_is_missing.description>
+
+    <AC_MyCopyLostFemale.stages.my_copy_is_missing.label>我最初的复制品{0}失踪了</AC_MyCopyLostFemale.stages.my_copy_is_missing.label>
+    <AC_MyCopyLostFemale.stages.my_copy_is_missing.description>我最初的复制品失踪了，希望她有天能回来我们身边。</AC_MyCopyLostFemale.stages.my_copy_is_missing.description>
+
+    <AC_KilledMyCopy.stages.killed_my_copy.label>杀死了我的复制品</AC_KilledMyCopy.stages.killed_my_copy.label>
+
+    <!-- ================================ Degradation Thoughts ====================== -->
+    <AC_StackDegradationThought.stages.Bugging_feeling.label>烦人的感觉</AC_StackDegradationThought.stages.Bugging_feeling.label>
+    <AC_StackDegradationThought.stages.Bugging_feeling.description>有些事情困扰著我，但我却无法确切指出。</AC_StackDegradationThought.stages.Bugging_feeling.description>
+
+    <AC_StackDegradationThought.stages.Feeling_off.label>感觉不舒服</AC_StackDegradationThought.stages.Feeling_off.label>
+    <AC_StackDegradationThought.stages.Feeling_off.description>感觉有点不太对劲，但当我想指出时它却从脑中溜走了...</AC_StackDegradationThought.stages.Feeling_off.description>
+
+    <AC_StackDegradationThought.stages.Something_is_wrong.label>事情不太对</AC_StackDegradationThought.stages.Something_is_wrong.label>
+    <AC_StackDegradationThought.stages.Something_is_wrong.description>我有点不太对劲，这是不对的...</AC_StackDegradationThought.stages.Something_is_wrong.description>
+
+    <AC_StackDegradationThought.stages.Feeling_unlike_myself.label>感觉不像我自己</AC_StackDegradationThought.stages.Feeling_unlike_myself.label>
+    <AC_StackDegradationThought.stages.Feeling_unlike_myself.description>我不再感觉我是我自己了，我的记忆...一切事情都没意义了！</AC_StackDegradationThought.stages.Feeling_unlike_myself.description>
+
+    <AC_StackDegradationThought.stages.Not_myself.label>这不是我自己</AC_StackDegradationThought.stages.Not_myself.label>
+    <AC_StackDegradationThought.stages.Not_myself.description>我的记忆跟我现在的身分并不一致，有人扰乱了我的思绪！</AC_StackDegradationThought.stages.Not_myself.description>
+
+    <AC_StackDegradationThought.stages.Stranger_to_myself.label>陌生的自己</AC_StackDegradationThought.stages.Stranger_to_myself.label>
+    <AC_StackDegradationThought.stages.Stranger_to_myself.description>我觉得我自己像个陌生人，哪些记忆是我的而哪些记忆是被改变的？我不能在这样生活下去了！</AC_StackDegradationThought.stages.Stranger_to_myself.description>
+
+    <VFEU_WrongXenotype.stages.different_sleeve_xenotype.label>不一致的异种基因</VFEU_WrongXenotype.stages.different_sleeve_xenotype.label>
+    <VFEU_WrongXenotype.stages.different_sleeve_xenotype.description>这义体上的异种基因并不是我的，这感觉不太对。</VFEU_WrongXenotype.stages.different_sleeve_xenotype.description>
+
+
+</LanguageData>

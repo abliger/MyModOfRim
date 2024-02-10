@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 此处寻找需要修改的mod，rimworld为了兼容，这里直接使用 mod 名，而不是 packageId -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Anima Animals - Community Pack (temp)[HH]</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- 替换标签命令 -->
+                <li Class="PatchOperationReplace">
+                    <!-- xpath 使用@符号指定需要查找到属性 -->
+                    <xpath>/Defs/ThingDef[defName="AnimaHeart"]/comps/li[@Class="CompProperties_UseEffect"]</xpath>
+                    <value>
+                        <li Class="CompProperties_UseEffectDestroySelf" />
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

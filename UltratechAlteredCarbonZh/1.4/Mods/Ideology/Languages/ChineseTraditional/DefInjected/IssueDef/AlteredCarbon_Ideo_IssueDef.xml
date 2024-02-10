@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ================================ Issues ====================== -->
+	<AC_Stacking.label>堆疊</AC_Stacking.label>
+	<AC_Sleeving.label>義體化</AC_Sleeving.label>
+	<AC_CrossSleeving.label>交互義體化</AC_CrossSleeving.label>
+	<AC_StackDuplicating.label>複製</AC_StackDuplicating.label>
+	<AC_XenoSleeving.label>異種義體</AC_XenoSleeving.label>
+	<AC_RaceSleeving.label>種系義體</AC_RaceSleeving.label>
+
+</LanguageData>

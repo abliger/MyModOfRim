@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<AC_AdvancedPoweredArmor.label>高级装甲</AC_AdvancedPoweredArmor.label>
+	<AC_AdvancedPoweredArmor.description>建造先进的动力装甲，旨在为人类提供最佳保护。请注意，这些还需要高级组件。</AC_AdvancedPoweredArmor.description>
+
+	<VFEU_Hacking.label>骇入程序</VFEU_Hacking.label>
+	<VFEU_Hacking.description>建造工作台以解密和改变已填充皮质堆叠的内容，同时也能解除生物锁。</VFEU_Hacking.description>
+
+	<AC_Sleeving.label>义体培育</AC_Sleeving.label>
+	<AC_Sleeving.description>建立培养空白义体的设施，为皮质堆叠的植入做好准备。</AC_Sleeving.description>
+
+	<AC_CorticalCrafting.label>皮质堆叠</AC_CorticalCrafting.label>
+	<AC_CorticalCrafting.description>以高级零件与其他材料制造先进的超科技皮质堆叠。</AC_CorticalCrafting.description>
+
+	<AC_RewriteCorticalStack.label>皮质修改</AC_RewriteCorticalStack.label>
+	<AC_RewriteCorticalStack.description>利用皮质堆叠软体中的漏洞修改皮质堆叠数据。</AC_RewriteCorticalStack.description>
+
+</LanguageData>

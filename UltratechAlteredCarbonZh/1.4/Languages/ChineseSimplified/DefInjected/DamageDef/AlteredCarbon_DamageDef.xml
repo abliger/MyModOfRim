@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VFEU_Deterioration.label>衰败</VFEU_Deterioration.label>
+    <VFEU_Deterioration.deathMessage>{0}因衰败而死。</VFEU_Deterioration.deathMessage>
+
+</LanguageData>

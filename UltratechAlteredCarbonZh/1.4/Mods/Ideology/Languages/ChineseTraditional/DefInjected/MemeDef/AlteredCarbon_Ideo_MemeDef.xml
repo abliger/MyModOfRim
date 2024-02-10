@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AC_Ouroboros.label>銜尾蛇</AC_Ouroboros.label>
+    <AC_Ouroboros.description>我們是起始同時也是終點，因為我們超越死亡。我們將永遠活著，從現在開始到宇宙的盡頭。</AC_Ouroboros.description>
+    
+    <AC_Ouroboros.descriptionMaker.rules.rulesStrings>
+        <!-- theist myth -->
+        <li>creation(tag=meme_Ouroboros)        ->[deity0_name]授予我們如何欺騙死亡的知識，使我們可以長生不老並盡情地探索宇宙。</li>
+        <li>episode(uses=1,tag=meme_Ouroboros)  ->人類的生物工程師創造了品質極佳的義體，這讓[deity0_objective]很高興。</li>
+        <li>episode(uses=1,tag=meme_Ouroboros)  ->正如[deity0_name]所希望的那樣，人類放棄了男性與女性的舊有框架。</li>
+        <!-- ideological lesson -->
+        <li>lessonIntro(tag=meme_Ouroboros)         ->人類偉大的未來是沒有死亡的未來，在那裡身體只不過是為我們難以置信的智慧提供的容器。</li>
+        <li>lesson(tag=meme_Ouroboros)              ->因為死亡只不過是我們通往完美生物道路上其中一個障礙。</li>
+    </AC_Ouroboros.descriptionMaker.rules.rulesStrings>
+
+    <AC_Ouroboros.generalRules.rulesStrings>
+        <li>memeAdjective->不朽的</li>
+        <li>memeAdjective->無盡的</li>
+        <li>memeAdjective->倫理的</li>
+        <li>memeAdjective->不褪色的</li>
+        <li>memeAdjective->永恆的</li>
+        <li>memeAdjective->耐用的</li>
+        <li>memeLeaderNoun->恆定</li>
+        <li>memeConcept->永生主義</li>
+        <li>memeConcept->長生不老</li>
+        <li>memeConcept->不死</li>
+        <li>memeConcept->增強</li>
+        <li>memeLeaderAdjective->不死的</li>
+        <li>memeLeaderAdjective->永恆的</li>
+        <li>memeMoralist->植入者</li>
+        <li>memeMoralist->保存者</li>
+        <li>memeMoralist->先驅者</li>
+        <li>memeMoralist->永恆主義者</li>
+    </AC_Ouroboros.generalRules.rulesStrings>
+
+    <AC_Ouroboros.symbolPacks.0.adjective>科技主義</AC_Ouroboros.symbolPacks.0.adjective>
+    <AC_Ouroboros.symbolPacks.0.ideoName>科技</AC_Ouroboros.symbolPacks.0.ideoName>
+    <AC_Ouroboros.symbolPacks.0.member>技術人員</AC_Ouroboros.symbolPacks.0.member>
+    <AC_Ouroboros.symbolPacks.0.theme>科技</AC_Ouroboros.symbolPacks.0.theme>
+
+    <AC_Ouroboros.symbolPacks.1.adjective>進步主義</AC_Ouroboros.symbolPacks.1.adjective>
+    <AC_Ouroboros.symbolPacks.1.ideoName>進步主義</AC_Ouroboros.symbolPacks.1.ideoName>
+    <AC_Ouroboros.symbolPacks.1.member>進步者</AC_Ouroboros.symbolPacks.1.member>
+    <AC_Ouroboros.symbolPacks.1.theme>進步</AC_Ouroboros.symbolPacks.1.theme>
+
+    <AC_Ouroboros.symbolPacks.2.adjective>自動化</AC_Ouroboros.symbolPacks.2.adjective>
+    <AC_Ouroboros.symbolPacks.2.ideoName>自動</AC_Ouroboros.symbolPacks.2.ideoName>
+    <AC_Ouroboros.symbolPacks.2.member>自動操作者</AC_Ouroboros.symbolPacks.2.member>
+    <AC_Ouroboros.symbolPacks.2.theme>自動機</AC_Ouroboros.symbolPacks.2.theme>
+
+    <AC_Ouroboros.symbolPacks.3.adjective>擴增者</AC_Ouroboros.symbolPacks.3.adjective>
+    <AC_Ouroboros.symbolPacks.3.ideoName>擴增主義</AC_Ouroboros.symbolPacks.3.ideoName>
+    <AC_Ouroboros.symbolPacks.3.member>增強者</AC_Ouroboros.symbolPacks.3.member>
+    <AC_Ouroboros.symbolPacks.3.theme>擴增</AC_Ouroboros.symbolPacks.3.theme>
+
+</LanguageData>

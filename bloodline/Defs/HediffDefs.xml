@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <HediffDef>
+    <defName>bloodline_flame_eruption_avoid_injury</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <descriptionHyperlinks>
+      <AbilityDef>bloodline_flame_eruption_ability</AbilityDef>
+    </descriptionHyperlinks>
+    <label>bloodline flame eruption avoid injury</label>
+    <description>avoid injury</description>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <comps>
+      <li Class="HediffCompProperties_Disappears"><!-- 定义病症可见性-->
+        <disappearsAfterTicks>270</disappearsAfterTicks><!-- 需要多久病症消失-->
+        <showRemainingTime>True</showRemainingTime><!-- 显示消失时间-->
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <IncomingDamageFactor>.6</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
