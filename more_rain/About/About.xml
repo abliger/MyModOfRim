@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modMetaData>
+  <packageId>abliger.moreRain</packageId>
+  <name>more Rain</name>
+  <author>abliger</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+
+  <description>
+    添加更多降水：
+      汽水雨: 全员心情加5
+      血雨: 血族心情加6，其余减5
+    待添加：
+      鱼雨
+      砖块雨
+
+  </description>
+</modMetaData>
