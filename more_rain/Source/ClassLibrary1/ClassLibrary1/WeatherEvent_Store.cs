@@ -15,7 +15,7 @@ namespace abliger
       
         public WeatherEvent_Store(Map map) : base(map)
         {
-           this.list= this.map.AllCells.ToList<IntVec3>();
+            this.list = (from c in this.map.AllCells where !c.Roofed(this.map) && c.InBounds(this.map) && c.Standable(this.map) select c).ToList<IntVec3>() ;
         }
 
         public override bool Expired => flag;
@@ -35,22 +35,11 @@ namespace abliger
             Thing thing = ThingMaker.MakeThing(stone[new Random().Next(0,stone.Count)], null);
             thing.SetForbidden(true);
             thing.stackCount = 10;
-            GenSpawn.Spawn(thing, RandomPostionToDamage(RandomPostion(default)) , this.map, WipeMode.FullRefund);
+            GenSpawn.Spawn(thing, RandomPostionToDamage(RandomPostion()) , this.map, WipeMode.FullRefund);
         }
-        public IntVec3 RandomPostion(IntVec3 position)
+        public IntVec3 RandomPostion()
         {
-            if(position == default)
-            {
-                position = list[new Random().Next(0, list.Count)];
-            }
-            if(!position.Roofed(this.map) && position.InBounds(this.map) && position.Standable(this.map))
-            {
-                return position;
-            }
-            else
-            {
-                return RandomPostion(default);
-            }
+            return list[new Random().Next(0, list.Count)];
         }
 
         public IntVec3 RandomPostionToDamage(IntVec3 position)
