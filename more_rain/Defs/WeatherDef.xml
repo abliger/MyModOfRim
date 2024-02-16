@@ -14,7 +14,7 @@
     <moveSpeedMultiplier>0.3</moveSpeedMultiplier>
     <durationRange>
       <min>5000</min>
-      <max>12000</max>
+      <max>7000</max>
     </durationRange>
     <ambientSounds>
       <li>Ambient_Rain</li>
@@ -84,8 +84,8 @@
     <rainRate>1</rainRate>
     <moveSpeedMultiplier>0.3</moveSpeedMultiplier>
     <durationRange>
-      <min>5000</min>
-      <max>12000</max>
+      <min>3000</min>
+      <max>5000</max>
     </durationRange>
     <ambientSounds>
       <li>Ambient_Rain</li>
@@ -164,8 +164,8 @@
     <rainRate>0.5</rainRate>
     <moveSpeedMultiplier>0.3</moveSpeedMultiplier>
     <durationRange>
-      <min>5000</min>
-      <max>12000</max>
+      <min>2000</min>
+      <max>10000</max>
     </durationRange>
     <ambientSounds>
       <li>Ambient_Rain</li>

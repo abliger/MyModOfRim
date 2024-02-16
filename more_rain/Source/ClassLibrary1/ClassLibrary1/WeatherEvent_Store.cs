@@ -18,8 +18,8 @@ namespace abliger
            this.list= this.map.AllCells.ToList<IntVec3>();
         }
 
-        public override bool Expired => age> Rand.Range(100, 200);
-        public int age = default;
+        public override bool Expired => flag;
+        public bool flag = false;
         public List<IntVec3> list;
         public DamageDef damageDef= DefDatabase<DamageDef>.GetNamed("CrushingInjury");
         private List<ThingDef> stone = ThingCategoryDefOf.StoneBlocks.childThingDefs;
@@ -31,14 +31,11 @@ namespace abliger
 
         public override void WeatherEventTick()
         {
-            this.age++;
-            if(this.age % 200 == 0)
-            {
+            this.flag = true;
             Thing thing = ThingMaker.MakeThing(stone[new Random().Next(0,stone.Count)], null);
             thing.SetForbidden(true);
-            thing.stackCount = 20;
+            thing.stackCount = 10;
             GenSpawn.Spawn(thing, RandomPostionToDamage(RandomPostion(default)) , this.map, WipeMode.FullRefund);
-            }
         }
         public IntVec3 RandomPostion(IntVec3 position)
         {
