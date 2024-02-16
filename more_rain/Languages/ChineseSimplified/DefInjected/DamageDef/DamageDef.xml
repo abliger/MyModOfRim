@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <CrushingInjury.label>高空抛物</CrushingInjury.label>
+    <CrushingInjury.deathMessage>{0} 被砖块砸死了</CrushingInjury.deathMessage>
+</LanguageData>

@@ -1,100 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <!-- 此处寻找需要修改的mod，rimworld为了兼容，这里直接使用 mod 名，而不是 packageId -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="BorealForest"]/baseWeatherCommonalities</xpath>
-        <value>
-            <bloodRain>2</bloodRain>
-            <sodaRain>2</sodaRain>
-        </value>
-    </Operation>
+  <!-- 此处寻找需要修改的mod，rimworld为了兼容，这里直接使用 mod 名，而不是 packageId -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="BorealForest"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Tundra"]/baseWeatherCommonalities</xpath>
-        <value>
-            <bloodRain>2</bloodRain>
-            <sodaRain>2</sodaRain>
-        </value>
-    </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Tundra"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="ColdBog"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="TemperateForest"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="AridShrubland"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="ColdBog"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TemperateForest"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="AridShrubland"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>1</bloodRain>
-          <sodaRain>1</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
-        <value>
-          <bloodRain>2</bloodRain>
-          <sodaRain>2</sodaRain>
-        </value>
-      </Operation>
-      
-      
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.1</bloodRain>
+      <sodaRain>0.1</sodaRain>
+      <storeRain>0.1</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
+    <value>
+      <bloodRain>0.2</bloodRain>
+      <sodaRain>0.2</sodaRain>
+      <storeRain>0.2</storeRain>
+    </value>
+  </Operation>
+
+
 </Patch>
