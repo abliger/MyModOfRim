@@ -16,13 +16,13 @@ namespace abliger
         public WeatherEvent_Store(Map map) : base(map)
         {
            this.list= this.map.AllCells.ToList<IntVec3>();
-           Scribe_Defs.Look<DamageDef>(ref this.damageDef, "CrushingInjury");
         }
 
-        public override bool Expired => age> Rand.Range(1200, 4000);
+        public override bool Expired => age> Rand.Range(100, 200);
         public int age = default;
         public List<IntVec3> list;
-        public DamageDef damageDef;
+        public DamageDef damageDef= DefDatabase<DamageDef>.GetNamed("CrushingInjury");
+        private List<ThingDef> stone = ThingCategoryDefOf.StoneBlocks.childThingDefs;
 
         public override void FireEvent()
         {
@@ -34,11 +34,9 @@ namespace abliger
             this.age++;
             if(this.age % 200 == 0)
             {
-            
-            Thing thing = ThingMaker.MakeThing(ThingDefOf.BlocksGranite, null);
+            Thing thing = ThingMaker.MakeThing(stone[new Random().Next(0,stone.Count)], null);
             thing.SetForbidden(true);
-            thing.stackCount = 10;
-                
+            thing.stackCount = 20;
             GenSpawn.Spawn(thing, RandomPostionToDamage(RandomPostion(default)) , this.map, WipeMode.FullRefund);
             }
         }
@@ -48,10 +46,7 @@ namespace abliger
             {
                 position = list[new Random().Next(0, list.Count)];
             }
-            if(!position.Roofed(this.map) && position.InBounds(this.map) && position.Standable(this.map) 
-                && position.GetFirstBuilding(this.map) == null
-                //position.GetFirstItem(this.map) == null || ThingDefOf.BlocksGranite == position.GetFirstItem(this.map).def
-            )
+            if(!position.Roofed(this.map) && position.InBounds(this.map) && position.Standable(this.map))
             {
                 return position;
             }
@@ -63,12 +58,18 @@ namespace abliger
 
         public IntVec3 RandomPostionToDamage(IntVec3 position)
         {
-
             Pawn pawn = position.GetFirstPawn(this.map);
             if (pawn != null)
             {
-                pawn.TakeDamage(new DamageInfo(this.damageDef,30f));
+                pawn.TakeDamage(new DamageInfo(this.damageDef, damageDef.defaultDamage,damageDef.defaultArmorPenetration));
+                return position;
             }
+            Building build =position.GetFirstBuilding(this.map);
+            if(build != null)
+            {
+                build.TakeDamage(new DamageInfo(this.damageDef, damageDef.defaultDamage, damageDef.defaultArmorPenetration));
+            }
+            
             return position;
         }
     }

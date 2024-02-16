@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <DamageDef>
-        <defName>CrushingInjury</defName>
-        <label>Crushing Injury</label>
-        <workerClass>DamageWorker_AddInjury</workerClass>
-        <externalViolence>true</externalViolence>
-        <deathMessage>{0} was smashed to death by bricks.</deathMessage>
-        <hediff>Crack</hediff>
-        <hediffSolid>Crack</hediffSolid>
-        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-        <impactSoundType>Blunt</impactSoundType>
-        <armorCategory>Sharp</armorCategory>
-        <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-      </DamageDef>
+  <DamageDef>
+    <defName>CrushingInjury</defName>
+    <label>Crushing Injury</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} was smashed to death by bricks.</deathMessage>
+    <hediff>Crack</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+    <defaultDamage>10</defaultDamage>
+    <defaultArmorPenetration>0.5</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>0.4</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>0.2</buildingDamageFactorPassable>
+  </DamageDef>
 
-      <HediffDef ParentName="InjuryBase">
-        <defName>Crack</defName>
-        <label>Crack</label>
-        <labelNoun>a crack</labelNoun>
-        <description>A scratch or tear.</description>
-        <comps>
-          <li Class="HediffCompProperties_TendDuration">
-            <labelTendedWell>bandaged</labelTendedWell>
-            <labelTendedWellInner>sutured</labelTendedWellInner>
-            <labelSolidTendedWell>set</labelSolidTendedWell>
-          </li>
-          <li Class="HediffCompProperties_Infecter">
-            <infectionChance>0.15</infectionChance>
-          </li>
-          <li Class="HediffCompProperties_GetsPermanent">
-            <permanentLabel>scratch scar</permanentLabel>
-          </li>
-        </comps>
-        <injuryProps>
-          <painPerSeverity>0.0125</painPerSeverity>
-          <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-          <bleedRate>0.06</bleedRate>
-          <canMerge>false</canMerge>
-          <destroyedLabel>Torn off</destroyedLabel>
-          <destroyedOutLabel>Torn out</destroyedOutLabel>
-        </injuryProps>
-      </HediffDef>
-    </Defs>
+  <HediffDef ParentName="InjuryBase">
+    <defName>Crack</defName>
+    <label>Crack</label>
+    <labelNoun>a crack</labelNoun>
+    <description>A scratch or tear.</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.15</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>scratch scar</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <bleedRate>0.06</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Torn off</destroyedLabel>
+      <destroyedOutLabel>Torn out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+</Defs>

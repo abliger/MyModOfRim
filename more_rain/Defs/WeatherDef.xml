@@ -176,7 +176,7 @@
     </overlayClasses>
     <eventMakers>
       <li>
-        <averageInterval>1200</averageInterval>
+        <averageInterval>300</averageInterval>
         <eventClass>abliger.WeatherEvent_Store</eventClass>
       </li>
     </eventMakers>
