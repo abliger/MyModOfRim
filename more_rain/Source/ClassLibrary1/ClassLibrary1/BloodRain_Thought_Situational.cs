@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using System;
 using Verse;
@@ -11,11 +11,11 @@ namespace abliger
         {
             get
             {
-                if (PawnKindDefOf.Sanguophage == this.pawn.kindDef|| this.pawn.genes.HasGene(GeneDefOf.Hemogenic))
+                if (PawnKindDefOf.Sanguophage == this.pawn.kindDef || this.pawn.genes.HasGene(GeneDefOf.Hemogenic))
                 {
                     return 1;
                 }
-                if (PawnKindDefOf.SanguophageThrall == this.pawn.kindDef|| this.pawn.genes.HasGene(GeneDefOf.Hemogenic))
+                if (PawnKindDefOf.SanguophageThrall == this.pawn.kindDef || this.pawn.genes.HasGene(GeneDefOf.Hemogenic))
                 {
                     return 2;
                 }
@@ -24,4 +24,3 @@ namespace abliger
         }
     }
 }
-    
