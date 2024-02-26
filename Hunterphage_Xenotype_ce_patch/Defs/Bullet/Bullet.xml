@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <CombatExtended.AmmoCategoryDef>
+        <defName>BulletBlunderbussCECategory</defName>
+        <label>Hunter bullets</label>
+        <description>Hunter faction specific bullets, known for their high armor penetration and high damage, have been used well.</description>
+    </CombatExtended.AmmoCategoryDef>
+    <!-- 铳枪弹丸 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletBlunderbussCEAmmo</defName>
+        <label>BulletBlunderbussCEAmmo</label>
+        <ammoTypes>
+            <BulletBlunderbussCE_Ammo>BulletBlunderbussCE</BulletBlunderbussCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletBlunderbussCE_Ammo</defName>
+        <label>BulletBlunderbussCE_Ammo</label>
+        <description>BulletBlunderbussCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletBlunderbussCE</defName>
+        <label>Flintlock pellet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Flintlock_Bullet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationSharp>10</armorPenetrationSharp>
+            <stoppingPower>0.9</stoppingPower>
+            <speed>120</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.05</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
+    <!-- 燧发枪弹丸 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletFlintlockBasicCEAmmo</defName>
+        <label>BulletFlintlockBasicCEAmmo</label>
+        <ammoTypes>
+            <BulletFlintlockBasicCE_Ammo>BulletFlintlockBasicCE</BulletFlintlockBasicCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletFlintlockBasicCE_Ammo</defName>
+        <label>BulletFlintlockBasicCE_Ammo</label>
+        <description>BulletFlintlockBasicCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletFlintlockBasicCE</defName>
+        <label>sharp bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Flintlock_PercussionBullet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationSharp>15</armorPenetrationSharp>
+            <stoppingPower>0.9</stoppingPower>
+            <speed>120</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.15</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
+    <!-- 左轮子弹 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletRevolverFrontierCEAmmo</defName>
+        <label>BulletRevolverFrontierCEAmmo</label>
+        <ammoTypes>
+            <BulletRevolverFrontierCE_Ammo>BulletRevolverFrontierCE</BulletRevolverFrontierCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletRevolverFrontierCE_Ammo</defName>
+        <label>BulletRevolverFrontierCE_Ammo</label>
+        <description>BulletRevolverFrontierCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletRevolverFrontierCE</defName>
+        <label>revolver bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Revolver_Projectilez</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationSharp>5</armorPenetrationSharp>
+            <stoppingPower>0.5</stoppingPower>
+            <speed>90</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.20</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
+    <!-- 马格南子弹 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletSixBarrelzCEAmmo</defName>
+        <label>BulletSixBarrelzCEAmmo</label>
+        <ammoTypes>
+            <BulletSixBarrelzCE_Ammo>BulletSixBarrelzCE</BulletSixBarrelzCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletSixBarrelzCE_Ammo</defName>
+        <label>BulletSixBarrelzCE_Ammo</label>
+        <description>BulletSixBarrelzCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletSixBarrelzCE</defName>
+        <label>magnum bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Revolver_Projectilez</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>45</damageAmountBase>
+            <armorPenetrationSharp>25</armorPenetrationSharp>
+            <stoppingPower>0.5</stoppingPower>
+            <speed>100</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.20</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
+    <!-- 加农炮弹 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletMarauderCannonCEAmmo</defName>
+        <label>BulletMarauderCannonCEAmmo</label>
+        <ammoTypes>
+            <BulletMarauderCannonCE_Ammo>BulletMarauderCannonCE</BulletMarauderCannonCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletMarauderCannonCE_Ammo</defName>
+        <label>BulletMarauderCannonCE_Ammo</label>
+        <description>BulletMarauderCannonCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <detonateProjectile>BulletMarauderCannonCE</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletMarauderCannonCE</defName>
+        <label>cannon ball</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Cannon_Proj</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bomb</damageDef>
+            <explosionRadius>5.9</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <speed>70</speed>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>1.5</explosiveRadius>
+				<explosionSound>MortarBomb_Explode</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>3</Fragment_Large>
+					<Fragment_Small>12</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+    </ThingDef>
+    <!-- 手炮子弹 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletAutomatonHandCannonCEAmmo</defName>
+        <label>BulletAutomatonHandCannonCEAmmo</label>
+        <ammoTypes>
+            <BulletAutomatonHandCannonCE_Ammo>BulletAutomatonHandCannonCE</BulletAutomatonHandCannonCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletAutomatonHandCannonCE_Ammo</defName>
+        <label>BulletAutomatonHandCannonCE_Ammo</label>
+        <description>BulletAutomatonHandCannonCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <detonateProjectile>BulletAutomatonHandCannonCE</detonateProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletAutomatonHandCannonCE</defName>
+        <label>handcannon bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Projectile_Gold</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationSharp>45</armorPenetrationSharp>
+            <stoppingPower>0.5</stoppingPower>
+            <speed>100</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.20</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+        <comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>150</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>1.5</explosiveRadius>
+				<explosionSound>MortarBomb_Explode</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>3</Fragment_Large>
+					<Fragment_Small>12</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+    </ThingDef>
+    <!-- 腐蚀弹丸 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletBlackMambaCEAmmo</defName>
+        <label>BulletBlackMambaCEAmmo</label>
+        <ammoTypes>
+            <BulletBlackMambaCE_Ammo>BulletBlackMambaCE</BulletBlackMambaCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletBlackMambaCE_Ammo</defName>
+        <label>BulletBlackMambaCE_Ammo</label>
+        <description>BulletBlackMambaCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletBlackMambaCE</defName>
+        <label>corrosion bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Projectile_Purple</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationSharp>45</armorPenetrationSharp>
+            <stoppingPower>0.5</stoppingPower>
+            <speed>100</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.20</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
+        <!-- 混沌弹丸 -->
+        <CombatExtended.AmmoSetDef>
+            <defName>BulletMysteriousMagnumCEAmmo</defName>
+            <label>BulletMysteriousMagnumCEAmmo</label>
+            <ammoTypes>
+                <BulletMysteriousMagnumCE_Ammo>BulletMysteriousMagnumCE</BulletMysteriousMagnumCE_Ammo>
+            </ammoTypes>
+        </CombatExtended.AmmoSetDef>
+        <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+            <defName>BulletMysteriousMagnumCE_Ammo</defName>
+            <label>BulletMysteriousMagnumCE_Ammo</label>
+            <description>BulletMysteriousMagnumCE_Ammo</description>
+            <statBases>
+                <Mass>0.01</Mass>
+                <Bulk>0.08</Bulk>
+                <MarketValue>0.06</MarketValue>
+            </statBases>
+            <thingCategories>
+                <li>Ammo6mmRailgun</li>
+            </thingCategories>
+            <graphicData>
+                <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+                <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+            </graphicData>
+            <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        </ThingDef>
+        <ThingDef ParentName="BaseBulletCE">
+            <defName>BulletMysteriousMagnumCE</defName>
+            <label>chaos bullet</label>
+            <graphicData>
+                <texPath>Things/Misc/Projectiles/Projectile_White</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <shaderType>MoteGlow</shaderType>
+            </graphicData>
+            <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                <damageDef>Bullet</damageDef>
+                <damageAmountBase>40</damageAmountBase>
+                <armorPenetrationSharp>45</armorPenetrationSharp>
+                <stoppingPower>0.5</stoppingPower>
+                <speed>100</speed>
+                <extraDamages>
+                    <li>
+                        <def>TrueShot</def>
+                        <chance>0.20</chance>
+                    </li>
+                </extraDamages>
+            </projectile>
+        </ThingDef>
+</Defs>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BulletBlunderbussCE.label>铳枪弹丸</BulletBlunderbussCE.label>
+    <BulletBlunderbussCE_Ammo.label>铳枪弹丸</BulletBlunderbussCE_Ammo.label>
+    <BulletBlunderbussCE_Ammo.description>铳枪弹丸</BulletBlunderbussCE_Ammo.description>
+    
+    <BulletFlintlockBasicCE_Ammo.label>燧发枪弹丸</BulletFlintlockBasicCE_Ammo.label>
+    <BulletFlintlockBasicCE_Ammo.description>燧发枪弹丸</BulletFlintlockBasicCE_Ammo.description>
+    <BulletFlintlockBasicCE.label>燧发枪弹丸</BulletFlintlockBasicCE.label>
+
+    <BulletRevolverFrontierCE_Ammo.label>燧发枪弹丸</BulletRevolverFrontierCE_Ammo.label>
+    <BulletRevolverFrontierCE_Ammo.description>燧发枪弹丸</BulletRevolverFrontierCE_Ammo.description>
+    <BulletRevolverFrontierCE.label>燧发枪弹丸</BulletRevolverFrontierCE.label>
+
+
+    <BulletSixBarrelzCE_Ammo.label>马格南子弹</BulletSixBarrelzCE_Ammo.label>
+    <BulletSixBarrelzCE_Ammo.description>马格南子弹</BulletSixBarrelzCE_Ammo.description>
+    <BulletSixBarrelzCE.label>马格南子弹</BulletSixBarrelzCE.label>
+
+    <BulletMarauderCannonCE_Ammo.label>加农炮弹</BulletMarauderCannonCE_Ammo.label>
+    <BulletMarauderCannonCE_Ammo.description>加农炮弹</BulletMarauderCannonCE_Ammo.description>
+    <BulletMarauderCannonCE.label>加农炮弹</BulletMarauderCannonCE.label>
+    
+
+    <BulletAutomatonHandCannonCE_Ammo.label>手炮子弹</BulletAutomatonHandCannonCE_Ammo.label>
+    <BulletAutomatonHandCannonCE_Ammo.description>手炮子弹</BulletAutomatonHandCannonCE_Ammo.description>
+    <BulletAutomatonHandCannonCE.label>手炮子弹</BulletAutomatonHandCannonCE.label>
+
+    <BulletBlackMambaCE_Ammo.label>腐蚀弹丸</BulletBlackMambaCE_Ammo.label>
+    <BulletBlackMambaCE_Ammo.description>腐蚀弹丸</BulletBlackMambaCE_Ammo.description>
+    <BulletBlackMambaCE.label>腐蚀弹丸</BulletBlackMambaCE.label>
+    
+    <BulletMysteriousMagnumCE_Ammo.label>混沌弹丸</BulletMysteriousMagnumCE_Ammo.label>
+    <BulletMysteriousMagnumCE_Ammo.description>混沌弹丸</BulletMysteriousMagnumCE_Ammo.description>
+    <BulletMysteriousMagnumCE.label>混沌弹丸</BulletMysteriousMagnumCE.label>
+
+    <BulletMarauderGatlingCE_Ammo.label>冲击子弹</BulletMarauderGatlingCE_Ammo.label>
+    <BulletMarauderGatlingCE_Ammo.description>冲击子弹</BulletMarauderGatlingCE_Ammo.description>
+    <BulletMarauderGatlingCE.label>冲击子弹</BulletMarauderGatlingCE.label>
+
+    <ShellHighExplosiveCannonCE_Ammo.label>高爆加农炮弹</ShellHighExplosiveCannonCE_Ammo.label>
+    <ShellHighExplosiveCannonCE_Ammo.description>高爆加农炮弹</ShellHighExplosiveCannonCE_Ammo.description>
+    <ShellHighExplosiveCannonCE.label>高爆加农炮弹</ShellHighExplosiveCannonCE.label>
+
+    <ShellAntiArmorCannonCE_Ammo.label>蚀甲加农炮弹</ShellAntiArmorCannonCE_Ammo.label>
+    <ShellAntiArmorCannonCE_Ammo.description>蚀甲加农炮弹</ShellAntiArmorCannonCE_Ammo.description>
+    <ShellAntiArmorCannonCE.label>蚀甲加农炮弹</ShellAntiArmorCannonCE.label>
+
+
+</LanguageData>

@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[
+                        defName="MeleeWeapon_Hunterphage_BastardSword" or
+                        defName="MeleeWeapon_Hunterphage_HuntersBattleAxe" or
+                        defName="MeleeWeapon_Hunterphage_HunterSpear" or
+                        defName="MeleeWeapon_Hunterphage_HuntingKnife" or
+                        defName="MeleeWeapon_Hunterphage_Katana" or
+                        defName="MeleeWeapon_Hunterphage_ShortSword" or
+                        defName="MeleeWeapon_Hunterphage_Zweihander" or
+                        defName="MeleeWeapon_Hunterphage_RipperSaber" or
+                        defName="MeleeWeapon_Hunterphage_RipperSword" or
+                        defName="MeleeWeapon_Hunterphage_HeavySawBlade"
+                        ]/weaponTags</xpath>
+                    <value>
+                        <li>CE_OneHandedWeapon</li>
+                    </value>
+                </li>
+                <!-- 庶子剑 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_BastardSword"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>3</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>20</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_BastardSword"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.3</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_BastardSword"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.2</MeleeCritChance>
+                            <MeleeParryChance>0.2</MeleeParryChance>
+                            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 猎人战斧 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HuntersBattleAxe"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>3</power>
+                                <cooldownTime>3</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>10</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>15</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                                <armorPenetrationSharp>5</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HuntersBattleAxe"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.2</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HuntersBattleAxe"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.4</MeleeCritChance>
+                            <MeleeParryChance>0.4</MeleeParryChance>
+                            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 猎人长矛 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HunterSpear"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>3</power>
+                                <cooldownTime>1.2</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>10</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HunterSpear"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.05</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HunterSpear"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.4</MeleeCritChance>
+                            <MeleeParryChance>0.4</MeleeParryChance>
+                            <MeleeDodgeChance>0.4</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 狩猎刀 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HuntingKnife"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>3</power>
+                                <cooldownTime>3</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>10</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>15</armorPenetrationBlunt>
+                                <armorPenetrationSharp>3</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>20</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                                <armorPenetrationSharp>5</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HuntingKnife"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HuntingKnife"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.8</MeleeCritChance>
+                            <MeleeParryChance>0.1</MeleeParryChance>
+                            <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 武士刀 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_Katana"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>3</power>
+                                <cooldownTime>3</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>8</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_Katana"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_Katana"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.4</MeleeCritChance>
+                            <MeleeParryChance>0.2</MeleeParryChance>
+                            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 短锋剑 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShortSword"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>3</power>
+                                <cooldownTime>3</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>1</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>10</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>5</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>20</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShortSword"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.3</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShortSword"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.3</MeleeCritChance>
+                            <MeleeParryChance>0.3</MeleeParryChance>
+                            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 双手巨剑 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_Zweihander"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>3</power>
+                                <cooldownTime>3</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>10</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>5</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>3</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_Zweihander"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.4</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_Zweihander"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.4</MeleeCritChance>
+                            <MeleeParryChance>0.5</MeleeParryChance>
+                            <MeleeDodgeChance>0.4</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+
+                <!-- 重型锯刃 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HeavySawBlade"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>1.9</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>15</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>15</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>20</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                                <armorPenetrationSharp>15</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HeavySawBlade"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.4</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_HeavySawBlade"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.4</MeleeCritChance>
+                            <MeleeParryChance>0.4</MeleeParryChance>
+                            <MeleeDodgeChance>0.4</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 撕裂锯刃 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSawBlade"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>1.9</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>0</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>20</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>30</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSawBlade"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSawBlade"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>1.1</MeleeCritChance>
+                            <MeleeParryChance>0.1</MeleeParryChance>
+                            <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 撕裂者军刀 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSaber"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>1.9</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>15</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>20</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>22</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSaber"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.25</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSaber"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.7</MeleeCritChance>
+                            <MeleeParryChance>0.25</MeleeParryChance>
+                            <MeleeDodgeChance>0.25</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 撕裂剑 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSword"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>1.9</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>15</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.9</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>20</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.8</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                                <armorPenetrationSharp>25</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSword"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_RipperSword"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.7</MeleeCritChance>
+                            <MeleeParryChance>0.5</MeleeParryChance>
+                            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+
+                <!-- 暗影军刀 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowSaber"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>15</power>
+                                <cooldownTime>1.2</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>28</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>20</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>40</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>40</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowSaber"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.3</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowSaber"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>1</MeleeCritChance>
+                            <MeleeParryChance>0.3</MeleeParryChance>
+                            <MeleeDodgeChance>0.3</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 暗影匕首 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowDagger"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>15</power>
+                                <cooldownTime>1.2</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>28</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>15</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>40</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>45</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowDagger"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.2</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowDagger"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>1.5</MeleeCritChance>
+                            <MeleeParryChance>0.2</MeleeParryChance>
+                            <MeleeDodgeChance>0.8</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- 影煞剑 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowBane"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>handle</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>15</power>
+                                <cooldownTime>1.2</cooldownTime>
+                                <chanceFactor>0.33</chanceFactor>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>point</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>28</power>
+                                <armorPenetration>0.45</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>15</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>40</power>
+                                <armorPenetration>0.30</armorPenetration>
+                                <cooldownTime>1.2</cooldownTime>
+                                <soundMeleeHit>Impact_Sword</soundMeleeHit>
+                                <soundMeleeMiss>Miss_Sword</soundMeleeMiss>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <armorPenetrationSharp>40</armorPenetrationSharp>
+                                <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowBane"]/statBases</xpath>
+                    <value>
+                        <Bulk>3.5</Bulk>
+                        <MeleeCounterParryBonus>0.6</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Hunterphage_ShadowBane"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.5</MeleeCritChance>
+                            <MeleeParryChance>0.7</MeleeParryChance>
+                            <MeleeDodgeChance>0.6</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

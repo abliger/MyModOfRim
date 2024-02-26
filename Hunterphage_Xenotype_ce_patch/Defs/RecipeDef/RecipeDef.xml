@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBulletBlunderbussCE_Ammo</defName>
+        <label>make flintlock pellet x200</label>
+        <description>Craft 200 flintlock pellet.</description>
+        <jobString>Making flintlock pellet.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BulletBlunderbussCE_Ammo>200</BulletBlunderbussCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>FlintlockArmaments</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBulletFlintlockBasicCE_Ammo</defName>
+        <label>make sharp bullet x200</label>
+        <description>Craft 200 sharp bullet.</description>
+        <jobString>Making sharp bullet.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BulletFlintlockBasicCE_Ammo>200</BulletFlintlockBasicCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>FlintlockArmaments</researchPrerequisite>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBulletRevolverFrontierCE_Ammo</defName>
+        <label>make revolver bullet x200</label>
+        <description>Craft 200 revolver bullet.</description>
+        <jobString>Making revolver bullet.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BulletRevolverFrontierCE_Ammo>200</BulletRevolverFrontierCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>FlintlockArmaments</researchPrerequisite>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBulletSixBarrelzCE_Ammo</defName>
+        <label>make magnum bullet x200</label>
+        <description>Craft 200 magnum bullet.</description>
+        <jobString>Making magnum bullet.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BulletSixBarrelzCE_Ammo>200</BulletSixBarrelzCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>FlintlockArmaments</researchPrerequisite>
+    </RecipeDef>
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBulletMarauderCannonCE_Ammo</defName>
+        <label>make cannon ball x200</label>
+        <description>Craft 200 cannon ball.</description>
+        <jobString>Making cannon ball.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BulletMarauderCannonCE_Ammo>200</BulletMarauderCannonCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>FlintlockArmaments</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBulletMarauderGatlingCE_Ammo</defName>
+        <label>make gatling pellet x200</label>
+        <description>Craft 200 gatling pellet.</description>
+        <jobString>Making gatling pellet.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BulletMarauderGatlingCE_Ammo>200</BulletMarauderGatlingCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>GatlingTurret</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeShellHighExplosiveCannonCE_Ammo</defName>
+        <label>make high-explosive cannon shell x10</label>
+        <description>Craft 200 high-explosive cannon shell.</description>
+        <jobString>Making high-explosive cannon shell.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <ShellHighExplosiveCannonCE_Ammo>10</ShellHighExplosiveCannonCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>CannonTurret</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeShellAntiArmorCannonCE_Ammo</defName>
+        <label>make high-explosive cannon shell x10</label>
+        <description>Craft 200 high-explosive cannon shell.</description>
+        <jobString>Making high-explosive cannon shell.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <ShellAntiArmorCannonCE_Ammo>10</ShellAntiArmorCannonCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>CannonTurret</researchPrerequisite>
+    </RecipeDef>
+</Defs>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/HediffDef[defName="PhantomOfDeath"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>death impact</label>
+                                <capacities>
+                                    <li>DeathImpact</li>
+                                </capacities>
+                                <power>20</power>
+                                <cooldownTime>0.1</cooldownTime>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>25</armorPenetrationSharp>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/HediffDef[defName="StakeDriverGloves"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stake driver</label>
+                                <capacities>
+                                    <li>BlastStab</li>
+                                </capacities>
+                                <power>25</power>
+                                <cooldownTime>2.0</cooldownTime>
+                                <armorPenetrationBlunt>2</armorPenetrationBlunt>
+                                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/HediffDef[defName="BladeHeartDicipline"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>aura impact</label>
+                                <capacities>
+                                    <li>AuraSlash</li>
+                                    <li>AuraStab</li>
+                                    <li>AuraCrush</li>
+                                </capacities>
+                                <power>10</power>
+                                <cooldownTime>0.9</cooldownTime>
+                                <armorPenetrationBlunt>10</armorPenetrationBlunt>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <extraMeleeDamages>
+                                    <li>
+                                        <def>ShadowEdgez</def>
+                                        <amount>15</amount>
+                                        <chance>0.1</chance>
+                                    </li>
+                                    <li>
+                                        <def>HeartSeekerStabz</def>
+                                        <amount>45</amount>
+                                        <chance>0.1</chance>
+                                    </li>
+                                    <li>
+                                        <def>ShadowImpactCrushz</def>
+                                        <amount>15</amount>
+                                        <chance>0.1</chance>
+                                    </li>
+                                </extraMeleeDamages>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

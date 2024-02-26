@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 弩炮弹药 -->
+    <CombatExtended.AmmoCategoryDef>
+        <defName>BallistaBoltsCECategory</defName>
+        <label>BallistaBoltsCE Category</label>
+        <labelShort>BallistaBoltsCE Category</labelShort>
+        <description>BallistaBoltsCE Category</description>
+    </CombatExtended.AmmoCategoryDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>BallistaBoltsCEAmmo</defName>
+        <label>BallistaBoltsCE Ammo</label>
+        <ammoTypes>
+            <BallistaBoltsCE_Ammo>BallistaBoltsCE</BallistaBoltsCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BallistaBoltsCE_Ammo</defName>
+        <label>BallistaBoltsCE_Ammo</label>
+        <description>BallistaBoltsCE_Ammo test ammodef</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BallistaBoltsCECategory</ammoClass>
+        <cookOffProjectile>BallistaBoltsCE</cookOffProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BallistaBoltsCE</defName>
+        <label>Ballista Bolts</label>
+        <description>A simple, yet very deadly, ammunition used in mannable ballista turrets.</description>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Ballista_Projecctile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.7, 1.7)</drawSize>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <MarketValue>15</MarketValue>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>0.9</Mass>
+        </statBases>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <armorPenetrationSharp>20</armorPenetrationSharp>
+            <armorPenetrationBlunt>20</armorPenetrationBlunt>
+            <speed>70</speed>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+            <researchPrerequisite>BallistaTurret</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>HunterWorkbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costList>
+            <Steel>7</Steel>
+            <WoodLog>5</WoodLog>
+        </costList>
+        <intricate>true</intricate>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <tradeTags>
+            <li>AmmunitionBasicz</li>
+        </tradeTags>
+        <allowedArchonexusCount>100</allowedArchonexusCount>
+    </ThingDef>
+    <!-- 加特林弹药箱 -->
+    <CombatExtended.AmmoCategoryDef>
+        <defName>BulletMarauderGatlingCECategory</defName>
+        <label>Hunter impact shells</label>
+        <description>Hunter faction defense specific bullets, known for their high armor penetration and high damage, but difficult to transport</description>
+    </CombatExtended.AmmoCategoryDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletMarauderGatlingCEAmmo</defName>
+        <label>BulletMarauderGatlingCEAmmo</label>
+        <ammoTypes>
+            <BulletMarauderGatlingCE_Ammo>BulletMarauderGatlingCE</BulletMarauderGatlingCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletMarauderGatlingCE_Ammo</defName>
+        <label>BulletMarauderGatlingCE_Ammo</label>
+        <description>BulletMarauderGatlingCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletMarauderGatlingCE</defName>
+        <label>gatling bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Revolver_Projectilez</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>45</damageAmountBase>
+            <armorPenetrationSharp>25</armorPenetrationSharp>
+            <stoppingPower>0.5</stoppingPower>
+            <speed>100</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.20</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
+    <!-- 高爆加农炮弹 蚀甲加农炮弹 -->
+    <CombatExtended.AmmoCategoryDef>
+        <defName>ShellDefendCECategory</defName>
+        <label>Hunter Impact Bullet</label>
+        <description>Hunter faction defensive specialized shells, known for their high armor penetration and high damage, but difficult to transport</description>
+    </CombatExtended.AmmoCategoryDef>
+    <CombatExtended.AmmoSetDef>
+        <defName>ShellHighExplosiveAmmo</defName>
+        <label>test ShellHighExplosiveAmmo</label>
+        <ammoTypes>
+            <ShellHighExplosiveCannonCE_Ammo>ShellHighExplosiveCannonCE</ShellHighExplosiveCannonCE_Ammo>
+            <ShellAntiArmorCannonCE_Ammo>ShellAntiArmorCannonCE</ShellAntiArmorCannonCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>ShellHighExplosiveCannonCE_Ammo</defName>
+        <label>BallistaBoltsCE_Ammo</label>
+        <description>BallistaBoltsCE_Ammo test ammodef</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>ShellDefendCECategory</ammoClass>
+        <cookOffProjectile>ShellHighExplosiveCannonCE</cookOffProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>ShellHighExplosiveCannonCE</defName>
+        <label>high-explosive cannon shell</label>
+        <description>An explosive shell used by the mannable cannon turret.</description>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Cannon_Proj</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <MarketValue>15</MarketValue>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>0.9</Mass>
+        </statBases>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>ExplosionEX</damageDef>
+            <speed>41</speed>
+            <explosionRadius>7.9</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <!-- <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <explosiveRadius>2.9</explosiveRadius>
+                <explosiveDamageType>ExplosionEX</explosiveDamageType>
+                <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>30~60</wickTicks>
+            </li>
+        </comps> -->
+    </ThingDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>ShellAntiArmorCannonCE_Ammo</defName>
+        <label>high-explosive cannon shell</label>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Resources/Ammunition/Mortar/Anti-Armor</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>ShellDefendCECategory</ammoClass>
+        <cookOffProjectile>ShellAntiArmorCannonCE</cookOffProjectile>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>ShellAntiArmorCannonCE</defName>
+        <label>anti-armor cannon shell</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Cannon_Proj_AntiArmor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+            <drawSize>1.5, 1.5</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <MarketValue>15</MarketValue>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>0.9</Mass>
+        </statBases>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>AntiArmor</damageDef>
+            <!-- damage amount is the damage def default -->
+            <speed>41</speed>
+            <explosionRadius>10.9</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <!-- <comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <explosiveRadius>2.9</explosiveRadius>
+                <explosiveDamageType>AntiArmor</explosiveDamageType>
+                <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>30~60</wickTicks>
+            </li>
+        </comps> -->
+    </ThingDef>
+
+    <!-- <CombatExtended.ShellingResponseDef>
+        <defName>CE_ShellDefend_Industrial</defName>
+		<defaultShellingPropability>0.00</defaultShellingPropability>
+		<defaultRaidPropability>0.1</defaultRaidPropability>
+		<defaultRaidMTBDays>3</defaultRaidMTBDays>
+		<projectiles>
+			<li>
+				<projectile>ShellAntiArmorCannonCE</projectile>
+				<points>250</points>
+				<weight>0.75</weight>
+			</li>
+			<li>
+				<projectile>ShellHighExplosiveCannonCE</projectile>
+				<points>300</points>
+				<weight>0.40</weight>
+			</li>
+		</projectiles>
+		<worldObjects>
+			<li>
+				<worldObject>Settlement</worldObject>
+				<shellingPropability>0.5</shellingPropability>
+				<raidPropability>0.1</raidPropability>
+				<raidMTBDays>3</raidMTBDays>
+			</li>
+			<li>
+				<worldObject>Site</worldObject>
+				<shellingPropability>0.0</shellingPropability>
+				<raidPropability>0.3</raidPropability>
+				<raidMTBDays>7</raidMTBDays>
+			</li>
+		</worldObjects>
+	</CombatExtended.ShellingResponseDef> -->
+</Defs>

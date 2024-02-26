@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+    <name>Hunterphage Xenotype ce patch</name>
+	<packageId>abliger.HunterPhages</packageId>
+	<author>abliger</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>
+add CE Patch
+CE 补丁
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>BlackMarket420.HunterPhages</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>BlackMarket420.HunterPhages</packageId>
+			<displayName>Hunterphage Xenotype</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3030775138</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+		</li>
+	</modDependencies>	
+</ModMetaData>	

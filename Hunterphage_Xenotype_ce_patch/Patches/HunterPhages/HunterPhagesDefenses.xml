@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- 陲穽 -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Trap_ExplosiveMine"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_Fragments">
+                            <fragments>
+                                <Fragment_Large>16</Fragment_Large>
+                                <Fragment_Small>100</Fragment_Small>
+                            </fragments>
+                        </li>
+                    </value>
+                </li>
+                <!-- <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[
+                        defName="BallistaBolts" or 
+                        defName="GatlingAmmoBox" or 
+                        defName="Craft_GatlingAmmunition_Bulk" or 
+                        defName="Shell_HighExplosiveCannon" or 
+                        defName="Shell_AntiArmorCannon"
+                        ]</xpath>
+                </li> -->
+                <!-- “操纵型”弩炮炮塔 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Turret_Mannable_Ballista"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+                    <value>
+                        <li Class="CompProperties_Refuelable">
+                            <fuelLabel>Shots until bolt replenishment</fuelLabel>
+                            <fuelGizmoLabel>Shots remaining</fuelGizmoLabel>
+                            <fuelFilter>
+                                <thingDefs>
+                                    <li>BallistaBolts</li>
+                                </thingDefs>
+                            </fuelFilter>
+                            <fuelCapacity>50</fuelCapacity>
+                            <initialFuelPercent>1</initialFuelPercent>
+                            <autoRefuelPercent>1</autoRefuelPercent>
+                            <showFuelGizmo>true</showFuelGizmo>
+                            <minimumFueledThreshold>1</minimumFueledThreshold>
+                            <fuelMultiplier>1</fuelMultiplier>
+                            <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                            <outOfFuelMessage>Cannot shoot: Needs new bolts</outOfFuelMessage>
+                            <fuelIconPath>Things/Buildings/DefesiveStructures_Buildable/Turrets/UI/Reload/BallistaAmmo_UI</fuelIconPath>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Turret_Mannable_Ballista"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_Charges">
+                            <chargeSpeeds>
+                                <li>30</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>90</li>
+                            </chargeSpeeds>
+                        </li>
+                        <li Class="CombatExtended.CompProperties_AmmoUser">
+                            <magazineSize>1</magazineSize>
+                            <reloadTime>5</reloadTime>
+                            <ammoSet>BallistaBoltsCEAmmo</ammoSet>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Gun_BallistaTurretz"]/verbs</xpath>
+                    <value>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                <defaultProjectile>BallistaBoltsCE</defaultProjectile>
+                                <warmupTime>1.0</warmupTime>
+                                <range>50.9</range>
+                                <burstShotCount>50</burstShotCount>
+                                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                                <soundCast>Shot_Blunderbuss</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>11</muzzleFlashScale>
+                                <consumeFuelPerShot>1</consumeFuelPerShot>
+                                <recoilPattern>Mounted</recoilPattern>
+                            </li>
+                        </verbs>
+                    </value>
+                </li>
+                <!-- “操纵型”加特林炮塔 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Turret_Mannable_Gatling"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+                    <value>
+                        <li Class="CompProperties_Refuelable">
+                            <fuelLabel>Shots until reload</fuelLabel>
+                            <fuelGizmoLabel>Shots remaining</fuelGizmoLabel>
+                            <fuelFilter>
+                                <thingDefs>
+                                    <li>GatlingAmmoBox</li>
+                                </thingDefs>
+                            </fuelFilter>
+                            <fuelCapacity>250</fuelCapacity>
+                            <initialFuelPercent>1</initialFuelPercent>
+                            <autoRefuelPercent>1</autoRefuelPercent>
+                            <showFuelGizmo>true</showFuelGizmo>
+                            <minimumFueledThreshold>1</minimumFueledThreshold>
+                            <fuelMultiplier>1</fuelMultiplier>
+                            <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                            <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+                            <fuelIconPath>Things/Buildings/DefesiveStructures_Buildable/Turrets/UI/Reload/GatlingAmmoBox_UI</fuelIconPath>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Turret_Mannable_Gatling"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_Charges">
+                            <chargeSpeeds>
+                                <li>30</li>
+                                <li>50</li>
+                                <li>70</li>
+                                <li>90</li>
+                            </chargeSpeeds>
+                        </li>
+                        <li Class="CombatExtended.CompProperties_AmmoUser">
+                            <magazineSize>1</magazineSize>
+                            <reloadTime>5</reloadTime>
+                            <ammoSet>BulletSixBarrelzCEAmmo</ammoSet>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_GatlingTurretz"]/verbs</xpath>
+                    <value>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                <defaultProjectile>BulletMarauderGatlingCE</defaultProjectile>
+                                <warmupTime>1.0</warmupTime>
+                                <range>50.9</range>
+                                <burstShotCount>50</burstShotCount>
+                                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                                <soundCast>Shot_Blunderbuss</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>11</muzzleFlashScale>
+                                <consumeFuelPerShot>1</consumeFuelPerShot>
+                            </li>
+                        </verbs>
+                    </value>
+                </li>
+                <!-- “操纵型”加农炮塔 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Turret_Mannable_Cannon"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+                    <value>
+                        <li Class="CompProperties_Refuelable">
+                            <fuelLabel>Shots until reload</fuelLabel>
+                            <fuelGizmoLabel>Shots remaining</fuelGizmoLabel>
+                            <fuelFilter>
+                                <thingDefs>
+                                    <li>Chemfuel</li>
+                                </thingDefs>
+                            </fuelFilter>
+                            <fuelCapacity>20</fuelCapacity>
+                            <initialFuelPercent>1</initialFuelPercent>
+                            <autoRefuelPercent>1</autoRefuelPercent>
+                            <showFuelGizmo>true</showFuelGizmo>
+                            <minimumFueledThreshold>1</minimumFueledThreshold>
+                            <fuelMultiplier>1</fuelMultiplier>
+                            <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                            <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+                            <fuelIconPath>Things/Buildings/DefesiveStructures_Buildable/Turrets/UI/Reload/MortarHighEx_UI</fuelIconPath>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Turret_Mannable_Cannon"]/comps</xpath>
+                    <value>
+                        <li Class="CombatExtended.CompProperties_AmmoUser">
+                            <magazineSize>1</magazineSize>
+                            <reloadTime>5</reloadTime>
+                            <ammoSet>ShellHighExplosiveAmmo</ammoSet>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Cannonz"]/verbs</xpath>
+                    <value>
+                        <verbs>
+                            <li Class="CombatExtended.VerbPropertiesCE">
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                                <defaultProjectile>ShellHighExplosiveCannonCE</defaultProjectile>
+                                <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                                <warmupTime>4.0</warmupTime>
+                                <!-- <forcedMissRadius>9</forcedMissRadius> -->
+                                <isMortar>True</isMortar>
+                                <requireLineOfSight>false</requireLineOfSight>
+                                <range>50.9</range>
+                                <burstShotCount>1</burstShotCount>
+                                <soundCast>Shot_HandHeldCannon</soundCast>
+                                <muzzleFlashScale>16</muzzleFlashScale>
+                                <consumeFuelPerShot>1</consumeFuelPerShot>
+                                <targetParams>
+                                    <canTargetLocations>True</canTargetLocations>
+                                </targetParams>
+                            </li>
+                        </verbs>
+                    </value>
+                </li>
+                <!-- <li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName = "Turret_Mannable_Cannon"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+				</li> -->
+            </operations>
+        </match>
+    </Operation>
+</Patch>

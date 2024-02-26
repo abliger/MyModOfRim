@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- 猎人掸子 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HuntersDuster"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>200</MaxHitPoints>
+                            <WorkToMake>10000</WorkToMake>
+                            <MarketValue>850</MarketValue>
+                            <Mass>15</Mass>
+                            <Bulk>15</Bulk>
+                            <Flammability>0.4</Flammability>
+                            <ArmorRating_Sharp>9</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>12</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+                            <Insulation_Cold>39</Insulation_Cold>
+                            <Insulation_Heat>20</Insulation_Heat>
+                            <EquipDelay>3</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人常服 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_CommonAttire"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <WorkToMake>2700</WorkToMake>
+                            <MarketValue>200</MarketValue>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <ArmorRating_Sharp>14</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>12</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+                            <Insulation_Cold>15</Insulation_Cold>
+                            <Insulation_Heat>7</Insulation_Heat>
+                            <EquipDelay>1.5</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人外衣 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterGarb"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <WorkToMake>2700</WorkToMake>
+                            <MarketValue>250</MarketValue>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <ArmorRating_Sharp>17</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.17</ArmorRating_Heat>
+                            <Insulation_Cold>15</Insulation_Cold>
+                            <Insulation_Heat>7</Insulation_Heat>
+                            <EquipDelay>1.5</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人狩帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterCap"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>650</MarketValue>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <ArmorRating_Sharp>20</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>10</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>25</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人棉帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterFedora"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>750</MarketValue>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <ArmorRating_Sharp>22</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>11</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.13</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>25</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人三角帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterTricorn"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>750</MarketValue>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.13</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>25</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 黑色猎人掸子 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HuntersDusterBlack"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>200</MaxHitPoints>
+                            <WorkToMake>10000</WorkToMake>
+                            <MarketValue>880</MarketValue>
+                            <Flammability>0.4</Flammability>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+                            <Insulation_Cold>39</Insulation_Cold>
+                            <Insulation_Heat>20</Insulation_Heat>
+                            <EquipDelay>3</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 黑色猎人外衣 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterGarbBlack"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <WorkToMake>2700</WorkToMake>
+                            <MarketValue>250</MarketValue>
+                            <Mass>15</Mass>
+                            <Bulk>15</Bulk>
+                            <ArmorRating_Sharp>25</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.17</ArmorRating_Heat>
+                            <Insulation_Cold>15</Insulation_Cold>
+                            <Insulation_Heat>7</Insulation_Heat>
+                            <EquipDelay>1.5</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎击礼帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_SniperTopHat"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>750</MarketValue>
+                            <Mass>2</Mass>
+                            <Bulk>2</Bulk>
+                            <ArmorRating_Sharp>10</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>10</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>15</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人头巾 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterSombrero"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1000</WorkToMake>
+                            <MarketValue>800</MarketValue>
+                            <Mass>10</Mass>
+                            <Bulk>10</Bulk>
+                            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.17</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>45</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 黑色猎人三角帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_HunterTricornBlack"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>750</MarketValue>
+                            <Mass>4</Mass>
+                            <Bulk>4</Bulk>
+                            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>25</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 火炮猎衣 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_PowderkegGarb"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>200</MaxHitPoints>
+                            <WorkToMake>10000</WorkToMake>
+                            <MarketValue>1200</MarketValue>
+                            <Mass>20</Mass>
+                            <Bulk>20</Bulk>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>20</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>45</Insulation_Cold>
+                            <Insulation_Heat>30</Insulation_Heat>
+                            <EquipDelay>3</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 火炮猎甲 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_ArmoredPowderkegGarb"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>200</MaxHitPoints>
+                            <WorkToMake>10000</WorkToMake>
+                            <MarketValue>1200</MarketValue>
+                            <Mass>20</Mass>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>30</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>45</Insulation_Cold>
+                            <Insulation_Heat>30</Insulation_Heat>
+                            <EquipDelay>3</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ThingDef[defName="Apparel_ArmoredPowderkegGarb"]/equippedStatOffsets/CarryingCapacity</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Apparel_ArmoredPowderkegGarb"]/equippedStatOffsets</xpath>
+                    <value>
+                        <CarryWeight>30</CarryWeight>
+                        <CarryBulk>30</CarryBulk>
+                    </value>
+                </li>
+                <!--猎人肩包 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Backpack_ShoulderBackPack"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <WorkToMake>14000</WorkToMake>
+                            <MarketValue>950</MarketValue>
+                            <Mass>3</Mass>
+                            <Bulk>3</Bulk>
+                            <Flammability>0.5</Flammability>
+                            <EquipDelay>2</EquipDelay>
+                            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>5</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+                        </statBases>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ThingDef[defName="Backpack_ShoulderBackPack"]/equippedStatOffsets/CarryingCapacity</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Backpack_ShoulderBackPack"]/equippedStatOffsets</xpath>
+                    <value>
+                        <CarryWeight>30</CarryWeight>
+                        <CarryBulk>30</CarryBulk>
+                    </value>
+                </li>
+                <!-- 探猎背包 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Backpack_AdventurerBackPack"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <WorkToMake>14000</WorkToMake>
+                            <MarketValue>1200</MarketValue>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <Flammability>0.5</Flammability>
+                            <EquipDelay>2</EquipDelay>
+                            <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>8</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.27</ArmorRating_Heat>
+                        </statBases>
+                    </value>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/ThingDef[defName="Backpack_AdventurerBackPack"]/equippedStatOffsets/CarryingCapacity</xpath>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Backpack_AdventurerBackPack"]/equippedStatOffsets</xpath>
+                    <value>
+                        <CarryWeight>50</CarryWeight>
+                        <CarryBulk>50</CarryBulk>
+                    </value>
+                </li>
+                <!-- 猎人手套 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Handwear_HunterGloves"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <MarketValue>700</MarketValue>
+                            <WorkToMake>4000</WorkToMake>
+                            <Mass>10</Mass>
+                            <Bulk>10</Bulk>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.3</ArmorRating_Heat>
+                            <Insulation_Cold>7</Insulation_Cold>
+                            <Insulation_Heat>7</Insulation_Heat>
+                            <EquipDelay>4</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 樴动手套 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Handwear_StakeDriverGloves"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <MarketValue>450</MarketValue>
+                            <WorkToMake>4000</WorkToMake>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>10</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+                            <Insulation_Cold>10</Insulation_Cold>
+                            <Insulation_Heat>10</Insulation_Heat>
+                            <EquipDelay>4</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 猎人靴子 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="FootWear_HunterBoots"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <MarketValue>450</MarketValue>
+                            <WorkToMake>4000</WorkToMake>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <Beauty>2</Beauty>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>10</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>0.9</ArmorRating_Heat>
+                            <Insulation_Cold>15</Insulation_Cold>
+                            <Insulation_Heat>15</Insulation_Heat>
+                            <EquipDelay>8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 暗影行者斗篷 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_ShadowWalkerCoat"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>200</MaxHitPoints>
+                            <WorkToMake>10000</WorkToMake>
+                            <MarketValue>950</MarketValue>
+                            <Mass>10</Mass>
+                            <Bulk>10</Bulk>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>15</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>15</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>45</Insulation_Cold>
+                            <Insulation_Heat>30</Insulation_Heat>
+                            <EquipDelay>3</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 暗影行者绒羽斗篷 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Apparel_ShadowWalkerFeatheredCoat"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>200</MaxHitPoints>
+                            <WorkToMake>10000</WorkToMake>
+                            <MarketValue>1200</MarketValue>
+                            <Mass>10</Mass>
+                            <Bulk>10</Bulk>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>20</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>20</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>45</Insulation_Cold>
+                            <Insulation_Heat>30</Insulation_Heat>
+                            <EquipDelay>3</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 影卫手套 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Handwear_ShadowGuards"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <MarketValue>850</MarketValue>
+                            <WorkToMake>4000</WorkToMake>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>25</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>7</Insulation_Cold>
+                            <Insulation_Heat>7</Insulation_Heat>
+                            <EquipDelay>4</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 残影猎靴 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="FootWear_ShadowStubs"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>100</MaxHitPoints>
+                            <MarketValue>850</MarketValue>
+                            <WorkToMake>4000</WorkToMake>
+                            <Mass>5</Mass>
+                            <Bulk>5</Bulk>
+                            <Beauty>2</Beauty>
+                            <Flammability>0</Flammability>
+                            <ArmorRating_Sharp>25</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>15</Insulation_Cold>
+                            <Insulation_Heat>15</Insulation_Heat>
+                            <EquipDelay>8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 卑猎兜帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Headgear_RogueHood"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>500</WorkToMake>
+                            <MarketValue>1000</MarketValue>
+                            <Flammability>0</Flammability>
+                            <Mass>15</Mass>
+                            <Bulk>15</Bulk>
+                            <ArmorRating_Sharp>25</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>10</Insulation_Cold>
+                            <Insulation_Heat>10</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 幽影兜帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Headgear_PhantomHood"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>1000</MarketValue>
+                            <Flammability>0</Flammability>
+                            <Mass>10</Mass>
+                            <Bulk>10</Bulk>
+                            <ArmorRating_Sharp>25</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>10</Insulation_Cold>
+                            <Insulation_Heat>10</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+                <!-- 鸦羽兜帽 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Headgear_CrowFeatherHood"]/statBases</xpath>
+                    <value>
+                        <statBases>
+                            <MaxHitPoints>80</MaxHitPoints>
+                            <WorkToMake>1800</WorkToMake>
+                            <MarketValue>1000</MarketValue>
+                            <Flammability>0</Flammability>
+                            <Mass>2</Mass>
+                            <Bulk>3</Bulk>
+                            <ArmorRating_Sharp>20</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>20</ArmorRating_Blunt>
+                            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+                            <Insulation_Cold>5</Insulation_Cold>
+                            <Insulation_Heat>5</Insulation_Heat>
+                            <EquipDelay>0.8</EquipDelay>
+                        </statBases>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

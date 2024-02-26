@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_AutomatonHandCannon</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>950</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletAutomatonHandCannonCE</defaultProjectile>
+                        <warmupTime>4</warmupTime>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+                        <range>25</range>
+                        <soundCast>Shot_FlintlockStrong</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletAutomatonHandCannonCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>AutomatonMeleeWeapons</li>
+                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_AutomatonHandCannon"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Melee_AutomatonHandBlade"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>25</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <armorPenetration>10</armorPenetration>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>010</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>blade tip</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>30</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <armorPenetration>10</armorPenetration>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Melee_AutomatonHandBlade"]/statBases</xpath>
+                    <value>
+                        <Bulk>4</Bulk>
+                        <MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Melee_AutomatonHandBlade"]/equippedStatOffsets</xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MeleeCritChance>0.5</MeleeCritChance>
+                            <MeleeParryChance>0.5</MeleeParryChance>
+                            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+                        </equippedStatOffsets>
+                    </value>
+                </li>
+                <!-- “参宿四”排枪手炮 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Special_Betelgeuse</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>5500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>11</Mass>
+                        <Bulk>9</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.90</AccuracyMedium>
+                        <AccuracyLong>0.90</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletAutomatonHandCannonCE</defaultProjectile>
+                        <warmupTime>1.5</warmupTime>
+                        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                        <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                        <range>40</range>
+                        <targetParams>
+                          <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                        <soundCast>Shot_Blunderbuss</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletAutomatonHandCannonCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                                        <li>WeaponsOldstyle</li>
+                                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Special_Betelgeuse"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <!-- 黑曼巴左轮 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Special_BlackMamba</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>9500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletBlackMambaCE</defaultProjectile>
+                        <warmupTime>1.0</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+                        <range>30</range>
+                        <soundCast>Shot_RevolverFrontier</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletBlackMambaCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                                        <li>WeaponsOldstyle</li>
+                                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Special_BlackMamba"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <!-- 混沌左轮 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Special_ChaosRevolver</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>9500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.90</AccuracyMedium>
+                        <AccuracyLong>0.90</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletMysteriousMagnumCE</defaultProjectile>
+                        <warmupTime>7.5</warmupTime>		
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+                        <range>30</range>
+                        <soundCast>Shot_RevolverFrontier</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletMysteriousMagnumCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                                        <li>WeaponsOldstyle</li>
+                                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Special_ChaosRevolver"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <!-- 维和者左轮 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Special_PeacekeeperRevolver</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>7500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.90</AccuracyMedium>
+                        <AccuracyLong>0.90</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletAutomatonHandCannonCE</defaultProjectile>
+                        <warmupTime>2.0</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+                        <range>25</range>
+                        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                        <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
+                        <targetParams>
+                          <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                        <soundCast>Shot_RevolverFrontier</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletAutomatonHandCannonCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                                        <li>WeaponsOldstyle</li>
+                                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Special_PeacekeeperRevolver"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <!-- 上帝压狗 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Special_Santiago</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>5500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>11</Mass>
+                        <Bulk>9</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>1.5</warmupTime>
+                        <burstShotCount>1</burstShotCount>
+                        <!--<ticksBetweenBurstShots>45</ticksBetweenBurstShots>-->
+                        <range>45</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                                        <li>WeaponsOldstyle</li>
+                                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Special_Santiago"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <!-- 制胜步枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Special_VictoryRifle</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>9500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>11</Mass>
+                        <Bulk>9</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.90</AccuracyMedium>
+                        <AccuracyLong>0.90</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletAutomatonHandCannonCE</defaultProjectile>
+                        <warmupTime>2.0</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+                        <range>45</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletAutomatonHandCannonCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                                        <li>WeaponsOldstyle</li>
+                                    </weaponTags> -->
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Gun_Special_VictoryRifle"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <!-- 血信 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="MeleeWeapon_Special_BloodLetter"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>25</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <armorPenetrationSharp>25</armorPenetrationSharp>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>25</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>blade tip</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>30</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <armorPenetrationSharp>25</armorPenetrationSharp>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>25</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Special_BloodLetter"]/statBases</xpath>
+                    <value>
+                        <Bulk>6</Bulk>
+                        <MeleeCounterParryBonus>0.7</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Special_BloodLetter"]/equippedStatOffsets</xpath>
+                    <value>
+                        <MeleeCritChance>2</MeleeCritChance>
+                        <MeleeParryChance>0.7</MeleeParryChance>
+                        <MeleeDodgeChance>0.7</MeleeDodgeChance>
+                    </value>
+                </li>
+                <!-- 路德船长的圣剑 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="MeleeWeapon_Special_CaptainLudsHolyBlade"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>edge</label>
+                                <capacities>
+                                    <li>Cut</li>
+                                </capacities>
+                                <power>25</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <armorPenetrationSharp>10</armorPenetrationSharp>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>blade tip</label>
+                                <capacities>
+                                    <li>Stab</li>
+                                </capacities>
+                                <power>30</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <armorPenetrationSharp>35</armorPenetrationSharp>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Special_CaptainLudsHolyBlade"]/statBases</xpath>
+                    <value>
+                        <Bulk>6</Bulk>
+                        <MeleeCounterParryBonus>0.9</MeleeCounterParryBonus>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="MeleeWeapon_Special_CaptainLudsHolyBlade"]/equippedStatOffsets</xpath>
+                    <value>
+                        <MeleeCritChance>1.5</MeleeCritChance>
+                        <MeleeParryChance>1.3</MeleeParryChance>
+                        <MeleeDodgeChance>0.9</MeleeDodgeChance>
+                    </value>
+                </li>
+                <!-- 文化圣物可以选择
+                <li Class="PatchOperationAttributeSet">
+                    <xpath>/Defs/ThingDef[
+                        defName="MeleeWeapon_Special_CaptainLudsHolyBlade" or
+                        defName="MeleeWeapon_Special_BloodLetter" or
+                        defName="Gun_Special_VictoryRifle" or
+                        defName="Gun_Special_Santiago" or
+                        defName="Gun_Special_PeacekeeperRevolver" or
+                        defName="Gun_Special_ChaosRevolver" or
+                        defName="Gun_Special_BlackMamba" or
+                        defName="Gun_Special_Betelgeuse"
+                        ]</xpath>
+                    <attribute>ParentName</attribute>
+                    <value>BaseMeleeWeapon_Sharp_Quality</value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[
+                        defName="MeleeWeapon_Special_CaptainLudsHolyBlade" or
+                        defName="MeleeWeapon_Special_BloodLetter" or
+                        defName="Gun_Special_VictoryRifle" or
+                        defName="Gun_Special_Santiago" or
+                        defName="Gun_Special_PeacekeeperRevolver" or
+                        defName="Gun_Special_ChaosRevolver" or
+                        defName="Gun_Special_BlackMamba" or
+                        defName="Gun_Special_Betelgeuse"
+                        ]/weaponTags</xpath>
+                    <value>
+                        <weaponTags>
+                            <li>Hunterphage_UltratechMelee</li>
+                        </weaponTags>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[
+                        defName="MeleeWeapon_Special_CaptainLudsHolyBlade" or
+                        defName="MeleeWeapon_Special_BloodLetter" or
+                        defName="Gun_Special_VictoryRifle" or
+                        defName="Gun_Special_Santiago" or
+                        defName="Gun_Special_PeacekeeperRevolver" or
+                        defName="Gun_Special_ChaosRevolver" or
+                        defName="Gun_Special_BlackMamba" or
+                        defName="Gun_Special_Betelgeuse"
+                        ]/smeltable</xpath>
+                    <value>
+                        <smeltable>false</smeltable>
+                    </value>
+                </li> -->
+            </operations>
+        </match>
+    </Operation>
+</Patch>

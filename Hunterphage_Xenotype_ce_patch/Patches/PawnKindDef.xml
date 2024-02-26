@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Hunterphage Xenotype</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_Bodyguard"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>FlintlockBasic</li>
+									<li>PercussionBasic</li>
+									<li>RevolverTechElite</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_Intermediate"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>PercussionBasic</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_Basic" or
+						defName="Wanderer" or
+						defName="Companions_Starter"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>FlintlockBasic</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_Elite"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>RevolverTechElite</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_PowderKeg"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>RevolverTechElite</li>
+									<li>WeaponsBizarre</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_ArmoredPowderKeg"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>HunterphageHeavyCannon</li>
+									<li>HunterphageHeavyGatling</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_IntermediateMelee" or
+						defName="Hunter_BasicMelee" or
+						defName="Hunter_EliteMelee"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>MeleeHunterphage</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_ArmoredPowderKeg"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>HunterphageHeavyCannon</li>
+									<li>HunterphageHeavyGatling</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_ArmoredPowderKegMelee"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>PowderkegSawBlade</li>
+									<li>PowderkegRipperSword</li>
+									<li>PowderkegRipperSaber</li>
+									<li>PowderkegPizzaCutter</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="ShadowWalker_Initiate"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>ShadowDagger</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="ShadowWalker_Veteran"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>ShadowSaber</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="ShadowWalker_Elite"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>ShadowBane</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_Leader" or
+						defName="Hunter_Trader"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>MeleeHunterphage</li>
+									<li>RevolverTechElite</li>
+									<li>WeaponsBizarre</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunterphage_Starter"
+						]</xpath>
+					<value>
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
+							<primaryMagazineCount>
+								<min>2</min>
+								<max>5</max>
+							</primaryMagazineCount>
+							<forcedSidearm>
+								<sidearmMoney>
+									<min>100</min>
+									<max>700</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>WeaponsBizarre</li>
+								</weaponTags>
+							</forcedSidearm>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<FactionDef ParentName="HuntersCovenantBase">
+							<factionIconPath>Things/Misc/Logo/Faction/HunterphageFaction</factionIconPath>
+							<defName>FreeHunters</defName>
+							<label>free hunters</label>
+							<leaderTitle>khan</leaderTitle>
+							<description>After the collapse of the Archadia Empire,more hunting
+								species rely on robbery to feed themselves. A thousand years later,
+								it has become a nomad in the starry sea.</description>
+							<naturalEnemy>true</naturalEnemy>
+							<colorSpectrum>
+								<li>(0.95, 0.20, 0.50)</li>
+								<!-- <li>(0.45, 0.40, 0.90)</li> -->
+							</colorSpectrum>
+							<classicIdeo>true</classicIdeo>
+							<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+							<configurationListOrderPriority>10</configurationListOrderPriority>
+						</FactionDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

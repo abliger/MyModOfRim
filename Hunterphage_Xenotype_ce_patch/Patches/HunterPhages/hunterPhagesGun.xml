@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- 雷管铳枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_Blunderbuss</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1200</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>8</Mass>
+                        <Bulk>7</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>1.0</AccuracyShort>
+                        <AccuracyMedium>0.70</AccuracyMedium>
+                        <AccuracyLong>0.60</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletBlunderbussCE</defaultProjectile>
+                        <warmupTime>7</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                        <range>15</range>
+                        <soundCast>Shot_Blunderbuss</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 长雷管铳枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_BlunderbussLongGun</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1350</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>11</Mass>
+                        <Bulk>9</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>1.0</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.70</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletBlunderbussCE</defaultProjectile>
+                        <warmupTime>7</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                        <range>40</range>
+                        <soundCast>Shot_Blunderbuss</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 燧发枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_FlintlockRifle</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>900</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.80</AccuracyLong>
+                        <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletBlunderbussCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>1</burstShotCount>
+                        <range>25</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 长管燧发枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_FlintlockLongGun</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1000</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>9</Mass>
+                        <Bulk>7</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.80</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletBlunderbussCE</defaultProjectile>
+                        <warmupTime>7</warmupTime>
+                        <burstShotCount>1</burstShotCount>
+                        <range>50</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 线膛枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_PercussionRifle</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1100</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.80</AccuracyLong>
+                        <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>1</burstShotCount>
+                        <!--<ticksBetweenBurstShots>5</ticksBetweenBurstShots>-->
+                        <range>25</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 长管线膛枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_PercussionLongGun</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1200</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.75</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.80</AccuracyLong>
+                        <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>1</burstShotCount>
+                        <range>50</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 带镜长管线膛枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_ScopedPercussionLongGun</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1200</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.95</AccuracyMedium>
+                        <AccuracyLong>1.50</AccuracyLong>
+                        <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>1</burstShotCount>
+                        <!--<ticksBetweenBurstShots>5</ticksBetweenBurstShots>-->
+                        <range>50</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 转轮打火枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_RevolvingRifle</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1100</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.85</AccuracyMedium>
+                        <AccuracyLong>0.80</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>70</ticksBetweenBurstShots>
+                        <range>30</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 长管转轮打火枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_RevolvingLongGun</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1200</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.90</AccuracyMedium>
+                        <AccuracyLong>0.90</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>70</ticksBetweenBurstShots>
+                        <range>55</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 带镜长管转轮打火枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_ScopedRevolvingLongGun</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1300</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>1.20</AccuracyMedium>
+                        <AccuracyLong>1.65</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <warmupTime>5</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>70</ticksBetweenBurstShots>
+                        <range>55</range>
+                        <soundCast>Shot_FlintlockCritical</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 边陲左轮手枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_FrontierRevolver</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>950</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletRevolverFrontierCE</defaultProjectile>
+                        <warmupTime>4</warmupTime>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+                        <range>25</range>
+                        <soundCast>Shot_RevolverFrontier</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletRevolverFrontierCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 猎人喷火器 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_HuntersFlamesprayer</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>950</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootFlareCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
+                        <warmupTime>0</warmupTime>
+                        <range>9.9</range>
+                        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+                        <burstShotCount>7</burstShotCount>
+                        <soundCast>Shot_MiniFlameblaster</soundCast>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_Flamethrower</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 六管马格南 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_SixBarrelMagnum</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>950</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletSixBarrelzCE</defaultProjectile>
+                        <warmupTime>4</warmupTime>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                        <range>25</range>
+                        <soundCast>Shot_FlintlockStrong</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletSixBarrelzCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 大口径马格南 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_TurretMagnum</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1000</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>3</Mass>
+                        <Bulk>3</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletSixBarrelzCE</defaultProjectile>
+                        <warmupTime>4</warmupTime>
+                        <burstShotCount>10</burstShotCount>
+                        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                        <range>20</range>
+                        <soundCast>Shot_FlintlockStrong</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletSixBarrelzCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 伊努伊左轮手枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_EnouyRevolver</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1500</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletRevolverFrontierCE</defaultProjectile>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+                        <range>25</range>
+                        <soundCast>Shot_RevolverFrontier</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletRevolverFrontierCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 连发步枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_VolleyRifle</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>1300</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.90</AccuracyMedium>
+                        <AccuracyLong>0.90</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
+                        <range>25</range>
+                        <soundCast>Shot_RevolverFrontier</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>10</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletFlintlockBasicCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 掠夺者加农炮 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_MarauderCannon</defName>
+                    <statBases>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <MarketValue>950</MarketValue>
+                        <WorkToMake>45000</WorkToMake>
+                        <Mass>2</Mass>
+                        <Bulk>5</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.85</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.75</AccuracyLong>
+                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>8.34</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletMarauderCannonCE</defaultProjectile>
+                        <!-- <forcedMissRadius>2.9</forcedMissRadius> -->
+                        <isMortar>true</isMortar>
+                        <warmupTime>4.5</warmupTime>
+                        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                        <range>50.9</range>
+                        <burstShotCount>1</burstShotCount>
+                        <soundCast>Shot_HandHeldCannon</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <targetParams>
+                          <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                        <muzzleFlashScale>14</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>60</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>BulletMarauderCannonCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- 掠夺者加特林机枪 -->
+                <li Class='CombatExtended.PatchOperationMakeGunCECompatible'>
+                    <defName>Gun_MarauderGatling</defName>
+                    <statBases>
+                        <SightsEfficiency>1</SightsEfficiency>
+                        <MaxHitPoints>100</MaxHitPoints>
+                        <WorkToMake>45000</WorkToMake>
+                        <MarketValue>8500</MarketValue>
+                        <Mass>20</Mass>
+                        <ShotSpread>0.06</ShotSpread>
+                        <SwayFactor>3.22</SwayFactor>
+                        <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+                        <Bulk>10</Bulk>
+                    </statBases>
+                    <Properties>
+                        <recoilAmount>2.74</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>BulletRevolverFrontierCE</defaultProjectile>
+                        <warmupTime>4.5</warmupTime>
+                        <range>35.9</range>
+                        <burstShotCount>30</burstShotCount>
+                        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                        <soundCast>Shot_Blunderbuss</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>14</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>500</magazineSize>
+                        <reloadTime>9.2</reloadTime>
+                        <ammoSet>BulletRevolverFrontierCEAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aimedBurstShotCount>50</aimedBurstShotCount>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <!-- <weaponTags>
+                        <li>WeaponsOldstyle</li>
+                    </weaponTags> -->
+                </li>
+                <!-- gun 近战 -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[
+                        defName="Gun_VolleyRifle" or
+                        defName="Gun_EnouyRevolver" or
+                        defName="Gun_TurretMagnum" or
+                        defName="Gun_SixBarrelMagnum" or
+                        defName="Gun_HuntersFlamesprayer" or
+                        defName="Gun_FrontierRevolver" or
+                        defName="Gun_ScopedRevolvingLongGun" or
+                        defName="Gun_RevolvingLongGun" or
+                        defName="Gun_RevolvingRifle" or
+                        defName="Gun_ScopedPercussionLongGun" or
+                        defName="Gun_PercussionLongGun" or
+                        defName="Gun_PercussionRifle" or
+                        defName="Gun_FlintlockRifle" or
+                        defName="Gun_BlunderbussLongGun" or
+                        defName="Gun_FlintlockLongGun" or
+                        defName="Gun_Blunderbuss" 
+                        ]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[
+                        defName="Gun_MarauderGatling" or
+                        defName="Gun_MarauderCannon" 
+                        ]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>12</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>12</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>20</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>9</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <Craft_GatlingAmmunition_BulkCE.label>制作加特林炮塔弹药</Craft_GatlingAmmunition_BulkCE.label>
+    <Craft_GatlingAmmunition_BulkCE.description>制作50发加特林炮塔弹药。</Craft_GatlingAmmunition_BulkCE.description>
+    <Craft_GatlingAmmunition_BulkCE.jobString>正在制作弹药。</Craft_GatlingAmmunition_BulkCE.jobString>
+
+
+    <MakeBulletBlunderbussCE_Ammo.label>制作铳枪弹丸 x200</MakeBulletBlunderbussCE_Ammo.label>
+	<MakeBulletBlunderbussCE_Ammo.description>制作 200 个铳枪弹丸</MakeBulletBlunderbussCE_Ammo.description>
+	<MakeBulletBlunderbussCE_Ammo.jobString>正在制作铳枪弹丸</MakeBulletBlunderbussCE_Ammo.jobString>
+
+    <MakeBulletFlintlockBasicCE_Ammo.label>制作燧发枪弹丸 x200</MakeBulletFlintlockBasicCE_Ammo.label>
+	<MakeBulletFlintlockBasicCE_Ammo.description>制作 200 个燧发枪弹丸</MakeBulletFlintlockBasicCE_Ammo.description>
+	<MakeBulletFlintlockBasicCE_Ammo.jobString>正在制作燧发枪弹丸</MakeBulletFlintlockBasicCE_Ammo.jobString>
+
+    <MakeBulletRevolverFrontierCE_Ammo.label>制作左轮子弹 x200</MakeBulletRevolverFrontierCE_Ammo.label>
+	<MakeBulletRevolverFrontierCE_Ammo.description>制作 200 个左轮子弹</MakeBulletRevolverFrontierCE_Ammo.description>
+	<MakeBulletRevolverFrontierCE_Ammo.jobString>正在制作左轮子弹</MakeBulletRevolverFrontierCE_Ammo.jobString>
+
+    <MakeBulletSixBarrelzCE_Ammo.label>制作马格南子弹 x200</MakeBulletSixBarrelzCE_Ammo.label>
+	<MakeBulletSixBarrelzCE_Ammo.description>制作 200 个马格南子弹</MakeBulletSixBarrelzCE_Ammo.description>
+	<MakeBulletSixBarrelzCE_Ammo.jobString>正在制作马格南子弹</MakeBulletSixBarrelzCE_Ammo.jobString>
+
+    <MakeBulletMarauderCannonCE_Ammo.label>制作加农炮弹x200</MakeBulletMarauderCannonCE_Ammo.label>
+	<MakeBulletMarauderCannonCE_Ammo.description>制作 200 个加农炮弹</MakeBulletMarauderCannonCE_Ammo.description>
+	<MakeBulletMarauderCannonCE_Ammo.jobString>正在制作加农炮弹</MakeBulletMarauderCannonCE_Ammo.jobString>
+
+
+    <MakeBulletMarauderGatlingCE_Ammo.label>制作冲击子弹x200</MakeBulletMarauderGatlingCE_Ammo.label>
+	<MakeBulletMarauderGatlingCE_Ammo.description>制作 200 个冲击子弹</MakeBulletMarauderGatlingCE_Ammo.description>
+	<MakeBulletMarauderGatlingCE_Ammo.jobString>正在制作冲击子弹</MakeBulletMarauderGatlingCE_Ammo.jobString>
+
+
+
+    <MakeShellHighExplosiveCannonCE_Ammo.label>制作高爆加农炮弹x10</MakeShellHighExplosiveCannonCE_Ammo.label>
+	<MakeShellHighExplosiveCannonCE_Ammo.description>制作 10 个高爆加农炮弹</MakeShellHighExplosiveCannonCE_Ammo.description>
+	<MakeShellHighExplosiveCannonCE_Ammo.jobString>正在制作高爆加农炮弹</MakeShellHighExplosiveCannonCE_Ammo.jobString>
+
+
+
+    <MakeShellAntiArmorCannonCE_Ammo.label>制作蚀甲加农炮弹x10</MakeShellAntiArmorCannonCE_Ammo.label>
+	<MakeShellAntiArmorCannonCE_Ammo.description>制作 10 个蚀甲加农炮弹</MakeShellAntiArmorCannonCE_Ammo.description>
+	<MakeShellAntiArmorCannonCE_Ammo.jobString>正在制作蚀甲加农炮弹</MakeShellAntiArmorCannonCE_Ammo.jobString>
+
+
+
+
+</LanguageData>
