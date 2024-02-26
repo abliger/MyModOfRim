@@ -20,22 +20,19 @@
     <GatlingAmmoBoxCE_Ammo.label>加特林弹药箱</GatlingAmmoBoxCE_Ammo.label>
     <GatlingAmmoBoxCE_Ammo.description>一个装满弹药的金属盒，用于可操控的加特林炮塔\n\n注意！它非常容易爆炸！</GatlingAmmoBoxCE_Ammo.description>
 
-    <GatlingAmmoBoxCE.comps.CompRefuelable.fuelGizmoLabel>加特林弹药容量</GatlingAmmoBoxCE.comps.CompRefuelable.fuelGizmoLabel>
-    <GatlingAmmoBoxCE.comps.CompRefuelable.fuelLabel>射击至加特林弹药用尽</GatlingAmmoBoxCE.comps.CompRefuelable.fuelLabel>
-    <GatlingAmmoBoxCE.comps.CompRefuelable.outOfFuelMessage>加特林弹药用尽</GatlingAmmoBoxCE.comps.CompRefuelable.outOfFuelMessage>
+    <Turret_Mannable_Gatling.comps.CompRefuelable.fuelGizmoLabel>加特林弹药容量</Turret_Mannable_Gatling.comps.CompRefuelable.fuelGizmoLabel>
+    <Turret_Mannable_Gatling.comps.CompRefuelable.fuelLabel>射击至加特林弹药用尽</Turret_Mannable_Gatling.comps.CompRefuelable.fuelLabel>
+    <Turret_Mannable_Gatling.comps.CompRefuelable.outOfFuelMessage>加特林弹药用尽</Turret_Mannable_Gatling.comps.CompRefuelable.outOfFuelMessage>
 
 
     <ShellHighExplosiveAmmoCategory.label>加农炮弹</ShellHighExplosiveAmmoCategory.label>
     <ShellHighExplosiveAmmo.label>加农炮弹</ShellHighExplosiveAmmo.label>
     <Shell_HighExplosiveCannonCE.label>高爆加农炮弹</Shell_HighExplosiveCannonCE.label>
     <Shell_HighExplosiveCannonCE.description>可操纵型炮塔使用的爆炸性炮弹。</Shell_HighExplosiveCannonCE.description>
-    <Shell_HighExplosiveCannonCE.comps.CompRefuelable.fuelGizmoLabel>高爆加农炮弹容量</Shell_HighExplosiveCannonCE.comps.CompRefuelable.fuelGizmoLabel>
-    <Shell_HighExplosiveCannonCE.comps.CompRefuelable.fuelLabel>射击至高爆加农炮弹用尽</Shell_HighExplosiveCannonCE.comps.CompRefuelable.fuelLabel>
-    <Shell_HighExplosiveCannonCE.comps.CompRefuelable.outOfFuelMessage>高爆加农炮弹用尽</Shell_HighExplosiveCannonCE.comps.CompRefuelable.outOfFuelMessage>
 
     <Shell_AntiArmorCannonCE.label>蚀甲加农炮弹</Shell_AntiArmorCannonCE.label>
     <Shell_AntiArmorCannonCE.description>猎人工坊制造的特殊炮弹。虽然它造成的伤害较低，但能对10.9格范围内的敌人造成蚀甲伤害。</Shell_AntiArmorCannonCE.description>
-    <Shell_AntiArmorCannonCE.comps.CompRefuelable.fuelGizmoLabel>蚀甲加农炮弹容量</Shell_AntiArmorCannonCE.comps.CompRefuelable.fuelGizmoLabel>
-    <Shell_AntiArmorCannonCE.comps.CompRefuelable.fuelLabel>射击至蚀甲加农炮弹用尽</Shell_AntiArmorCannonCE.comps.CompRefuelable.fuelLabel>
-    <Shell_AntiArmorCannonCE.comps.CompRefuelable.outOfFuelMessage>蚀甲加农炮弹用尽</Shell_AntiArmorCannonCE.comps.CompRefuelable.outOfFuelMessage>
+    <Turret_Mannable_Cannon.comps.CompRefuelable.fuelGizmoLabel>加农炮弹容量</Turret_Mannable_Cannon.comps.CompRefuelable.fuelGizmoLabel>
+    <Turret_Mannable_Cannon.comps.CompRefuelable.fuelLabel>射击至加农炮弹用尽</Turret_Mannable_Cannon.comps.CompRefuelable.fuelLabel>
+    <Turret_Mannable_Cannon.comps.CompRefuelable.outOfFuelMessage>加农炮弹用尽</Turret_Mannable_Cannon.comps.CompRefuelable.outOfFuelMessage>
 </LanguageData>
