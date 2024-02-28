@@ -236,7 +236,7 @@
             <damageDef>Bomb</damageDef>
             <explosionRadius>5.9</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>70</speed>
+            <!-- <speed>70</speed> -->
             <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
             <soundExplode>MortarBomb_Explode</soundExplode>
             <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
