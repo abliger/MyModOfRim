@@ -35,7 +35,7 @@
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
        <tradeability>None</tradeability>
-        <destroyOnDrop>True</destroyOnDrop>
+        <destroyOnDrop>False</destroyOnDrop>
         <stackLimit>100</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -102,7 +102,7 @@
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
        <tradeability>None</tradeability>
-        <destroyOnDrop>True</destroyOnDrop>
+        <destroyOnDrop>False</destroyOnDrop>
         <stackLimit>100</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -166,7 +166,7 @@
         </tradeTags>
         <stackLimit>10</stackLimit>
        <tradeability>None</tradeability>
-        <destroyOnDrop>True</destroyOnDrop>
+        <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>ShellHighExplosiveCannonCE</defName>
@@ -230,7 +230,7 @@
             <li>AmmunitionBasiczBullet</li>
         </tradeTags>
        <tradeability>None</tradeability>
-        <destroyOnDrop>True</destroyOnDrop>
+        <destroyOnDrop>False</destroyOnDrop>
         <stackLimit>10</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
