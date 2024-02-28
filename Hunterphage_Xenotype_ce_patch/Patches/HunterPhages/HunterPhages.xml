@@ -145,8 +145,8 @@
                         <warmupTime>1.5</warmupTime>
                         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
                         <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
+                        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                         <burstShotCount>5</burstShotCount>
-                        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                         <range>40</range>
                         <targetParams>
                           <canTargetLocations>true</canTargetLocations>
@@ -162,6 +162,8 @@
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                                         <li>WeaponsOldstyle</li>
@@ -205,6 +207,10 @@
                         <WorkToMake>45000</WorkToMake>
                         <Mass>2</Mass>
                         <Bulk>2</Bulk>
+                        <AccuracyTouch>1.0</AccuracyTouch>
+                        <AccuracyShort>0.90</AccuracyShort>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.60</AccuracyLong>
                         <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
                     </statBases>
                     <Properties>
@@ -213,7 +219,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletBlackMambaCE</defaultProjectile>
                         <warmupTime>1.0</warmupTime>
-                        <burstShotCount>5</burstShotCount>
+                        <burstShotCount>3</burstShotCount>
                         <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
                         <range>30</range>
                         <soundCast>Shot_RevolverFrontier</soundCast>
@@ -227,6 +233,8 @@
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                                         <li>WeaponsOldstyle</li>
@@ -272,17 +280,17 @@
                         <Bulk>2</Bulk>
                         <AccuracyTouch>1.0</AccuracyTouch>
                         <AccuracyShort>0.90</AccuracyShort>
-                        <AccuracyMedium>0.90</AccuracyMedium>
-                        <AccuracyLong>0.90</AccuracyLong>
-                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                        <AccuracyMedium>0.80</AccuracyMedium>
+                        <AccuracyLong>0.60</AccuracyLong>
+                        <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
                     </statBases>
                     <Properties>
                         <recoilAmount>2.74</recoilAmount>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletMysteriousMagnumCE</defaultProjectile>
-                        <warmupTime>7.5</warmupTime>		
-                        <burstShotCount>5</burstShotCount>
+                        <warmupTime>2.5</warmupTime>		
+                        <burstShotCount>3</burstShotCount>
                         <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
                         <range>30</range>
                         <soundCast>Shot_RevolverFrontier</soundCast>
@@ -296,6 +304,8 @@
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                                         <li>WeaponsOldstyle</li>
@@ -343,7 +353,7 @@
                         <AccuracyShort>0.90</AccuracyShort>
                         <AccuracyMedium>0.90</AccuracyMedium>
                         <AccuracyLong>0.90</AccuracyLong>
-                        <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+                        <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
                     </statBases>
                     <Properties>
                         <recoilAmount>2.74</recoilAmount>
@@ -370,6 +380,8 @@
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                                         <li>WeaponsOldstyle</li>
@@ -426,7 +438,7 @@
                         <defaultProjectile>BulletFlintlockBasicCE</defaultProjectile>
                         <warmupTime>1.5</warmupTime>
                         <burstShotCount>1</burstShotCount>
-                        <!--<ticksBetweenBurstShots>45</ticksBetweenBurstShots>-->
+                        <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
                         <range>45</range>
                         <soundCast>Shot_FlintlockCritical</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -508,6 +520,8 @@
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                                         <li>WeaponsOldstyle</li>

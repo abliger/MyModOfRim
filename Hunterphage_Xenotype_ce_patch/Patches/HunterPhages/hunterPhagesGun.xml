@@ -682,6 +682,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletMarauderCannonCE</defaultProjectile>
                         <!-- <forcedMissRadius>2.9</forcedMissRadius> -->
+                        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                         <isMortar>true</isMortar>
                         <warmupTime>3.5</warmupTime>
                         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>

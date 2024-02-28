@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!-- 弩炮弹药 -->
-    <CombatExtended.AmmoCategoryDef>
-        <defName>BallistaBoltsCECategory</defName>
-        <label>BallistaBoltsCE Category</label>
-        <labelShort>BallistaBoltsCE Category</labelShort>
-        <description>BallistaBoltsCE Category</description>
-    </CombatExtended.AmmoCategoryDef>
     <CombatExtended.AmmoSetDef>
         <defName>BallistaBoltsCEAmmo</defName>
         <label>BallistaBoltsCE Ammo</label>
@@ -30,7 +24,7 @@
             <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>BallistaBoltsCECategory</ammoClass>
+        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
         <cookOffProjectile>BallistaBoltsCE</cookOffProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -143,11 +137,6 @@
         </projectile>
     </ThingDef>
     <!-- 高爆加农炮弹 蚀甲加农炮弹 -->
-    <CombatExtended.AmmoCategoryDef>
-        <defName>ShellDefendCECategory</defName>
-        <label>Hunter Impact Bullet</label>
-        <description>Hunter faction defensive specialized shells, known for their high armor penetration and high damage, but difficult to transport</description>
-    </CombatExtended.AmmoCategoryDef>
     <CombatExtended.AmmoSetDef>
         <defName>ShellHighExplosiveAmmo</defName>
         <label>test ShellHighExplosiveAmmo</label>
@@ -155,6 +144,7 @@
             <ShellHighExplosiveCannonCE_Ammo>ShellHighExplosiveCannonCE</ShellHighExplosiveCannonCE_Ammo>
             <ShellAntiArmorCannonCE_Ammo>ShellAntiArmorCannonCE</ShellAntiArmorCannonCE_Ammo>
         </ammoTypes>
+        <isMortarAmmoSet>true</isMortarAmmoSet>
     </CombatExtended.AmmoSetDef>
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
         <defName>ShellHighExplosiveCannonCE_Ammo</defName>
@@ -172,7 +162,8 @@
             <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>ShellDefendCECategory</ammoClass>
+        <isMortarAmmo>true</isMortarAmmo>
+        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
         <cookOffProjectile>ShellHighExplosiveCannonCE</cookOffProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -192,7 +183,7 @@
         </statBases>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageDef>ExplosionEX</damageDef>
-            <speed>41</speed>
+            <speed>120</speed>
             <explosionRadius>7.9</explosionRadius>
             <flyOverhead>true</flyOverhead>
             <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
@@ -225,7 +216,8 @@
             <texPath>Things/Resources/Ammunition/Mortar/Anti-Armor</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>ShellDefendCECategory</ammoClass>
+        <isMortarAmmo>true</isMortarAmmo>
+        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
         <cookOffProjectile>ShellAntiArmorCannonCE</cookOffProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -246,7 +238,7 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageDef>AntiArmor</damageDef>
             <!-- damage amount is the damage def default -->
-            <speed>41</speed>
+            <speed>120</speed>
             <explosionRadius>10.9</explosionRadius>
             <flyOverhead>true</flyOverhead>
             <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
