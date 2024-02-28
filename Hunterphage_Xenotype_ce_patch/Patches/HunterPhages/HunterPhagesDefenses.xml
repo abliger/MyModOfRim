@@ -37,20 +37,21 @@
                         <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
                     </value>
                 </li>
-                <li Class="PatchOperationRemove">
+                <!-- <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[
-                        defName = "Turret_Mannable_Cannon" or 
+                        defName = "Turret_Mannable_Ballista" or 
                         defName = "Turret_Mannable_Gatling" or 
                         defName = "Turret_Mannable_Cannon"
                         ]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
-                </li>
-                <!-- <li Class="PatchOperationRemove">
+                </li> -->
+                <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[
-                        defName = "Turret_Mannable_Cannon" or 
+                        defName = "Turret_Mannable_Ballista" or 
                         defName = "Turret_Mannable_Gatling" or 
                         defName = "Turret_Mannable_Cannon" 
                         ]/comps</xpath>
-                </li> -->
+                </li>
+                <!-- defName = "Turret_Randy" or  -->
                 <!-- “操纵型”弩炮炮塔 -->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>Gun_BallistaTurretz</defName>
@@ -126,7 +127,7 @@
                 </li>
                 <!-- “操纵型”加农炮塔 -->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>Gun_GatlingTurretz</defName>
+                    <defName>Gun_Cannonz</defName>
                     <statBases>
                         <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
                         <SightsEfficiency>4.5</SightsEfficiency>
@@ -151,6 +152,45 @@
                         <magazineSize>1</magazineSize>
                         <reloadTime>5</reloadTime>
                         <ammoSet>ShellHighExplosiveAmmo</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <!-- null -->
+                    </weaponTags>
+                </li>
+                <!-- 兰迪人偶 -->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>Gun_Dummy_Blunderbuss</defName>
+                    <statBases>
+                        <AccuracyTouch>0.10</AccuracyTouch>
+                        <AccuracyShort>0.10</AccuracyShort>
+                        <AccuracyMedium>0.10</AccuracyMedium>
+                        <AccuracyLong>0.10</AccuracyLong>
+                        <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+                        <DeteriorationRate>0</DeteriorationRate>
+                        <Mass>15</Mass>
+                        <Flammability>0</Flammability>
+                        <Bulk>8</Bulk>
+                    </statBases>
+                    <Properties>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <defaultProjectile>BulletBlunderbussCE</defaultProjectile>
+                        <warmupTime>2.0</warmupTime>
+                        <range>25.9</range>
+                        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                        <burstShotCount>5</burstShotCount>
+                        <soundCast>Shot_Blunderbuss</soundCast>
+                        <soundCastTail>GunTail_Light</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <consumeFuelPerShot>1</consumeFuelPerShot>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>5</reloadTime>
+                        <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>

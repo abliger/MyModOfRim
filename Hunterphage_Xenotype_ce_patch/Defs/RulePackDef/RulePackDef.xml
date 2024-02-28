@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 姓名生成 -->
+    <RulePackDef>
+        <defName>PawnNamerGenHunterphage</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[firstName] [lastName]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>firstName->Names/firstName</li>
+                <li>lastName->Names/lastName</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+    <!-- 派系名字生成 -->
+    <RulePackDef>
+        <defName>NamerFactionOutlanderGenHunterphage</defName>
+        <include>
+            <li>OutlanderPlaceNameUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name-> [nation]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>nation->Names/nation</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+</Defs>

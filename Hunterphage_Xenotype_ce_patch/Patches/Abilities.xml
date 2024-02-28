@@ -6,6 +6,67 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
+                <!-- 手里剑  -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Shurikenz"]/projectile</xpath>
+                    <value>
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <damageDef>ShadowCut</damageDef>
+                            <damageAmountBase>20</damageAmountBase>
+                            <speed>65</speed>
+                            <armorPenetrationSharp>10</armorPenetrationSharp>
+                            <armorPenetrationBlunt>8</armorPenetrationBlunt>
+                        </projectile>
+                    </value>
+                </li>
+                <!-- 暗影长矛  -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="DarkSpear"]/projectile</xpath>
+                    <value>
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <damageDef>DarkSpearDamage</damageDef>
+                            <speed>150</speed>
+                            <damageAmountBase>30</damageAmountBase>
+                            <armorPenetrationSharp>20</armorPenetrationSharp>
+                            <armorPenetrationBlunt>20</armorPenetrationBlunt>
+                        </projectile>
+                    </value>
+                </li>
+                <!-- 暗影手里剑  -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="WitheringBlastz"]/projectile</xpath>
+                    <value>
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <damageDef>DarkBlast</damageDef>
+                            <flyOverhead>true</flyOverhead>
+                            <ai_IsIncendiary>true</ai_IsIncendiary>
+                            <explosionRadius>12.9</explosionRadius>
+                            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+                            <soundAmbient>ShurikenBig_Ambient</soundAmbient>
+                            <speed>20</speed>
+                        </projectile>
+                    </value>
+                </li>
+                <!-- 秧气  -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="DarkChiProj"]/projectile</xpath>
+                    <value>
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <damageDef>DarkChiDamage</damageDef>
+                            <speed>50</speed>
+                        </projectile>
+                    </value>
+                </li>
+                <!-- 暗影匕首  -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="DarkKnife"]/projectile</xpath>
+                    <value>
+                        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                            <damageDef>DarkKnifeDamage</damageDef>
+                            <speed>150</speed>
+                        </projectile>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

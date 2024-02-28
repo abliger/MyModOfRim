@@ -243,20 +243,20 @@
             <soundAmbient>MortarRound_Ambient</soundAmbient>
         </projectile>
         <comps>
-			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>150</damageAmountBase>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<explosiveRadius>1.5</explosiveRadius>
-				<explosionSound>MortarBomb_Explode</explosionSound>
-				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			</li>
-			<li Class="CombatExtended.CompProperties_Fragments">
-				<fragments>
-					<Fragment_Large>3</Fragment_Large>
-					<Fragment_Small>12</Fragment_Small>
-				</fragments>
-			</li>
-		</comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>150</damageAmountBase>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>1.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <Fragment_Large>3</Fragment_Large>
+                    <Fragment_Small>12</Fragment_Small>
+                </fragments>
+            </li>
+        </comps>
     </ThingDef>
     <!-- 手炮子弹 -->
     <CombatExtended.AmmoSetDef>
@@ -307,20 +307,20 @@
             </extraDamages>
         </projectile>
         <comps>
-			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>150</damageAmountBase>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<explosiveRadius>1.5</explosiveRadius>
-				<explosionSound>MortarBomb_Explode</explosionSound>
-				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			</li>
-			<li Class="CombatExtended.CompProperties_Fragments">
-				<fragments>
-					<Fragment_Large>3</Fragment_Large>
-					<Fragment_Small>12</Fragment_Small>
-				</fragments>
-			</li>
-		</comps>
+            <li Class="CombatExtended.CompProperties_ExplosiveCE">
+                <damageAmountBase>150</damageAmountBase>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveRadius>1.5</explosiveRadius>
+                <explosionSound>MortarBomb_Explode</explosionSound>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </li>
+            <li Class="CombatExtended.CompProperties_Fragments">
+                <fragments>
+                    <Fragment_Large>3</Fragment_Large>
+                    <Fragment_Small>12</Fragment_Small>
+                </fragments>
+            </li>
+        </comps>
     </ThingDef>
     <!-- 腐蚀弹丸 -->
     <CombatExtended.AmmoSetDef>
@@ -370,52 +370,52 @@
             </extraDamages>
         </projectile>
     </ThingDef>
-        <!-- 混沌弹丸 -->
-        <CombatExtended.AmmoSetDef>
-            <defName>BulletMysteriousMagnumCEAmmo</defName>
-            <label>BulletMysteriousMagnumCEAmmo</label>
-            <ammoTypes>
-                <BulletMysteriousMagnumCE_Ammo>BulletMysteriousMagnumCE</BulletMysteriousMagnumCE_Ammo>
-            </ammoTypes>
-        </CombatExtended.AmmoSetDef>
-        <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-            <defName>BulletMysteriousMagnumCE_Ammo</defName>
-            <label>BulletMysteriousMagnumCE_Ammo</label>
-            <description>BulletMysteriousMagnumCE_Ammo</description>
-            <statBases>
-                <Mass>0.01</Mass>
-                <Bulk>0.08</Bulk>
-                <MarketValue>0.06</MarketValue>
-            </statBases>
-            <thingCategories>
-                <li>Ammo6mmRailgun</li>
-            </thingCategories>
-            <graphicData>
-                <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
-                <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
-            </graphicData>
-            <ammoClass>BulletBlunderbussCECategory</ammoClass>
-        </ThingDef>
-        <ThingDef ParentName="BaseBulletCE">
-            <defName>BulletMysteriousMagnumCE</defName>
-            <label>chaos bullet</label>
-            <graphicData>
-                <texPath>Things/Misc/Projectiles/Projectile_White</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>MoteGlow</shaderType>
-            </graphicData>
-            <projectile Class="CombatExtended.ProjectilePropertiesCE">
-                <damageDef>Bullet</damageDef>
-                <damageAmountBase>40</damageAmountBase>
-                <armorPenetrationSharp>45</armorPenetrationSharp>
-                <stoppingPower>0.5</stoppingPower>
-                <speed>100</speed>
-                <extraDamages>
-                    <li>
-                        <def>TrueShot</def>
-                        <chance>0.20</chance>
-                    </li>
-                </extraDamages>
-            </projectile>
-        </ThingDef>
+    <!-- 混沌弹丸 -->
+    <CombatExtended.AmmoSetDef>
+        <defName>BulletMysteriousMagnumCEAmmo</defName>
+        <label>BulletMysteriousMagnumCEAmmo</label>
+        <ammoTypes>
+            <BulletMysteriousMagnumCE_Ammo>BulletMysteriousMagnumCE</BulletMysteriousMagnumCE_Ammo>
+        </ammoTypes>
+    </CombatExtended.AmmoSetDef>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+        <defName>BulletMysteriousMagnumCE_Ammo</defName>
+        <label>BulletMysteriousMagnumCE_Ammo</label>
+        <description>BulletMysteriousMagnumCE_Ammo</description>
+        <statBases>
+            <Mass>0.01</Mass>
+            <Bulk>0.08</Bulk>
+            <MarketValue>0.06</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>Ammo6mmRailgun</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+        </graphicData>
+        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+    </ThingDef>
+    <ThingDef ParentName="BaseBulletCE">
+        <defName>BulletMysteriousMagnumCE</defName>
+        <label>chaos bullet</label>
+        <graphicData>
+            <texPath>Things/Misc/Projectiles/Projectile_White</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationSharp>45</armorPenetrationSharp>
+            <stoppingPower>0.5</stoppingPower>
+            <speed>100</speed>
+            <extraDamages>
+                <li>
+                    <def>TrueShot</def>
+                    <chance>0.20</chance>
+                </li>
+            </extraDamages>
+        </projectile>
+    </ThingDef>
 </Defs>

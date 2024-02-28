@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <FactionDef ParentName="HuntersCovenantBase">
+        <factionIconPath>Things/Misc/Logo/Faction/HunterphageFaction</factionIconPath>
+        <defName>FreeHunters</defName>
+        <label>free hunters</label>
+        <leaderTitle>khan</leaderTitle>
+        <description>After the collapse of the Archadia Empire,more hunting
+            species rely on robbery to feed themselves. A thousand years later,
+            it has become a nomad in the starry sea.</description>
+        <naturalEnemy>true</naturalEnemy>
+        <allowedCultures><li>FreeHunterphageCulture</li></allowedCultures>
+        <factionNameMaker>NamerFactionOutlanderGenHunterphage</factionNameMaker>
+        <!-- <pawnNameMaker>NamerPerson_RatkinKingdom</pawnNameMaker> -->
+        <colorSpectrum>
+            <li>(0.95, 0.20, 0.50)</li>
+            <!-- <li>(0.45, 0.40, 0.90)</li> -->
+        </colorSpectrum>
+        <classicIdeo>true</classicIdeo>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <configurationListOrderPriority>10</configurationListOrderPriority>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+          </disallowedMemes>
+    </FactionDef>
+</Defs>

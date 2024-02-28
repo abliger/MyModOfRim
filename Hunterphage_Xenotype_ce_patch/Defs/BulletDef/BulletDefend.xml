@@ -264,37 +264,4 @@
             </li>
         </comps> -->
     </ThingDef>
-
-    <!-- <CombatExtended.ShellingResponseDef>
-        <defName>CE_ShellDefend_Industrial</defName>
-		<defaultShellingPropability>0.00</defaultShellingPropability>
-		<defaultRaidPropability>0.1</defaultRaidPropability>
-		<defaultRaidMTBDays>3</defaultRaidMTBDays>
-		<projectiles>
-			<li>
-				<projectile>ShellAntiArmorCannonCE</projectile>
-				<points>250</points>
-				<weight>0.75</weight>
-			</li>
-			<li>
-				<projectile>ShellHighExplosiveCannonCE</projectile>
-				<points>300</points>
-				<weight>0.40</weight>
-			</li>
-		</projectiles>
-		<worldObjects>
-			<li>
-				<worldObject>Settlement</worldObject>
-				<shellingPropability>0.5</shellingPropability>
-				<raidPropability>0.1</raidPropability>
-				<raidMTBDays>3</raidMTBDays>
-			</li>
-			<li>
-				<worldObject>Site</worldObject>
-				<shellingPropability>0.0</shellingPropability>
-				<raidPropability>0.3</raidPropability>
-				<raidMTBDays>7</raidMTBDays>
-			</li>
-		</worldObjects>
-	</CombatExtended.ShellingResponseDef> -->
 </Defs>

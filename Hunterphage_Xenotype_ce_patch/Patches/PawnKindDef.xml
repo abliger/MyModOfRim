@@ -331,28 +331,6 @@
 						</li>
 					</value>
 				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs</xpath>
-					<value>
-						<FactionDef ParentName="HuntersCovenantBase">
-							<factionIconPath>Things/Misc/Logo/Faction/HunterphageFaction</factionIconPath>
-							<defName>FreeHunters</defName>
-							<label>free hunters</label>
-							<leaderTitle>khan</leaderTitle>
-							<description>After the collapse of the Archadia Empire,more hunting
-								species rely on robbery to feed themselves. A thousand years later,
-								it has become a nomad in the starry sea.</description>
-							<naturalEnemy>true</naturalEnemy>
-							<colorSpectrum>
-								<li>(0.95, 0.20, 0.50)</li>
-								<!-- <li>(0.45, 0.40, 0.90)</li> -->
-							</colorSpectrum>
-							<classicIdeo>true</classicIdeo>
-							<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-							<configurationListOrderPriority>10</configurationListOrderPriority>
-						</FactionDef>
-					</value>
-				</li>
 			</operations>
 		</match>
 	</Operation>
