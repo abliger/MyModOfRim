@@ -236,4 +236,34 @@
         <workAmount>280</workAmount>
         <researchPrerequisite>CannonTurret</researchPrerequisite>
     </RecipeDef>
+
+    <RecipeDef ParentName="AmmoRecipeBase">
+        <defName>MakeBallistaBoltsCE_Ammo</defName>
+        <label>make Ballista Bolts x10</label>
+        <description>Craft 200 Ballista Bolts.</description>
+        <jobString>Making Ballista Bolts.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <BallistaBoltsCE_Ammo>10</BallistaBoltsCE_Ammo>
+        </products>
+        <recipeUsers Inherit="False">
+            <li>HunterWorkbench</li>
+        </recipeUsers>
+        <workAmount>280</workAmount>
+        <researchPrerequisite>BallistaTurret</researchPrerequisite>
+    </RecipeDef>
 </Defs>

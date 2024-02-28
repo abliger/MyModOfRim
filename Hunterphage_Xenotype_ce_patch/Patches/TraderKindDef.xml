@@ -6,12 +6,11 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
-                <!-- <li Class="PatchOperationReplace">
+                <li Class="PatchOperationReplace">
                     <xpath>/Defs/TraderKindDef[defName="Caravan_Hunterphage_CombatSupplier"]/stockGenerators</xpath>
                     <value>
                         <li Class="CompProperties_Refuelable">
                             <stockGenerators>
-                                Resources
                                 <li Class="StockGenerator_SingleDef">
                                     <thingDef>Silver</thingDef>
                                     <countRange>750~1200</countRange>
@@ -32,7 +31,6 @@
                                         </li>
                                     </countChances>
                                 </li>
-                                Weapons
                                 <li Class="StockGenerator_MarketValue">
                                     <tradeTag>WeaponsOldstyle</tradeTag>
                                     <countRange>15~15</countRange>
@@ -42,15 +40,22 @@
                                     <countRange>7~7</countRange>
                                 </li>
                                 <li Class="StockGenerator_SingleDef">
-                                    <thingDef>BallistaBoltsCE</thingDef>
+                                    <thingDef>BallistaBoltsCE_Ammo</thingDef>
                                     <countRange>10~20</countRange>
                                 </li>
                                 <li Class="StockGenerator_SingleDef">
-                                    <thingDef>GatlingAmmoBoxCE</thingDef>
+                                    <thingDef>BulletMarauderGatlingCE_Ammo</thingDef>
                                     <countRange>250~500</countRange>
                                 </li>
                                 
-                                Apparel
+                                <li Class="StockGenerator_SingleDef">
+                                    <thingDef>ShellHighExplosiveCannonCE_Ammo</thingDef>
+                                    <countRange>10~15</countRange>
+                                  </li>
+                                  <li Class="StockGenerator_SingleDef">
+                                    <thingDef>ShellAntiArmorCannonCE_Ammo</thingDef>
+                                    <countRange>5~10</countRange>
+                                  </li>
                                 <li Class="StockGenerator_MarketValue">
                                     <tradeTag>ArmorHunterphage</tradeTag>
                                     <countRange>9~9</countRange>
@@ -72,7 +77,7 @@
                             </stockGenerators>
                         </li>
                     </value>
-                </li> -->
+                </li>
             </operations>
         </match>
     </Operation>

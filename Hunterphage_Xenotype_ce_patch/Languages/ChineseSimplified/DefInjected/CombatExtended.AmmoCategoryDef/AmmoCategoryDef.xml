@@ -6,4 +6,11 @@
     <BulletMarauderGatlingCECategory.description>猎人派系防守专用子弹，以高破甲，高伤害闻名，但难以搬运。</BulletMarauderGatlingCECategory.description>
     <BulletMarauderGatlingCECategory.label>猎人冲击炮弹</BulletMarauderGatlingCECategory.label>
     <BulletMarauderGatlingCECategory.description>猎人派系防守专用炮弹，以高破甲，高伤害闻名，但难以搬运。</BulletMarauderGatlingCECategory.description>
+    <BallistaBoltsCECategory.label>弩炮弹药</BallistaBoltsCECategory.label>
+    <BallistaBoltsCECategory.description>猎人派系防守专用弹药，以高破甲，高伤害闻名，但难以搬运。</BallistaBoltsCECategory.description>
+    <ShellAntiArmorCannonCECategory.label>蚀甲弹</ShellAntiArmorCannonCECategory.label>
+    <ShellAntiArmorCannonCECategory.description>猎人派系防守专用炮弹，以高破甲，高伤害闻名，但难以搬运。</ShellAntiArmorCannonCECategory.description>
+    <ShellHighExplosiveCannonCECategory.label>高爆弹</ShellHighExplosiveCannonCECategory.label>
+    <ShellHighExplosiveCannonCECategory.description>猎人派系防守专用炮弹，以高破甲，高伤害闻名，但难以搬运。</ShellHighExplosiveCannonCECategory.description>
+     
 </LanguageData>

@@ -18,15 +18,6 @@
                         </li>
                     </value>
                 </li>
-                <!-- <li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[
-                        defName="BallistaBolts" or 
-                        defName="GatlingAmmoBox" or 
-                        defName="Craft_GatlingAmmunition_Bulk" or 
-                        defName="Shell_HighExplosiveCannon" or 
-                        defName="Shell_AntiArmorCannon"
-                        ]</xpath>
-                </li> -->
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[
                         defName="Turret_Mannable_Ballista" or
@@ -190,7 +181,7 @@
                         <consumeFuelPerShot>1</consumeFuelPerShot>
                     </Properties>
                     <AmmoUser>
-                        <magazineSize>0</magazineSize>
+                        <magazineSize>1</magazineSize>
                         <reloadTime>5</reloadTime>
                         <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
                     </AmmoUser>
@@ -201,6 +192,15 @@
                         <!-- null -->
                     </weaponTags>
                 </li>
+                <!-- 删除不用的炮弹和制列表 -->
+                <!-- <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[
+ 
+                        defName="Shell_HighExplosiveCannon" or 
+                        defName="Shell_AntiArmorCannon"
+                        ]
+                    </xpath>
+                </li> -->
             </operations>
         </match>
     </Operation>

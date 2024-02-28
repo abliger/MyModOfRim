@@ -166,7 +166,7 @@
                         <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
-                        <li>WeaponsOldstyle</li>
+                        <li>WeaponsOldstyleGun</li>
                     </weaponTags>
                 </li>
                 <li Class="PatchOperationReplace">
@@ -237,7 +237,7 @@
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
-                        <li>WeaponsOldstyle</li>
+                        <li>WeaponsOldstyleGun</li>
                     </weaponTags>
                 </li>
                 <li Class="PatchOperationReplace">
@@ -308,7 +308,7 @@
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
-                        <li>WeaponsOldstyle</li>
+                        <li>WeaponsOldstyleGun</li>
                     </weaponTags>
                 </li>
                 <li Class="PatchOperationReplace">
@@ -384,7 +384,7 @@
                         <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
-                        <li>WeaponsOldstyle</li>
+                        <li>WeaponsOldstyleGun</li>
                     </weaponTags>
                 </li>
                 <li Class="PatchOperationReplace">
@@ -453,7 +453,7 @@
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
                     <weaponTags>
-                        <li>WeaponsOldstyle</li>
+                        <li>WeaponsOldstyleGun</li>
                     </weaponTags>
                 </li>
                 <li Class="PatchOperationReplace">
@@ -524,7 +524,7 @@
                         <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
-                        <li>WeaponsOldstyle</li>
+                        <li>WeaponsOldstyleGun</li>
                     </weaponTags>
                 </li>
                 <li Class="PatchOperationReplace">

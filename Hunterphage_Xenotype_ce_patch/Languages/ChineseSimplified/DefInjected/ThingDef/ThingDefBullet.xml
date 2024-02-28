@@ -46,5 +46,7 @@
     <ShellAntiArmorCannonCE_Ammo.description>蚀甲加农炮弹</ShellAntiArmorCannonCE_Ammo.description>
     <ShellAntiArmorCannonCE.label>蚀甲加农炮弹</ShellAntiArmorCannonCE.label>
 
-
+    <BallistaBoltsCE_Ammo.label>弩炮弹药</BallistaBoltsCE_Ammo.label>
+    <BallistaBoltsCE_Ammo.description>弩炮弹药</BallistaBoltsCE_Ammo.description>
+    <BallistaBoltsCE.label>弩炮弹药</BallistaBoltsCE.label>
 </LanguageData>

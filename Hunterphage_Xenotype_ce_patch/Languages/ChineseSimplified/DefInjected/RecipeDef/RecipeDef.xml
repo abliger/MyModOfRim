@@ -36,7 +36,9 @@
 	<MakeShellHighExplosiveCannonCE_Ammo.description>制作 10 个高爆加农炮弹</MakeShellHighExplosiveCannonCE_Ammo.description>
 	<MakeShellHighExplosiveCannonCE_Ammo.jobString>正在制作高爆加农炮弹</MakeShellHighExplosiveCannonCE_Ammo.jobString>
 
-
+	<MakeBallistaBoltsCE_Ammo.label>制作弩炮弹药x10</MakeBallistaBoltsCE_Ammo.label>
+    <MakeBallistaBoltsCE_Ammo.description>制作10发弩炮弹药。</MakeBallistaBoltsCE_Ammo.description>
+    <MakeBallistaBoltsCE_Ammo.jobString>正在制作弩炮弹药。</MakeBallistaBoltsCE_Ammo.jobString>
 
     <MakeShellAntiArmorCannonCE_Ammo.label>制作蚀甲加农炮弹x10</MakeShellAntiArmorCannonCE_Ammo.label>
 	<MakeShellAntiArmorCannonCE_Ammo.description>制作 10 个蚀甲加农炮弹</MakeShellAntiArmorCannonCE_Ammo.description>

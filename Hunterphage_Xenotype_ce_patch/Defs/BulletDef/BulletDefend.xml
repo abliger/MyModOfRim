@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!-- 弩炮弹药 -->
+    <CombatExtended.AmmoCategoryDef>
+        <defName>BallistaBoltsCECategory</defName>
+        <label>Hunter impact bullets</label>
+        <description>Hunter faction defense specific bullets, known for their high armor penetration and high damage, but difficult to transport</description>
+    </CombatExtended.AmmoCategoryDef>
     <CombatExtended.AmmoSetDef>
         <defName>BallistaBoltsCEAmmo</defName>
         <label>BallistaBoltsCE Ammo</label>
@@ -13,18 +18,18 @@
         <label>BallistaBoltsCE_Ammo</label>
         <description>BallistaBoltsCE_Ammo test ammodef</description>
         <statBases>
-            <Mass>0.01</Mass>
-            <Bulk>0.08</Bulk>
+            <Mass>0.8</Mass>
+            <Bulk>0.8</Bulk>
             <MarketValue>0.06</MarketValue>
         </statBases>
         <thingCategories>
             <li>Ammo6mmRailgun</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <texPath>Things/Resources/Ammunition/Ballista</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
+        <ammoClass>BallistaBoltsCECategory</ammoClass>
         <cookOffProjectile>BallistaBoltsCE</cookOffProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -101,8 +106,8 @@
         <label>BulletMarauderGatlingCE_Ammo</label>
         <description>BulletMarauderGatlingCE_Ammo</description>
         <statBases>
-            <Mass>0.01</Mass>
-            <Bulk>0.08</Bulk>
+            <Mass>0.5</Mass>
+            <Bulk>0.5</Bulk>
             <MarketValue>0.06</MarketValue>
         </statBases>
         <thingCategories>
@@ -125,7 +130,7 @@
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageDef>Bullet</damageDef>
             <damageAmountBase>45</damageAmountBase>
-            <armorPenetrationSharp>25</armorPenetrationSharp>
+            <armorPenetrationSharp>45</armorPenetrationSharp>
             <stoppingPower>0.5</stoppingPower>
             <speed>100</speed>
             <extraDamages>
@@ -137,6 +142,7 @@
         </projectile>
     </ThingDef>
     <!-- 高爆加农炮弹 蚀甲加农炮弹 -->
+
     <CombatExtended.AmmoSetDef>
         <defName>ShellHighExplosiveAmmo</defName>
         <label>ShellHighExplosiveAmmo</label>
@@ -146,24 +152,29 @@
         </ammoTypes>
         <isMortarAmmoSet>true</isMortarAmmoSet>
     </CombatExtended.AmmoSetDef>
+    <CombatExtended.AmmoCategoryDef>
+        <defName>ShellHighExplosiveCannonCECategory</defName>
+        <label>high-explosive cannon shell</label>
+        <description>Hunter faction defense specific shell, known for their high armor penetration and high damage, but difficult to transport</description>
+    </CombatExtended.AmmoCategoryDef>
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
         <defName>ShellHighExplosiveCannonCE_Ammo</defName>
         <label>BallistaBoltsCE_Ammo</label>
         <description>BallistaBoltsCE_Ammo test ammodef</description>
         <statBases>
-            <Mass>0.01</Mass>
-            <Bulk>0.08</Bulk>
-            <MarketValue>0.06</MarketValue>
+            <Mass>3</Mass>
+            <Bulk>3</Bulk>
+            <MarketValue>10</MarketValue>
         </statBases>
         <thingCategories>
             <li>Ammo6mmRailgun</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
+            <texPath>Things/Resources/Ammunition/Mortar/Frag</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <isMortarAmmo>true</isMortarAmmo>
-        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
+        <ammoClass>ShellHighExplosiveCannonCECategory</ammoClass>
         <detonateProjectile>ShellHighExplosiveCannonCE</detonateProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -201,13 +212,18 @@
             </li>
         </comps> -->
     </ThingDef>
+    <CombatExtended.AmmoCategoryDef>
+        <defName>ShellAntiArmorCannonCECategory</defName>
+        <label>high-explosive cannon shell</label>
+        <description>Hunter faction defense specific shell, known for their high armor penetration and high damage, but difficult to transport</description>
+    </CombatExtended.AmmoCategoryDef>
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
         <defName>ShellAntiArmorCannonCE_Ammo</defName>
         <label>high-explosive cannon shell</label>
         <statBases>
-            <Mass>0.01</Mass>
-            <Bulk>0.08</Bulk>
-            <MarketValue>0.06</MarketValue>
+            <Mass>3</Mass>
+            <Bulk>3</Bulk>
+            <MarketValue>10</MarketValue>
         </statBases>
         <thingCategories>
             <li>Ammo6mmRailgun</li>
@@ -217,7 +233,7 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <isMortarAmmo>true</isMortarAmmo>
-        <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
+        <ammoClass>ShellAntiArmorCannonCECategory</ammoClass>
         <detonateProjectile>ShellAntiArmorCannonCE</detonateProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
