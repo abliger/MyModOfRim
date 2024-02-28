@@ -32,8 +32,10 @@
         <ammoClass>BallistaBoltsCECategory</ammoClass>
         <cookOffProjectile>BallistaBoltsCE</cookOffProjectile>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
         <stackLimit>100</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -97,8 +99,10 @@
         </graphicData>
         <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
         <stackLimit>100</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -124,7 +128,6 @@
         </projectile>
     </ThingDef>
     <!-- 高爆加农炮弹 蚀甲加农炮弹 -->
-
     <CombatExtended.AmmoSetDef>
         <defName>ShellHighExplosiveAmmo</defName>
         <label>ShellHighExplosiveAmmo</label>
@@ -159,9 +162,11 @@
         <ammoClass>ShellHighExplosiveCannonCECategory</ammoClass>
         <detonateProjectile>ShellHighExplosiveCannonCE</detonateProjectile>
         <tradeTags>
-			<li>AmmunitionBasiczBullet</li>
-		</tradeTags>
+            <li>AmmunitionBasiczBullet</li>
+        </tradeTags>
         <stackLimit>10</stackLimit>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>ShellHighExplosiveCannonCE</defName>
@@ -222,8 +227,10 @@
         <ammoClass>ShellAntiArmorCannonCECategory</ammoClass>
         <detonateProjectile>ShellAntiArmorCannonCE</detonateProjectile>
         <tradeTags>
-			<li>AmmunitionBasiczBullet</li>
-		</tradeTags>
+            <li>AmmunitionBasiczBullet</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
         <stackLimit>10</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">

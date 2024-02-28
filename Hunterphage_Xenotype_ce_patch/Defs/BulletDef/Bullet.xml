@@ -31,8 +31,10 @@
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletBlunderbussCE</defName>
@@ -82,8 +84,10 @@
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletFlintlockBasicCE</defName>
@@ -133,8 +137,10 @@
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletRevolverFrontierCE</defName>
@@ -184,8 +190,10 @@
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletSixBarrelzCE</defName>
@@ -360,8 +368,10 @@
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletBlackMambaCE</defName>
@@ -384,9 +394,6 @@
                 </li>
             </extraDamages>
         </projectile>
-        <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
     </ThingDef>
     <!-- 混沌弹丸 -->
     <CombatExtended.AmmoSetDef>
@@ -414,8 +421,10 @@
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
         <tradeTags>
-			<li>AmmunitionBasiczMore</li>
-		</tradeTags>
+            <li>AmmunitionBasiczMore</li>
+        </tradeTags>
+       <tradeability>None</tradeability>
+        <destroyOnDrop>True</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletMysteriousMagnumCE</defName>
