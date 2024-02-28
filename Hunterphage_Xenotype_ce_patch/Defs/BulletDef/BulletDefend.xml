@@ -139,7 +139,7 @@
     <!-- 高爆加农炮弹 蚀甲加农炮弹 -->
     <CombatExtended.AmmoSetDef>
         <defName>ShellHighExplosiveAmmo</defName>
-        <label>test ShellHighExplosiveAmmo</label>
+        <label>ShellHighExplosiveAmmo</label>
         <ammoTypes>
             <ShellHighExplosiveCannonCE_Ammo>ShellHighExplosiveCannonCE</ShellHighExplosiveCannonCE_Ammo>
             <ShellAntiArmorCannonCE_Ammo>ShellAntiArmorCannonCE</ShellAntiArmorCannonCE_Ammo>
@@ -164,7 +164,7 @@
         </graphicData>
         <isMortarAmmo>true</isMortarAmmo>
         <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
-        <cookOffProjectile>ShellHighExplosiveCannonCE</cookOffProjectile>
+        <detonateProjectile>ShellHighExplosiveCannonCE</detonateProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>ShellHighExplosiveCannonCE</defName>
@@ -218,7 +218,7 @@
         </graphicData>
         <isMortarAmmo>true</isMortarAmmo>
         <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
-        <cookOffProjectile>ShellAntiArmorCannonCE</cookOffProjectile>
+        <detonateProjectile>ShellAntiArmorCannonCE</detonateProjectile>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>ShellAntiArmorCannonCE</defName>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+    <BallistaBoltsCEAmmo.label>弩炮弹药</BallistaBoltsCEAmmo.label>
     <BulletBlunderbussCEAmmo.label>铳枪弹丸</BulletBlunderbussCEAmmo.label>
     <BulletFlintlockBasicCEAmmo.label>燧发枪弹丸</BulletFlintlockBasicCEAmmo.label>
     <BulletRevolverFrontierCEAmmo.label>燧发枪弹丸</BulletRevolverFrontierCEAmmo.label>
-    <BulletSixBarrelzCEAmmo.label>马格南子弹</BulletSixBarrelzCEAmmo.label>
     <BulletMarauderCannonCEAmmo.label>加农炮弹</BulletMarauderCannonCEAmmo.label>
     <BulletAutomatonHandCannonCEAmmo.label>手炮子弹</BulletAutomatonHandCannonCEAmmo.label>
     <BulletBlackMambaCEAmmo.label>腐蚀弹丸</BulletBlackMambaCEAmmo.label>
     <BulletMysteriousMagnumCEAmmo.label>混沌弹丸</BulletMysteriousMagnumCEAmmo.label>
     <BulletSixBarrelzCEAmmo.label>冲击子弹</BulletSixBarrelzCEAmmo.label>
     <ShellHighExplosiveAmmo.label>冲击加浓炮弹</ShellHighExplosiveAmmo.label>
-
+    <GatlingAmmoBoxCEAmmo.label>加特林弹药箱</GatlingAmmoBoxCEAmmo.label>
 </LanguageData>

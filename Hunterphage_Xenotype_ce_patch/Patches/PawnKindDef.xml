@@ -331,6 +331,16 @@
 						</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="Hunter_Leader" or
+						defName="ShadowWalker_Veteran" or
+						]/weaponTags</xpath>
+					<value>
+						<li>WeaponsOldstyle</li>
+						<li>WeaponsOldstyleMelee</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
