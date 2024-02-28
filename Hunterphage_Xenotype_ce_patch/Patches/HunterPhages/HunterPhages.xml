@@ -163,7 +163,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aimedBurstShotCount>10</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -234,7 +234,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                        <aimedBurstShotCount>6</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -305,7 +305,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                        <aimedBurstShotCount>10</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -381,7 +381,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aimedBurstShotCount>10</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -521,7 +521,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aimedBurstShotCount>10</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>

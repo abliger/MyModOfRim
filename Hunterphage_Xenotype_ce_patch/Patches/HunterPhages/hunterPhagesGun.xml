@@ -42,7 +42,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aimedBurstShotCount>7</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>
@@ -123,7 +123,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>
@@ -204,7 +204,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>
@@ -325,7 +325,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>5</aimedBurstShotCount>
+                        <aimedBurstShotCount>7</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>
@@ -530,7 +530,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>6</aimedBurstShotCount>
+                        <aimedBurstShotCount>8</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>
@@ -557,7 +557,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletSixBarrelzCE</defaultProjectile>
                         <warmupTime>2</warmupTime>
-                        <burstShotCount>10</burstShotCount>
+                        <burstShotCount>7</burstShotCount>
                         <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                         <range>20</range>
                         <soundCast>Shot_FlintlockStrong</soundCast>
@@ -655,7 +655,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>6</aimedBurstShotCount>
+                        <aimedBurstShotCount>11</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>
