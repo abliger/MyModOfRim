@@ -33,7 +33,7 @@
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
-       <tradeability>None</tradeability>
+       <tradeability>All</tradeability>
         <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -86,7 +86,7 @@
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
-       <tradeability>None</tradeability>
+       <tradeability>All</tradeability>
         <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -139,7 +139,7 @@
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
-       <tradeability>None</tradeability>
+       <tradeability>All</tradeability>
         <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -192,7 +192,7 @@
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
-       <tradeability>None</tradeability>
+       <tradeability>All</tradeability>
         <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -370,7 +370,7 @@
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
-       <tradeability>None</tradeability>
+       <tradeability>All</tradeability>
         <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
@@ -423,7 +423,7 @@
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
-       <tradeability>None</tradeability>
+       <tradeability>All</tradeability>
         <destroyOnDrop>False</destroyOnDrop>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
