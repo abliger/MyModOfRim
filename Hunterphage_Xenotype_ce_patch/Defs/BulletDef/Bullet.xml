@@ -30,6 +30,9 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletBlunderbussCE</defName>
@@ -78,6 +81,9 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletFlintlockBasicCE</defName>
@@ -126,6 +132,9 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletRevolverFrontierCE</defName>
@@ -174,6 +183,9 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletSixBarrelzCE</defName>
@@ -347,6 +359,9 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletBlackMambaCE</defName>
@@ -369,6 +384,9 @@
                 </li>
             </extraDamages>
         </projectile>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <!-- 混沌弹丸 -->
     <CombatExtended.AmmoSetDef>
@@ -395,6 +413,9 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletMysteriousMagnumCE</defName>

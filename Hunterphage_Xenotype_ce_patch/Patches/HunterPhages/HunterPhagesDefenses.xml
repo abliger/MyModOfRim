@@ -193,14 +193,19 @@
                     </weaponTags>
                 </li>
                 <!-- 删除不用的炮弹和制列表 -->
-                <!-- <li Class="PatchOperationRemove">
+                <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[
- 
+                        defName="BallistaBolts" or
+                        defName="GatlingAmmoBox" or
                         defName="Shell_HighExplosiveCannon" or 
                         defName="Shell_AntiArmorCannon"
                         ]
                     </xpath>
-                </li> -->
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[defName="Craft_GatlingAmmunition_Bulk"]
+                    </xpath>
+                </li>
             </operations>
         </match>
     </Operation>

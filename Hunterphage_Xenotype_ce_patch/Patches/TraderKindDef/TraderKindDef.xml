@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Hunterphage Xenotype</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/TraderKindDef[defName="Caravan_Hunterphage_CombatSupplier"]/stockGenerators</xpath>
+                    <value>
+                        <stockGenerators>
+                            <li Class="StockGenerator_SingleDef">
+                                <thingDef>Silver</thingDef>
+                                <countRange>750~1200</countRange>
+                            </li>
+                            <li Class="StockGenerator_SingleDef">
+                                <thingDef>MedicineIndustrial</thingDef>
+                                <countRange>10~20</countRange>
+                            </li>
+                            <li Class="StockGenerator_SingleDef">
+                                <thingDef>MealSurvivalPack</thingDef>
+                                <countRange>10~20</countRange>
+                            </li>
+                            <li Class="StockGenerator_Techprints">
+                                <countChances>
+                                    <li>
+                                        <count>1</count>
+                                        <chance>1</chance>
+                                    </li>
+                                </countChances>
+                            </li>
+                            <li Class="StockGenerator_MarketValue">
+                                <tradeTag>WeaponsOldstyle</tradeTag>
+                                <countRange>15~15</countRange>
+                            </li>
+                            <li Class="StockGenerator_MarketValue">
+                                <tradeTag>WeaponsOldstyleMelee</tradeTag>
+                                <countRange>7~7</countRange>
+                            </li>
+                            <li Class="StockGenerator_Tag">
+                                <tradeTag>AmmunitionBasiczBullet</tradeTag>
+                                <countRange>2~20</countRange>
+                                <thingDefCountRange>1~3</thingDefCountRange>
+                            </li>
+                            <li Class="StockGenerator_Tag">
+                                <tradeTag>AmmunitionBasiczMore</tradeTag>
+                                <countRange>100~400</countRange>
+                                <thingDefCountRange>1~3</thingDefCountRange>
+                            </li>
+                            <li Class="StockGenerator_MarketValue">
+                                <tradeTag>ArmorHunterphage</tradeTag>
+                                <countRange>9~9</countRange>
+                            </li>
+                            <li Class="StockGenerator_BuyExpensiveSimple" />
+                            <li Class="StockGenerator_BuyTradeTag">
+                                <tag>Art</tag>
+                            </li>
+                            <li Class="StockGenerator_BuyTradeTag">
+                                <tag>HiTechArmor</tag>
+                            </li>
+                            <li Class="StockGenerator_BuyTradeTag">
+                                <tag>MusicalInstrument</tag>
+                            </li>
+                            <li Class="StockGenerator_BuyTradeTag">
+                                <tag>Drugs</tag>
+                            </li>
+                        </stockGenerators>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

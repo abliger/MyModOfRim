@@ -191,6 +191,14 @@
                 </filter>
                 <count>100</count>
             </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
@@ -220,6 +228,14 @@
                     </thingDefs>
                 </filter>
                 <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>

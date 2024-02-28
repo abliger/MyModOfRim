@@ -26,11 +26,15 @@
             <li>Ammo6mmRailgun</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Resources/Ammunition/Ballista</texPath>
+            <texPath>Things/Resources/hunterphage/Ballista</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BallistaBoltsCECategory</ammoClass>
         <cookOffProjectile>BallistaBoltsCE</cookOffProjectile>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
+        <stackLimit>100</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BallistaBoltsCE</defName>
@@ -61,32 +65,6 @@
         </projectile>
         <soundInteract>Metal_Drop</soundInteract>
         <soundDrop>Standard_Drop</soundDrop>
-        <healthAffectsPrice>false</healthAffectsPrice>
-        <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Machining</soundWorking>
-            <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-            <researchPrerequisite>BallistaTurret</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>2</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>HunterWorkbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Steel>7</Steel>
-            <WoodLog>5</WoodLog>
-        </costList>
-        <intricate>true</intricate>
-        <thingCategories>
-            <li>Manufactured</li>
-        </thingCategories>
-        <tradeTags>
-            <li>AmmunitionBasicz</li>
-        </tradeTags>
-        <allowedArchonexusCount>100</allowedArchonexusCount>
     </ThingDef>
     <!-- 加特林弹药箱 -->
     <CombatExtended.AmmoCategoryDef>
@@ -118,6 +96,10 @@
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <ammoClass>BulletMarauderGatlingCECategory</ammoClass>
+        <tradeTags>
+			<li>AmmunitionBasiczMore</li>
+		</tradeTags>
+        <stackLimit>100</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>BulletMarauderGatlingCE</defName>
@@ -170,12 +152,16 @@
             <li>Ammo6mmRailgun</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Resources/Ammunition/Mortar/Frag</texPath>
+            <texPath>Things/Resources/hunterphage/Mortar/Frag</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <isMortarAmmo>true</isMortarAmmo>
         <ammoClass>ShellHighExplosiveCannonCECategory</ammoClass>
         <detonateProjectile>ShellHighExplosiveCannonCE</detonateProjectile>
+        <tradeTags>
+			<li>AmmunitionBasiczBullet</li>
+		</tradeTags>
+        <stackLimit>10</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>ShellHighExplosiveCannonCE</defName>
@@ -229,12 +215,16 @@
             <li>Ammo6mmRailgun</li>
         </thingCategories>
         <graphicData>
-            <texPath>Things/Resources/Ammunition/Mortar/Anti-Armor</texPath>
+            <texPath>Things/Resources/hunterphage/Mortar/Anti-Armor</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
         <isMortarAmmo>true</isMortarAmmo>
         <ammoClass>ShellAntiArmorCannonCECategory</ammoClass>
         <detonateProjectile>ShellAntiArmorCannonCE</detonateProjectile>
+        <tradeTags>
+			<li>AmmunitionBasiczBullet</li>
+		</tradeTags>
+        <stackLimit>10</stackLimit>
     </ThingDef>
     <ThingDef ParentName="BaseBulletCE">
         <defName>ShellAntiArmorCannonCE</defName>
