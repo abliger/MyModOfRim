@@ -146,7 +146,7 @@
                         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
                         <!-- <forcedMissRadius>1.0</forcedMissRadius> -->
                         <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
-                        <burstShotCount>5</burstShotCount>
+                        <burstShotCount>10</burstShotCount>
                         <range>40</range>
                         <targetParams>
                             <canTargetLocations>true</canTargetLocations>
@@ -163,7 +163,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>10</aimedBurstShotCount>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -219,7 +219,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletBlackMambaCE</defaultProjectile>
                         <warmupTime>1.0</warmupTime>
-                        <burstShotCount>3</burstShotCount>
+                        <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
                         <range>30</range>
                         <soundCast>Shot_RevolverFrontier</soundCast>
@@ -234,7 +234,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>6</aimedBurstShotCount>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -290,7 +290,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletMysteriousMagnumCE</defaultProjectile>
                         <warmupTime>2.5</warmupTime>
-                        <burstShotCount>3</burstShotCount>
+                        <burstShotCount>10</burstShotCount>
                         <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
                         <range>30</range>
                         <soundCast>Shot_RevolverFrontier</soundCast>
@@ -305,7 +305,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>10</aimedBurstShotCount>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -361,7 +361,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletAutomatonHandCannonCE</defaultProjectile>
                         <warmupTime>2.0</warmupTime>
-                        <burstShotCount>5</burstShotCount>
+                        <burstShotCount>10</burstShotCount>
                         <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
                         <range>25</range>
                         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
@@ -381,7 +381,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>10</aimedBurstShotCount>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
@@ -506,7 +506,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletAutomatonHandCannonCE</defaultProjectile>
                         <warmupTime>2.0</warmupTime>
-                        <burstShotCount>5</burstShotCount>
+                        <burstShotCount>10</burstShotCount>
                         <ticksBetweenBurstShots>45</ticksBetweenBurstShots>
                         <range>45</range>
                         <soundCast>Shot_FlintlockCritical</soundCast>
@@ -521,7 +521,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>10</aimedBurstShotCount>
+                        <aimedBurstShotCount>5</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>WeaponsOldstyleGun</li>
