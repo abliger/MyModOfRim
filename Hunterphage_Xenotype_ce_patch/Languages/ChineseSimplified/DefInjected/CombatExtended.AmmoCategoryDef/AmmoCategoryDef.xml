@@ -12,5 +12,9 @@
     <ShellAntiArmorCannonCECategory.description>猎人派系防守专用炮弹，以高破甲，高伤害闻名，但难以搬运。</ShellAntiArmorCannonCECategory.description>
     <ShellHighExplosiveCannonCECategory.label>高爆弹</ShellHighExplosiveCannonCECategory.label>
     <ShellHighExplosiveCannonCECategory.description>猎人派系防守专用炮弹，以高破甲，高伤害闻名，但难以搬运。</ShellHighExplosiveCannonCECategory.description>
-     
+    <BulletMysteriousMagnumCECategory.label>混沌弹丸</BulletMysteriousMagnumCECategory.label>
+    <BulletMysteriousMagnumCECategory.description>混沌弹丸都能造成随机类型的伤害，从而产生随机类型的效果，如造成火焰伤害并使目标着火、使敌人虚弱并造成护甲伤害等。混沌左轮手枪除了基础伤害外，还能造成七种额外伤害，额外伤害的触发几率为中到低</BulletMysteriousMagnumCECategory.description>
+ <BulletBlackMambaCECategory.label>腐蚀弹丸</BulletBlackMambaCECategory.label>
+    <BulletBlackMambaCECategory.description>腐蚀弹丸带有腐蚀性酸液载荷，在撞击后，它可以在一段时间内缓慢地对单个目标造成腐蚀性伤害</BulletBlackMambaCECategory.description>
+
 </LanguageData>

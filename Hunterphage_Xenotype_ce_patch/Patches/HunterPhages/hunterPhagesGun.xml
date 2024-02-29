@@ -515,7 +515,7 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>BulletSixBarrelzCE</defaultProjectile>
                         <warmupTime>3</warmupTime>
-                        <burstShotCount>6</burstShotCount>
+                        <burstShotCount>8</burstShotCount>
                         <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                         <range>25</range>
                         <soundCast>Shot_FlintlockStrong</soundCast>
@@ -530,7 +530,7 @@
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
-                        <aimedBurstShotCount>8</aimedBurstShotCount>
+                        <aimedBurstShotCount>6</aimedBurstShotCount>
                     </FireModes>
                     <!-- <weaponTags>
                         <li>WeaponsOldstyle</li>

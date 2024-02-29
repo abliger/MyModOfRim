@@ -5,6 +5,16 @@
         <label>Hunter bullets</label>
         <description>Hunter faction specific bullets, known for their high armor penetration and high damage, have been used well.</description>
     </CombatExtended.AmmoCategoryDef>
+    <CombatExtended.AmmoCategoryDef>
+        <defName>BulletMysteriousMagnumCECategory</defName>
+        <label>Chaos bullets</label>
+        <description>Chaos bullets can cause random types of damage, resulting in random effects such as causing flame damage and setting the target on fire, weakening the enemy and causing armor damage. Chaos revolver can deal seven additional damages in addition to basic damage, with a medium to low chance of triggering additional damage</description>
+    </CombatExtended.AmmoCategoryDef>
+    <CombatExtended.AmmoCategoryDef>
+        <defName>BulletBlackMambaCECategory</defName>
+        <label>corrosion bullet</label>
+        <description>Corrosive projectiles carry corrosive acid loads, and after impact, they can slowly cause corrosive damage to individual targets for a period of time</description>
+    </CombatExtended.AmmoCategoryDef>
     <!-- 铳枪弹丸 -->
     <CombatExtended.AmmoSetDef>
         <defName>BulletBlunderbussCEAmmo</defName>
@@ -352,8 +362,8 @@
     </CombatExtended.AmmoSetDef>
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
         <defName>BulletBlackMambaCE_Ammo</defName>
-        <label>BulletBlackMambaCE_Ammo</label>
-        <description>BulletBlackMambaCE_Ammo</description>
+        <label>corrosion bullet</label>
+        <description>corrosion bullet</description>
         <statBases>
             <Mass>0.01</Mass>
             <Bulk>0.08</Bulk>
@@ -366,7 +376,7 @@
             <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <ammoClass>BulletBlackMambaCECategory</ammoClass>
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
@@ -382,7 +392,7 @@
             <shaderType>MoteGlow</shaderType>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageDef>Bullet</damageDef>
+            <damageDef>CorrosiveDamage</damageDef>
             <damageAmountBase>40</damageAmountBase>
             <armorPenetrationSharp>45</armorPenetrationSharp>
             <stoppingPower>0.5</stoppingPower>
@@ -405,8 +415,8 @@
     </CombatExtended.AmmoSetDef>
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
         <defName>BulletMysteriousMagnumCE_Ammo</defName>
-        <label>BulletMysteriousMagnumCE_Ammo</label>
-        <description>BulletMysteriousMagnumCE_Ammo</description>
+        <label>Chaos bullets</label>
+        <description>Chaos bullets</description>
         <statBases>
             <Mass>0.01</Mass>
             <Bulk>0.08</Bulk>
@@ -419,7 +429,7 @@
             <texPath>Things/Ammo/STACK_RANGED/Rifle/FMJ</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>BulletBlunderbussCECategory</ammoClass>
+        <ammoClass>BulletMysteriousMagnumCECategory</ammoClass>
         <tradeTags>
             <li>AmmunitionBasiczMore</li>
         </tradeTags>
@@ -443,9 +453,37 @@
             <extraDamages>
                 <li>
                     <def>TrueShot</def>
-                    <chance>0.20</chance>
+                    <chance>0.2</chance>
                 </li>
-            </extraDamages>
+                <li>
+                    <def>DarkSpearDamage</def>
+                    <chance>0.2</chance>
+                </li>
+                <li>
+                    <def>AntiArmor</def>
+                    <chance>0.2</chance>
+                </li>
+                <li>
+                    <def>Stun</def>
+                    <amount>25</amount>
+                    <chance>0.5</chance>
+                </li>
+                <li>
+                    <def>Flame</def>
+                    <amount>45</amount>
+                    <chance>0.5</chance>
+                </li>
+                <li>
+                    <def>BulletToxic</def>
+                    <amount>15</amount>
+                    <chance>0.5</chance>
+                </li>
+                <li>
+                    <def>EMP</def>
+                    <amount>45</amount>
+                    <chance>0.5</chance>
+                </li>
+              </extraDamages>
         </projectile>
     </ThingDef>
 </Defs>

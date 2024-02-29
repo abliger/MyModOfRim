@@ -20,6 +20,7 @@
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[
+                        defName="Turret_Randy" or
                         defName="Turret_Mannable_Ballista" or
                         defName="Turret_Mannable_Gatling" or
                         defName="Turret_Mannable_Cannon"
@@ -141,11 +142,11 @@
                         <muzzleFlashScale>11</muzzleFlashScale>
                         <consumeFuelPerShot>1</consumeFuelPerShot>
                     </Properties>
-                    <AmmoUser>
+                    <!-- <AmmoUser>
                         <magazineSize>1</magazineSize>
                         <reloadTime>5</reloadTime>
                         <ammoSet>ShellHighExplosiveAmmo</ammoSet>
-                    </AmmoUser>
+                    </AmmoUser> -->
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
@@ -157,10 +158,6 @@
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>Gun_Dummy_Blunderbuss</defName>
                     <statBases>
-                        <AccuracyTouch>0.10</AccuracyTouch>
-                        <AccuracyShort>0.10</AccuracyShort>
-                        <AccuracyMedium>0.10</AccuracyMedium>
-                        <AccuracyLong>0.10</AccuracyLong>
                         <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
                         <DeteriorationRate>0</DeteriorationRate>
                         <Mass>15</Mass>
@@ -174,19 +171,21 @@
                         <warmupTime>2.0</warmupTime>
                         <range>25.9</range>
                         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                        <burstShotCount>1</burstShotCount>
+                        <burstShotCount>5</burstShotCount>
                         <soundCast>Shot_Blunderbuss</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <consumeFuelPerShot>1</consumeFuelPerShot>
                     </Properties>
                     <AmmoUser>
-                        <magazineSize>1</magazineSize>
+                        <magazineSize>100</magazineSize>
                         <reloadTime>5</reloadTime>
                         <ammoSet>BulletBlunderbussCEAmmo</ammoSet>
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <!-- null -->
