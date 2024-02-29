@@ -8,8 +8,8 @@
 	</supportedVersions>
 	<description>
 add CE Patch
-CE 补丁
-另外添加狩猎种地方派系
+添加 CE 补丁
+另外添加狩猎种敌方派系
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
